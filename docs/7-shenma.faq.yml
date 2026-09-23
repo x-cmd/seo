@@ -1,0 +1,96 @@
+id: x-seo-7-shenma
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: what-is-shenma
+        question:
+          en: What is Shenma?
+          cn: 什么是神马？
+        answer:
+          en: A mobile-focused Chinese search engine from UC Browser (Alibaba). Launched 2014. One of the top mobile search engines in China. Aggregates results from Google, Bing, partner APIs, Baidu Tieba/Baike/Zhidao.
+          cn: UC 浏览器（阿里巴巴）旗下的移动端中文搜索引擎。2014 年推出。中国顶级移动搜索引擎之一。从 Google、Bing、合作 API、百度贴吧/百科/知道聚合结果。
+        confidence: 9
+        reference:
+          - docs/7-shenma.en.md
+          - docs/7-shenma.cn.md
+
+      - id: how-to-optimize
+        question:
+          en: How do I optimize for Shenma?
+          cn: 如何为神马优化？
+        answer:
+          en: Mobile-first technical SEO + Simplified Chinese content + aggregated-index optimization (Google + Bing + Baidu) + Alibaba ecosystem presence (Taobao / Tmall / 1688 / Alipay) + UC Browser PUSH JS snippet.
+          cn: 移动优先技术 SEO + 简体中文内容 + 聚合索引优化（Google + Bing + 百度）+ 阿里巴巴生态存在（淘宝 / 天猫 / 1688 / 支付宝）+ UC 浏览器 PUSH JS 代码段。
+        confidence: 8
+        reference:
+          - docs/7-shenma.en.md
+
+  - name:
+      en: technical
+      cn: 技术
+    qa:
+      - id: mobile-only
+        question:
+          en: Does Shenma index desktop pages?
+          cn: 神马收录桌面页面吗？
+        answer:
+          en: Shenma is mobile-only. A desktop-only site won't rank for Shenma mobile users. Use a responsive design so the same URLs serve both.
+          cn: 神马仅移动端。仅桌面站不会为神马移动用户排名。用响应式设计让同一 URL 服务两者。
+        confidence: 9
+        reference:
+          - docs/7-shenma.en.md
+
+      - id: how-to-submit
+        question:
+          en: How do I submit URLs to Shenma?
+          cn: 如何向神马提交 URL？
+        answer:
+          en: No public webmaster tool. Submit via XML sitemap (Shenma-Slurp reads sitemaps from robots.txt), UC Browser PUSH JS snippet, partner API (invite-only), or Alibaba partner channels (Taobao/Tmall/1688/Alipay).
+          cn: 没有公开站长工具。通过 XML sitemap（Shenma-Slurp 从 robots.txt 读 sitemap）、UC 浏览器 PUSH JS 代码段、合作 API（仅邀请）、或阿里巴巴合作渠道（淘宝/天猫/1688/支付宝）提交。
+        confidence: 8
+        reference:
+          - docs/7-shenma.en.md
+
+  - name:
+      en: alibaba
+      cn: 阿里巴巴
+    qa:
+      - id: alibaba-ecosystem
+        question:
+          en: Why does Alibaba ecosystem presence matter for Shenma?
+          cn: 为什么阿里巴巴生态存在对神马重要？
+        answer:
+          en: Shenma is operated by Alibaba (UC Browser parent). Pages linked from Taobao / Tmall / 1688 / Alipay rank higher in Shenma results. Alibaba partner signals are aggregated into ranking.
+          cn: 神马由阿里巴巴运营（UC 浏览器母公司）。从淘宝 / 天猫 / 1688 / 支付宝链接的页面在神马结果中排名更高。阿里巴巴合作信号被聚合进排名。
+        confidence: 8
+        reference:
+          - docs/7-shenma.en.md
+
+      - id: uc-browser
+        question:
+          en: What is UC Browser's role in Shenma SEO?
+          cn: UC 浏览器在神马 SEO 中的角色？
+        answer:
+          en: UC Browser is Shenma's parent product and the default browser on many Android devices in China. UC Browser compatibility (testing your site in UC, UC-specific markup) is part of Shenma SEO.
+          cn: UC 浏览器是神马的母产品，是中国许多 Android 设备上的默认浏览器。UC 浏览器兼容性（在 UC 测试你的站、UC 专属标记）是神马 SEO 的一部分。
+        confidence: 8
+        reference:
+          - docs/7-shenma.en.md
+
+  - name:
+      en: ai features
+      cn: ai 功能
+    qa:
+      - id: ai-answer
+        question:
+          en: Does Shenma have an AI Overview equivalent?
+          cn: 神马有 AI Overview 对应物吗？
+        answer:
+          en: Yes — AI 智能回答 (AI answers) since 2024. Same pattern as Google AI Overviews / Baidu AI 摘要: cites sources; long-form first-hand Chinese content wins.
+          cn: 有 —— 自 2024 年起的 AI 智能回答。模式与 Google AI Overviews / 百度 AI 摘要相同：引用来源；长篇一手中文内容胜出。
+        confidence: 8
+        reference:
+          - docs/7-shenma.en.md
