@@ -1,0 +1,129 @@
+id: x-seo-2-google-seo
+
+data:
+  - name:
+      en: search console
+      cn: search console
+    qa:
+      - id: what-is-search-console
+        question:
+          en: What is Google Search Console?
+          cn: 什么是 Google Search Console？
+        answer:
+          en: A free tool from Google that shows how Google sees your site — indexing status, search queries, sitemaps, manual actions. Verify your domain at search.google.com/search-console.
+          cn: Google 提供的免费工具，展示 Google 如何看待你的网站——收录状态、搜索查询、sitemap、人工操作。在 search.google.com/search-console 验证域名。
+        confidence: 9
+        reference:
+          - docs/2-google-seo.en.md
+          - docs/2-google-seo.cn.md
+
+      - id: how-to-verify
+        question:
+          en: How do I verify my domain in Search Console?
+          cn: 如何在 Search Console 验证我的域名？
+        answer:
+          en: Add a property (URL prefix or Domain). URL prefix: verify via HTML file upload, DNS record, or Google Analytics. Domain: verify via DNS TXT record. Data starts collecting within 24-72 hours.
+          cn: 添加资源（URL 前缀或域名）。URL 前缀：通过上传 HTML 文件、DNS 记录或 Google Analytics 验证。域名：通过 DNS TXT 记录验证。24-72 小时内开始收集数据。
+        confidence: 9
+        reference:
+          - docs/2-google-seo.en.md
+
+  - name:
+      en: ranking factors
+      cn: 排名因素
+    qa:
+      - id: top-factor
+        question:
+          en: What is Google's most important ranking factor?
+          cn: 谷歌最重要的排名因素是什么？
+        answer:
+          en: There's no single #1. Top factors: content quality + E-E-A-T, backlinks, Core Web Vitals, search intent match, brand authority.
+          cn: 没有单一的 #1。顶级因素：内容质量 + E-E-A-T、反向链接、Core Web Vitals、搜索意图匹配、品牌权威。
+        confidence: 8
+        reference:
+          - docs/2-google-seo.en.md
+
+      - id: what-is-eeat
+        question:
+          en: What is E-E-A-T?
+          cn: 什么是 E-E-A-T？
+        answer:
+          en: Experience, Expertise, Authoritativeness, Trustworthiness. Google's framework for content quality. Especially enforced for YMYL (Your Money or Your Life) topics.
+          cn: 经验、专业性、权威性、可信度。Google 的内容质量框架。对 YMYL（Your Money or Your Life）话题尤其严格执行。
+        confidence: 9
+        reference:
+          - docs/2-google-seo.en.md
+
+      - id: what-is-hcu
+        question:
+          en: What is the Helpful Content Update?
+          cn: 什么是 Helpful Content Update？
+        answer:
+          en: A Google algorithm update (since 2022, iterated multiple times) that targets content written for search engines rather than humans. Fix: write content for humans first; use SEO as a guide, not the goal.
+          cn: Google 算法更新（自 2022 年起，多次迭代），针对为搜索引擎而非为人写的内容。修复：为人先写内容；把 SEO 当指引而非目标。
+        confidence: 9
+        reference:
+          - docs/2-google-seo.en.md
+
+      - id: what-is-ai-overview
+        question:
+          en: What is AI Overview (formerly SGE)?
+          cn: 什么是 AI Overview（前身为 SGE）？
+        answer:
+          en: AI-generated summaries at the top of Google Search results, with citations. Launched as SGE in 2023, rebranded AI Overview in May 2025. Clicks shift down; being cited still drives awareness.
+          cn: AI 生成的摘要出现在 Google 搜索结果顶部。2023 年作为 SGE 推出，2025 年 5 月重命名为 AI Overview。点击下移；被引用仍能带来曝光。
+        confidence: 9
+        reference:
+          - docs/2-google-seo.en.md
+
+  - name:
+      en: tools
+      cn: 工具
+    qa:
+      - id: free-tools
+        question:
+          en: What free tools should I use for Google SEO?
+          cn: 做谷歌 SEO 应该用什么免费工具？
+        answer:
+          en: Google Search Console (indexing, queries), PageSpeed Insights (Core Web Vitals), Lighthouse (full audit), Rich Results Test (structured data), Google Business Profile (local).
+          cn: Google Search Console（收录、查询）、PageSpeed Insights（Core Web Vitals）、Lighthouse（完整审计）、Rich Results Test（结构化数据）、Google Business Profile（本地）。
+        confidence: 9
+        reference:
+          - docs/2-google-seo.en.md
+
+      - id: lighthouse-vs-pagespeed
+        question:
+          en: Lighthouse vs PageSpeed Insights — which one?
+          cn: Lighthouse 还是 PageSpeed Insights？
+        answer:
+          en: Lighthouse runs locally in Chrome DevTools or as a CI step; PageSpeed Insights runs Lighthouse + CrUX (real-user data) in the cloud. Use both — Lighthouse for development, PageSpeed Insights for field data.
+          cn: Lighthouse 在 Chrome DevTools 本地跑或作为 CI 步骤；PageSpeed Insights 在云端跑 Lighthouse + CrUX（真实用户数据）。两者都用——开发用 Lighthouse，实地数据用 PageSpeed Insights。
+        confidence: 9
+        reference:
+          - docs/2-google-seo.en.md
+
+  - name:
+      en: penalties
+      cn: 处罚
+    qa:
+      - id: manual-action
+        question:
+          en: How do I know if Google penalized my site?
+          cn: 我怎么知道我的站被谷歌处罚了？
+        answer:
+          en: Check GSC → Manual Actions. A red banner appears if Google has penalized your site. Each action has a description and a path to fix.
+          cn: 检查 GSC → 人工操作。如果 Google 处罚过你的站，会出现红色横幅。每条操作有描述与修复路径。
+        confidence: 9
+        reference:
+          - docs/2-google-seo.en.md
+
+      - id: hcu-drop
+        question:
+          en: My Google traffic dropped with no manual action. What happened?
+          cn: 我的谷歌流量下滑但没人工操作。发生了什么？
+        answer:
+          en: Likely an algorithmic change — Helpful Content Update, core update, or spam update. Compare timing to Google's Search Status Dashboard. Audit content for first-hand experience + value; remove or improve low-quality pages.
+          cn: 可能是算法变化——有用内容更新、核心更新或垃圾更新。对照时间看 Google 的 Search Status Dashboard。审计内容的一手经验与价值；删除或改进低质量页面。
+        confidence: 8
+        reference:
+          - docs/2-google-seo.en.md
