@@ -1,0 +1,141 @@
+id: x-seo-1-seo-basics
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: what-is-seo
+        question:
+          en: What is SEO?
+          cn: 什么是 SEO？
+        answer:
+          en: Search Engine Optimization — the practice of improving a page's visibility in organic (non-paid) search results. Three stages: crawl, index, rank.
+          cn: 搜索引擎优化——提升页面在自然（非付费）搜索结果中可见度的实践。三个阶段：爬取、收录、排名。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
+          - docs/1-seo-basics.cn.md
+
+      - id: three-stages
+        question:
+          en: What are the three stages of SEO?
+          cn: SEO 的三个阶段是什么？
+        answer:
+          en: Crawl (search engine fetches the page), Index (page is processed and stored), Rank (query matches index; algorithm scores pages).
+          cn: 爬取（搜索引擎抓取页面）、收录（页面被处理并存储）、排名（查询匹配索引；算法给页面打分）。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
+
+      - id: how-long-to-index
+        question:
+          en: How long does it take a small site to get indexed?
+          cn: 小站需要多久被收录？
+        answer:
+          en: Google: 1-7 days. Bing: hours to days (faster). Baidu: 1-4 weeks (slowest). Faster if the page has internal + external links.
+          cn: Google：1-7 天。Bing：小时到天（更快）。百度：1-4 周（最慢）。页面有内链 + 外链则更快。
+        confidence: 8
+        reference:
+          - docs/1-seo-basics.en.md
+
+  - name:
+      en: indexing
+      cn: 收录
+    qa:
+      - id: how-to-submit-sitemap
+        question:
+          en: Where do I submit my sitemap?
+          cn: 在哪里提交 sitemap？
+        answer:
+          en: Google Search Console, Bing Webmaster Tools, and Baidu Search Resource Platform all accept sitemaps. Use Search Console for Google, Webmaster Tools for Bing/Yahoo (since Yahoo uses Bing), and 搜索资源平台 for Baidu.
+          cn: Google Search Console、Bing Webmaster Tools、百度搜索资源平台都接受 sitemap。Google 用 Search Console，Bing/Yahoo 用 Webmaster Tools（Yahoo 由 Bing 提供结果），百度用搜索资源平台。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
+
+      - id: instant-indexing
+        question:
+          en: How do I get indexed instantly?
+          cn: 如何被即时收录？
+        answer:
+          en: Use the IndexNow protocol — submit URLs as soon as they're published. Supported by Bing, Yandex, Seznam, and partner engines. Google does not support IndexNow; for Google, submit the URL via Search Console's URL Inspection tool.
+          cn: 用 IndexNow 协议——URL 发布即提交。支持 Bing、Yandex、Seznam 及合作引擎。Google 不支持 IndexNow；Google 通过 Search Console 的 URL 检查工具提交 URL。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
+          - docs/3-bing-indexnow.en.md
+
+      - id: not-indexed-troubleshoot
+        question:
+          en: My new page isn't showing in Google. What do I do?
+          cn: 我的新页面没出现在 Google 里。该怎么办？
+        answer:
+          en: Check: (1) robots.txt doesn't block the page; (2) sitemap is submitted to Search Console; (3) page has at least one internal link; (4) site has HTTPS; (5) URL Inspection shows no errors. If all OK, wait 1-7 days.
+          cn: 检查：（1）robots.txt 没屏蔽页面；（2）sitemap 已提交到 Search Console；（3）页面至少有 1 个内链；（4）站用 HTTPS；（5）URL 检查无错误。全 OK 就等 1-7 天。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
+
+  - name:
+      en: ranking
+      cn: 排名
+    qa:
+      - id: most-important-factor
+        question:
+          en: What's the #1 ranking factor?
+          cn: 排名第一的排名因素是什么？
+        answer:
+          en: There's no single #1. Top factors in 2026: content quality + E-E-A-T, backlinks, Core Web Vitals, search intent match, and brand authority.
+          cn: 没有单一的 #1。2026 年的顶级因素：内容质量 + E-E-A-T、反向链接、Core Web Vitals、搜索意图匹配、品牌权威。
+        confidence: 8
+        reference:
+          - docs/1-seo-basics.en.md
+
+      - id: what-is-eeat
+        question:
+          en: What is E-E-A-T?
+          cn: 什么是 E-E-A-T？
+        answer:
+          en: Experience, Expertise, Authoritativeness, Trustworthiness. A framework Google uses to assess content quality, especially for YMYL (Your Money or Your Life) topics. Not a direct ranking factor but a quality lens.
+          cn: 经验、专业性、权威性、可信度。Google 用于评估内容质量的框架，尤其针对 YMYL（Your Money or Your Life）话题。不是直接排名因素而是质量视角。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
+
+      - id: core-web-vitals
+        question:
+          en: What are Core Web Vitals?
+          cn: 什么是 Core Web Vitals？
+        answer:
+          en: Three user-experience metrics: LCP (Largest Contentful Paint, < 2.5s for Good), INP (Interaction to Next Paint, < 200ms), CLS (Cumulative Layout Shift, < 0.1). All three must be Good to compete.
+          cn: 三个用户体验指标：LCP（最大内容绘制，"良好"< 2.5s）、INP（交互到下一次绘制，< 200ms）、CLS（累计布局偏移，< 0.1）。三个都"良好"才有竞争力。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
+
+  - name:
+      en: mistakes
+      cn: 错误
+    qa:
+      - id: js-only-rendering
+        question:
+          en: Why doesn't my JavaScript site get indexed?
+          cn: 为什么我的 JS 站不被收录？
+        answer:
+          en: Search engines can render JavaScript but prefer HTML. JS-only sites often show empty content to crawlers. Use server-side rendering (Next.js, Nuxt), pre-rendering, or static-site generation.
+          cn: 搜索引擎能渲染 JS 但偏好 HTML。纯 JS 站对爬虫常显示空白。用服务端渲染（Next.js、Nuxt）、预渲染或静态站点生成。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
+
+      - id: buying-links
+        question:
+          en: Can I buy backlinks to rank faster?
+          cn: 我能买反向链接来快速排名吗？
+        answer:
+          en: Google's guidelines explicitly disallow paid links intended to manipulate rankings. Detected paid links can lead to manual actions and ranking penalties. Use organic link-building: directories, guest posts, original research.
+          cn: Google 指南明确禁止意图操纵排名的付费链接。被检测到的付费链接可导致人工操作与排名惩罚。用自然链接建设：目录、客座文章、原创研究。
+        confidence: 9
+        reference:
+          - docs/1-seo-basics.en.md
