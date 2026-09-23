@@ -1,0 +1,118 @@
+id: x-seo-4-yahoo
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: yahoo-vs-bing
+        question:
+          en: Does Yahoo use Bing's search index?
+          cn: Yahoo 用 Bing 的搜索索引吗？
+        answer:
+          en: Yes — since 2009 (extended in 2015), Yahoo's web search has used Bing's index. Yahoo runs its own crawlers (Yahoo! Slurp) but the index is Bing's.
+          cn: 是的 —— 自 2009 年起（2015 年延期），Yahoo 网页搜索用 Bing 的索引。Yahoo 跑自己的爬虫（Yahoo! Slurp）但索引是 Bing 的。
+        confidence: 9
+        reference:
+          - docs/4-yahoo.en.md
+          - docs/4-yahoo.cn.md
+
+      - id: optimize-yahoo
+        question:
+          en: How do I optimize for Yahoo?
+          cn: 如何为 Yahoo 优化？
+        answer:
+          en: 90% is Bing optimization (see 3-bing-indexnow). The Yahoo-specific 10%: domain age, .com/.net TLDs, exact-match keywords in title/URL, and being cited in Yahoo News / Yahoo Finance.
+          cn: 90% 是 Bing 优化（见 3-bing-indexnow）。Yahoo 专属 10%：域名年龄、.com/.net 顶级域名、标题/URL 精确匹配关键词、在 Yahoo News / Yahoo Finance 中被引用。
+        confidence: 8
+        reference:
+          - docs/4-yahoo.en.md
+
+      - id: yahoo-news-seo
+        question:
+          en: How do I get my content featured in Yahoo News?
+          cn: 如何让我的内容在 Yahoo News 上展示？
+        answer:
+          en: Submit via Yahoo News Publisher (partner.yahoo.com). Yahoo News prefers original sources, author bylines, timeliness, and brand authority over aggregators.
+          cn: 通过 Yahoo News Publisher（partner.yahoo.com）提交。Yahoo News 偏好原创来源、作者署名、时效性与品牌权威，而非聚合。
+        confidence: 8
+        reference:
+          - docs/4-yahoo.en.md
+
+  - name:
+      en: crawlers
+      cn: 爬虫
+    qa:
+      - id: yahoo-slurp
+        question:
+          en: What is Yahoo! Slurp?
+          cn: 什么是 Yahoo! Slurp？
+        answer:
+          en: Yahoo's web crawler. Runs alongside Bingbot. User agent: Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp). Allow in robots.txt — don't block.
+          cn: Yahoo 的网页爬虫。与 Bingbot 并行跑。用户代理：Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)。在 robots.txt 允许——不要屏蔽。
+        confidence: 9
+        reference:
+          - docs/4-yahoo.en.md
+
+      - id: slurp-robots-txt
+        question:
+          en: Should I block Yahoo! Slurp?
+          cn: 我应该屏蔽 Yahoo! Slurp 吗？
+        answer:
+          en: No — Yahoo runs Yahoo! Slurp independently of Bingbot for some crawling. Blocking it can cause Yahoo to miss your pages. Add `User-agent: Yahoo! Slurp` / `Allow: /` to robots.txt.
+          cn: 不 —— Yahoo 部分爬取独立于 Bingbot 跑 Yahoo! Slurp。屏蔽会让 Yahoo 漏掉你的页面。在 robots.txt 加 `User-agent: Yahoo! Slurp` / `Allow: /`。
+        confidence: 8
+        reference:
+          - docs/4-yahoo.en.md
+
+  - name:
+      en: products
+      cn: 产品
+    qa:
+      - id: yahoo-finance
+        question:
+          en: How does Yahoo Finance SEO work?
+          cn: Yahoo Finance SEO 如何工作？
+        answer:
+          en: Yahoo Finance is a separate product with its own data + ranking. Coverage focuses on ticker symbols, original financial analysis, and press releases distributed via Yahoo Finance's approved PR channels.
+          cn: Yahoo Finance 是有自己数据 + 排名的独立产品。覆盖聚焦股票代码、原创财务分析、通过 Yahoo Finance 批准 PR 渠道分发的新闻稿。
+        confidence: 8
+        reference:
+          - docs/4-yahoo.en.md
+
+      - id: yahoo-answers
+        question:
+          en: Is Yahoo Answers still relevant for SEO?
+          cn: Yahoo Answers 对 SEO 还有用吗？
+        answer:
+          en: Yahoo Answers shut down in 2021 (read-only archive preserved). URLs still rank for some legacy queries but the platform is no longer active.
+          cn: Yahoo Answers 于 2021 年关闭（只读归档保留）。URL 仍为一些旧查询排名，但平台不再活跃。
+        confidence: 9
+        reference:
+          - docs/4-yahoo.en.md
+
+  - name:
+      en: tools
+      cn: 工具
+    qa:
+      - id: yahoo-webmaster
+        question:
+          en: Is there a Yahoo Webmaster Tools?
+          cn: 有 Yahoo Webmaster Tools 吗？
+        answer:
+          en: No — Yahoo Site Explorer shut down in 2011 when the Bing deal took effect. Use Bing Webmaster Tools for Yahoo web search (which is Bing).
+          cn: 没有 —— Yahoo Site Explorer 于 2011 年随 Bing 协议停止运营。Yahoo 网页搜索（也就是 Bing）用 Bing Webmaster Tools。
+        confidence: 9
+        reference:
+          - docs/4-yahoo.en.md
+
+      - id: indexnow-yahoo
+        question:
+          en: Does IndexNow cover Yahoo?
+          cn: IndexNow 覆盖 Yahoo 吗？
+        answer:
+          en: Yes — Yahoo web search runs on Bing's index. IndexNow submissions are picked up by Yahoo automatically. For Yahoo News / Finance, submit through Yahoo's own publisher surfaces.
+          cn: 是的 —— Yahoo 网页搜索跑在 Bing 索引上。IndexNow 提交自动被 Yahoo 抓取。Yahoo News / Finance 通过 Yahoo 自有 Publisher 入口提交。
+        confidence: 8
+        reference:
+          - docs/4-yahoo.en.md
