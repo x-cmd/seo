@@ -1,0 +1,118 @@
+id: x-seo-3-bing-indexnow
+
+data:
+  - name:
+      en: indexnow
+      cn: indexnow
+    qa:
+      - id: what-is-indexnow
+        question:
+          en: What is IndexNow?
+          cn: 什么是 IndexNow？
+        answer:
+          en: A protocol co-developed by Microsoft Bing and Yandex (joined by Seznam, Naver, DuckDuckGo via Bing). Submit URLs as soon as they're added / updated / deleted, and the engines crawl within minutes.
+          cn: 微软 Bing 与 Yandex（Seznam、Naver、DuckDuckGo via Bing 加入）共同开发的协议。URL 添加 / 更新 / 删除即提交，引擎在分钟级爬取。
+        confidence: 9
+        reference:
+          - docs/3-bing-indexnow.en.md
+          - docs/3-bing-indexnow.cn.md
+
+      - id: how-to-use-indexnow
+        question:
+          en: How do I use IndexNow?
+          cn: 如何用 IndexNow？
+        answer:
+          en: (1) Generate an 8+ char lowercase alphanumeric key at indexnow.org. (2) Host the key as a text file at your root: /<key>.txt. (3) POST to api.indexnow.org with your key and URL list. (4) Hook your CMS to POST on publish / update / delete.
+          cn: （1）在 indexnow.org 生成 8+ 字符的小写字母数字 key。（2）把 key 作为文本文件托管在根目录：/<key>.txt。（3）POST 到 api.indexnow.org，带上 key 与 URL 列表。（4）钩 CMS 在发布 / 更新 / 删除时 POST。
+        confidence: 9
+        reference:
+          - docs/3-bing-indexnow.en.md
+
+      - id: indexnow-supports
+        question:
+          en: Which search engines support IndexNow?
+          cn: 哪些搜索引擎支持 IndexNow？
+        answer:
+          en: Bing, Yandex, Seznam, Naver (Korea), and DuckDuckGo (indirectly via Bing back-end). Google does not support IndexNow.
+          cn: Bing、Yandex、Seznam、Naver（韩国）、DuckDuckGo（通过 Bing 后端间接）。Google 不支持 IndexNow。
+        confidence: 9
+        reference:
+          - docs/3-bing-indexnow.en.md
+
+      - id: indexnow-limits
+        question:
+          en: What are IndexNow limits?
+          cn: IndexNow 有什么限制？
+        answer:
+          en: 10,000 URLs per POST; 1 request per second rate limit; URLs must be absolute and percent-encoded.
+          cn: 每次 POST 10,000 URL；速率限制每秒 1 次请求；URL 必须绝对且 percent-encoded。
+        confidence: 9
+        reference:
+          - docs/3-bing-indexnow.en.md
+
+  - name:
+      en: bing webmaster tools
+      cn: bing webmaster tools
+    qa:
+      - id: what-is-bwt
+        question:
+          en: What is Bing Webmaster Tools?
+          cn: 什么是 Bing Webmaster Tools？
+        answer:
+          en: A free tool from Microsoft that mirrors Google Search Console — indexing status, sitemaps, URL inspection, manual actions, backlinks, keyword analysis, IndexNow submission.
+          cn: 微软提供的免费工具，镜像 Google Search Console——收录状态、sitemap、URL 检查、人工操作、反向链接、关键词分析、IndexNow 提交。
+        confidence: 9
+        reference:
+          - docs/3-bing-indexnow.en.md
+
+      - id: how-to-verify
+        question:
+          en: How do I verify my site in Bing Webmaster Tools?
+          cn: 如何在 Bing Webmaster Tools 验证站点？
+        answer:
+          en: Bingbot XML file upload, meta tag, DNS CNAME, or import from Google Search Console. Importing from GSC is the fastest if you already verified there.
+          cn: 上传 Bingbot XML 文件、meta 标签、DNS CNAME，或从 Google Search Console 导入。如果你已在 GSC 验证，从 GSC 导入最快。
+        confidence: 9
+        reference:
+          - docs/3-bing-indexnow.en.md
+
+  - name:
+      en: ranking differences
+      cn: 排名差异
+    qa:
+      - id: bing-vs-google
+        question:
+          en: How is Bing SEO different from Google SEO?
+          cn: Bing SEO 与 Google SEO 有何不同？
+        answer:
+          en: Bing weighs social signals more heavily, prefers exact-match keywords, gives more weight to domain age, and rewards multimedia more. Where they agree: content quality, E-E-A-T-like signals, backlinks, HTTPS, mobile, page speed, structured data.
+          cn: Bing 更重视社交信号，偏好精确匹配关键词，对域名年龄权重更大，对多媒体奖励更多。一致之处：内容质量、E-E-A-T 类信号、反向链接、HTTPS、移动、页面速度、结构化数据。
+        confidence: 8
+        reference:
+          - docs/3-bing-indexnow.en.md
+
+      - id: bing-social
+        question:
+          en: Why do social signals matter more on Bing?
+          cn: 为什么社交信号在 Bing 上更重要？
+        answer:
+          en: Bing officially weighs social shares (Twitter, Facebook, Reddit) more than Google. Aim for engagement on Reddit / X / Facebook / LinkedIn in addition to SEO.
+          cn: Bing 官方比 Google 更重视社交分享（Twitter、Facebook、Reddit）。除 SEO 外，也要在 Reddit / X / Facebook / LinkedIn 上做互动。
+        confidence: 7
+        reference:
+          - docs/3-bing-indexnow.en.md
+
+  - name:
+      en: google vs bing
+      cn: google vs bing
+    qa:
+      - id: shared-backend
+        question:
+          en: Does Yahoo / DuckDuckGo / Ecosia use the same index as Bing?
+          cn: Yahoo / DuckDuckGo / Ecosia 与 Bing 用同一索引吗？
+        answer:
+          en: Yahoo has used Bing's index since 2009. DuckDuckGo and Ecosia also use Bing's index for most queries (DuckDuckGo adds its own crawler for some links). Optimize for Bing once; coverage follows.
+          cn: Yahoo 自 2009 年起使用 Bing 的索引。DuckDuckGo 与 Ecosia 也在大多数查询上用 Bing 的索引（DuckDuckGo 对部分链接加自己的爬虫）。为 Bing 优化一次；覆盖随之而来。
+        confidence: 9
+        reference:
+          - docs/3-bing-indexnow.en.md
