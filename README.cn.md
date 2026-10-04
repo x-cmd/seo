@@ -21,7 +21,7 @@ x-cmd/seo/
 ├── LICENSE                   # Apache-2.0
 └── docs/
     ├── 1-seo-basics.{en,cn,llms,faq}.md          # 什么是 SEO + 小站收录
-    ├── 2-da-dr.{en,cn,llms,faq}.md               # DA / DR — Moz 域名权重 + Ahrefs 域名评分
+    ├── 2-da.{en,cn,llms,faq}.md               # DA / DR — Moz 域名权重 + Ahrefs 域名评分
     ├── 3-google-seo.{en,cn,llms,faq}.md          # 谷歌 SEO + Search Console
     ├── 4-bing-indexnow.{en,cn,llms,faq}.md       # Bing Webmaster Tools + IndexNow
     ├── 5-duckduckgo.{en,cn,llms,faq}.md          # DuckDuckGo SEO
@@ -40,7 +40,7 @@ x-cmd/seo/
 | 槽位 | 文章 | 用途 |
 | --- | --- | --- |
 | `1-seo-basics` | 什么是 SEO + 小站收录 | 第一篇——定义、核心概念、sitemap / robots.txt / 结构化数据 / 反向链接。 |
-| `2-da-dr` | DA / DR — Moz 域名权重 vs Ahrefs 域名评分 | 两个最常见的第三方链接权重指标；分数为何对不上；最快的无登录查询。 |
+| `2-da` | DA / DR — Moz 域名权重 vs Ahrefs 域名评分 | 两个最常见的第三方链接权重指标；分数为何对不上；最快的无登录查询。 |
 | `3-google-seo` | 谷歌 SEO + Search Console | 最大的搜索引擎；如何优化；如何用 Search Console。 |
 | `4-bing-indexnow` | Bing Webmaster Tools + IndexNow | Bing 站长工具；IndexNow 协议。 |
 | `5-duckduckgo` | DuckDuckGo SEO | 注重隐私；Bing 衍生结果；市场份额较小但在增长。 |

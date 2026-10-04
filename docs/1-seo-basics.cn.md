@@ -263,7 +263,7 @@ Sitemap: https://example.com/sitemap.xml
 
 ## 下一步？
 
-- **2-da-dr** — DA / DR — Moz 域名权重 vs Ahrefs 域名评分。
+- **2-da** — DA / DR — Moz 域名权重 vs Ahrefs 域名评分。
 - **3-google-seo** — 谷歌专属 SEO + Search Console。
 - **4-bing-indexnow** — Bing + IndexNow 协议。
 - **6-yahoo** — Yahoo Search。

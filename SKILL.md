@@ -41,7 +41,7 @@ Each slot is four files, kept in sync:
 | Slot | Article | Style |
 | --- | --- | --- |
 | `1-seo-basics` | What is SEO + small-site indexing. | Definitions + practical tips. |
-| `2-da-dr` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating. | Cross-cutting — query tools + scoring caveats. |
+| `2-da` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating. | Cross-cutting — query tools + scoring caveats. |
 | `3-google-seo` | Google SEO + Search Console. | Google-specific. |
 | `4-bing-indexnow` | Bing + IndexNow protocol. | Bing-specific. |
 | `5-duckduckgo` | DuckDuckGo SEO. | DuckDuckGo-specific. |
@@ -55,7 +55,7 @@ Each slot is four files, kept in sync:
 
 ```sh
 # "How do I get my site indexed on Google?" — read 1-seo-basics, then 3-google-seo.
-# "What is DA / DR — how do I check a domain's authority?" — read 2-da-dr.
+# "What is DA / DR — how do I check a domain's authority?" — read 2-da.
 # "How do I submit URLs to Bing fast?" — read 4-bing-indexnow.
 # "How do I optimize for Baidu?" — read 8-baidu.
 # "Why doesn't my site appear on DuckDuckGo?" — read 5-duckduckgo.

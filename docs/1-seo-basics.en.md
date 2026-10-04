@@ -291,7 +291,7 @@ A 30-minute checklist to get a brand-new site indexed:
 
 ## What's next?
 
-- **2-da-dr** — DA / DR — Moz Domain Authority vs Ahrefs Domain Rating.
+- **2-da** — DA / DR — Moz Domain Authority vs Ahrefs Domain Rating.
 - **3-google-seo** — Google-specific SEO + Search Console.
 - **4-bing-indexnow** — Bing + the IndexNow protocol.
 - **6-yahoo** — Yahoo Search.

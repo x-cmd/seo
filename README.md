@@ -23,7 +23,7 @@ x-cmd/seo/
 ├── LICENSE                   # Apache-2.0
 └── docs/
     ├── 1-seo-basics.{en,cn,llms,faq}.md          # what is SEO + small-site indexing
-    ├── 2-da-dr.{en,cn,llms,faq}.md               # DA / DR — Moz + Ahrefs link authority metrics
+    ├── 2-da.{en,cn,llms,faq}.md               # DA / DR — Moz + Ahrefs link authority metrics
     ├── 3-google-seo.{en,cn,llms,faq}.md          # Google SEO + Search Console
     ├── 4-bing-indexnow.{en,cn,llms,faq}.md       # Bing Webmaster Tools + IndexNow
     ├── 5-duckduckgo.{en,cn,llms,faq}.md          # DuckDuckGo SEO
@@ -43,7 +43,7 @@ sync across all four files per slot: `.en.md`, `.cn.md`,
 | Slot | Article | Purpose |
 | --- | --- | --- |
 | `1-seo-basics` | What is SEO + how small sites improve indexing | The first article — definitions, core concepts, sitemap / robots.txt / structured data / backlinks. |
-| `2-da-dr` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating | The two leading third-party link-authority metrics, why they don't agree, and the fastest no-login lookup. |
+| `2-da` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating | The two leading third-party link-authority metrics, why they don't agree, and the fastest no-login lookup. |
 | `3-google-seo` | Google SEO + Search Console | The biggest search engine; how to optimize for it; how to use Google Search Console. |
 | `4-bing-indexnow` | Bing Webmaster Tools + IndexNow | Bing Webmaster Tools; the IndexNow protocol. |
 | `5-duckduckgo` | DuckDuckGo SEO | Privacy-focused; Bing-derived; smaller market share but growing. |

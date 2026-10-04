@@ -1,10 +1,22 @@
-id: x-seo-2-da-dr
+id: x-seo-2-da
 
 data:
   - name:
       en: overview
       cn: 概览
     qa:
+      - id: is-da-from-google
+        question:
+          en: Is DA from Google?
+          cn: DA 是 Google 的分数吗？
+        answer:
+          en: No. DA is made by Moz (a third-party SEO tool company), not by Google or any search engine. DR is made by Ahrefs. Neither score is used by Google when deciding where to rank your page.
+          cn: 不是。DA 是 Moz（一家第三方 SEO 工具公司）打的分，Google 和任何搜索引擎都不做 DA。DR 是 Ahrefs 做的。Google 排名时不会查 DA 或 DR。
+        confidence: 9
+        reference:
+          - docs/2-da.en.md
+          - docs/2-da.cn.md
+
       - id: what-is-da
         question:
           en: What is DA (Domain Authority)?
@@ -14,8 +26,7 @@ data:
           cn: Moz 的第三方 SEO 链接权重指标。0–100 对数刻度。综合唯一根域名反向链接、这些根域名自身的 DA 以及几个次要信号。适合做相对对比，不是直接的排名因子。
         confidence: 9
         reference:
-          - docs/2-da-dr.en.md
-          - docs/2-da-dr.cn.md
+          - docs/2-da.en.md
 
       - id: what-is-dr
         question:
@@ -26,7 +37,19 @@ data:
           cn: Ahrefs 的第三方 SEO 链接权重指标。0–100 对数刻度。只看 dofollow 引用域名及其 DR，比 DA 更接近纯链接图测量。
         confidence: 9
         reference:
-          - docs/2-da-dr.en.md
+          - docs/2-da.en.md
+
+      - id: google-authority-score
+        question:
+          en: Can I see what Google thinks of my site's authority?
+          cn: 我能看到 Google 怎么看我网站的权威度吗？
+        answer:
+          en: Google does not publish an authority score (its public PageRank bar was retired in 2016). The closest thing is Google Search Console (search.google.com/search-console), which shows indexing status, queries that bring you traffic, and any manual actions — but no DA number.
+          cn: Google 不公布权威度分数（公开的 PageRank 工具栏 2016 年就下线了）。最接近的是 Google Search Console（search.google.com/search-console），能看收录状态、带来流量的查询、人工操作——但不给 DA 数字。
+        confidence: 9
+        reference:
+          - docs/2-da.en.md
+          - docs/2-da.cn.md
 
       - id: da-vs-dr-different
         question:
@@ -37,7 +60,7 @@ data:
           cn: 链接图不同（Mozscape vs AhrefsBot）、打分公式不同。DA 混合了多个信号；DR 更接近纯链接图测量。两个工具看到的链接集也不总一样。
         confidence: 9
         reference:
-          - docs/2-da-dr.en.md
+          - docs/2-da.en.md
 
   - name:
       en: query
@@ -52,8 +75,8 @@ data:
           cn: 用 Ahrefs 的网站权重检查器 ahrefs.com/zh/website-authority-checker/。无需账号、无需信用卡——只做人机验证（"我不是机器人"），贴入域名回车。/zh/ 路径给中文界面。
         confidence: 9
         reference:
-          - docs/2-da-dr.en.md
-          - docs/2-da-dr.cn.md
+          - docs/2-da.en.md
+          - docs/2-da.cn.md
 
       - id: moz-da-login
         question:
@@ -64,7 +87,7 @@ data:
           cn: 是——Moz 的 Domain Analysis（moz.com/domain-analysis）要登录。免费 Moz 账号每月查询次数有限；付费 Moz Pro 账号不限次。
         confidence: 9
         reference:
-          - docs/2-da-dr.en.md
+          - docs/2-da.en.md
 
       - id: mozilla-vs-moz
         question:
@@ -75,7 +98,7 @@ data:
           cn: 不是——两家公司。Mozilla 做 Firefox。Moz（前身 SEOmoz）做 SEO 工具，包括 Domain Authority。名字像但没关系。
         confidence: 9
         reference:
-          - docs/2-da-dr.en.md
+          - docs/2-da.en.md
 
       - id: other-metrics
         question:
@@ -86,7 +109,7 @@ data:
           cn: 有——Semrush Authority Score（0–100，需登录）、Majestic Trust Flow 与 Citation Flow（各 0–100，部分免费）。各家用自己的爬虫和打分公式；同样的局限。
         confidence: 8
         reference:
-          - docs/2-da-dr.en.md
+          - docs/2-da.en.md
 
   - name:
       en: meaning
@@ -101,7 +124,7 @@ data:
           cn: 不。DA / DR 是相对的链接图指标，不是直接的排名因子。高 DR 适合筛卖外链的人和跟踪趋势，但跟具体某个查询的排名不直接挂钩。
         confidence: 9
         reference:
-          - docs/2-da-dr.en.md
+          - docs/2-da.en.md
 
       - id: score-volatility
         question:
@@ -112,7 +135,7 @@ data:
           cn: Moz 和 Ahrefs 都在滚动更新自己的链接索引。你没改站，分数一周也可能波动 ±2-5 分。小波动不用慌。
         confidence: 8
         reference:
-          - docs/2-da-dr.en.md
+          - docs/2-da.en.md
 
       - id: nofollow-affects-dr
         question:
@@ -123,4 +146,31 @@ data:
           cn: 不——DR 完全忽略 nofollow、ugc、sponsored 链接。一个几乎全是 nofollow 的链接档案（比如论坛 profile）DR 会很低；DA 给 nofollow 部分权重。
         confidence: 8
         reference:
-          - docs/2-da-dr.en.md
+          - docs/2-da.en.md
+
+  - name:
+      en: scale
+      cn: 刻度
+    qa:
+      - id: logarithmic-scale
+        question:
+          en: What does "0–100 logarithmic scale" actually mean?
+          cn: "0–100 对数刻度"到底是什么意思？
+        answer:
+          en: Each step up is harder than the last. Going from DA 10 to DA 20 takes a few months; going from DA 70 to DA 80 takes much longer. Like the Richter earthquake scale, where each step is bigger than the one before.
+          cn: 每往上一级都比上一级更难。从 DA 10 到 20 几个月能到；从 DA 70 到 80 要的时间长得多。像里氏地震震级一样，每一级都比上一级幅度更大。
+        confidence: 9
+        reference:
+          - docs/2-da.en.md
+          - docs/2-da.cn.md
+
+      - id: subdomain-vs-root
+        question:
+          en: Does DA / DR score a subdomain, or the root domain?
+          cn: DA / DR 打的是子域名还是根域名？
+        answer:
+          en: Root domain only. A strong blog on blog.example.com contributes to example.com's score, not its own.
+          cn: 只打根域名。blog.example.com 上的强链接贡献给 example.com 的分数，不给 blog.example.com 自己。
+        confidence: 9
+        reference:
+          - docs/2-da.en.md

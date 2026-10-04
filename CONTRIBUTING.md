@@ -11,7 +11,7 @@ topic library.
 | Slot | Article | Add a new one? |
 | --- | --- | --- |
 | `1-seo-basics` | What is SEO + small-site indexing. | Refresh in place. |
-| `2-da-dr` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating. | Refresh in place. |
+| `2-da` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating. | Refresh in place. |
 | `3-google-seo` | Google SEO + Search Console. | Refresh in place. |
 | `4-bing-indexnow` | Bing + IndexNow. | Refresh in place. |
 | `5-duckduckgo` | DuckDuckGo SEO. | Refresh in place. |
