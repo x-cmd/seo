@@ -1,0 +1,126 @@
+id: x-seo-2-da-dr
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: what-is-da
+        question:
+          en: What is DA (Domain Authority)?
+          cn: 什么是 DA（Domain Authority）？
+        answer:
+          en: Moz's third-party metric for SEO link authority. Scored 0–100 on a logarithmic scale. Combines unique root-domain backlinks, the DA of those domains, and a few secondary signals. Useful for relative comparison, not as a direct ranking factor.
+          cn: Moz 的第三方 SEO 链接权重指标。0–100 对数刻度。综合唯一根域名反向链接、这些根域名自身的 DA 以及几个次要信号。适合做相对对比，不是直接的排名因子。
+        confidence: 9
+        reference:
+          - docs/2-da-dr.en.md
+          - docs/2-da-dr.cn.md
+
+      - id: what-is-dr
+        question:
+          en: What is DR (Domain Rating)?
+          cn: 什么是 DR（Domain Rating）？
+        answer:
+          en: Ahrefs's third-party metric for SEO link authority. Scored 0–100 on a logarithmic scale. Built only from dofollow referring domains and their DR — closer to a pure link-graph measurement than DA.
+          cn: Ahrefs 的第三方 SEO 链接权重指标。0–100 对数刻度。只看 dofollow 引用域名及其 DR，比 DA 更接近纯链接图测量。
+        confidence: 9
+        reference:
+          - docs/2-da-dr.en.md
+
+      - id: da-vs-dr-different
+        question:
+          en: Why do DA and DR scores differ on the same site?
+          cn: 为什么同一个站 DA 和 DR 分数不一样？
+        answer:
+          en: Different link graphs (Mozscape vs AhrefsBot) and different scoring formulas. DA blends several signals; DR is closer to a pure link-graph measurement. The two tools don't always see the same set of links.
+          cn: 链接图不同（Mozscape vs AhrefsBot）、打分公式不同。DA 混合了多个信号；DR 更接近纯链接图测量。两个工具看到的链接集也不总一样。
+        confidence: 9
+        reference:
+          - docs/2-da-dr.en.md
+
+  - name:
+      en: query
+      cn: 查询
+    qa:
+      - id: check-dr-no-login
+        question:
+          en: How do I check DR without logging in?
+          cn: 不登录怎么查 DR？
+        answer:
+          en: Use Ahrefs's Website Authority Checker at ahrefs.com/zh/website-authority-checker/. No account, no credit card — just a human verification ("I am not a robot"), paste a domain, hit enter. The /zh/ path gives the Chinese UI.
+          cn: 用 Ahrefs 的网站权重检查器 ahrefs.com/zh/website-authority-checker/。无需账号、无需信用卡——只做人机验证（"我不是机器人"），贴入域名回车。/zh/ 路径给中文界面。
+        confidence: 9
+        reference:
+          - docs/2-da-dr.en.md
+          - docs/2-da-dr.cn.md
+
+      - id: moz-da-login
+        question:
+          en: How do I check DA — do I need to log in to Moz?
+          cn: 查 DA 要登录 Moz 吗？
+        answer:
+          en: Yes — Moz's Domain Analysis (moz.com/domain-analysis) requires sign-in. Free Moz accounts get a limited number of lookups per month; paid Moz Pro accounts get unlimited lookups.
+          cn: 是——Moz 的 Domain Analysis（moz.com/domain-analysis）要登录。免费 Moz 账号每月查询次数有限；付费 Moz Pro 账号不限次。
+        confidence: 9
+        reference:
+          - docs/2-da-dr.en.md
+
+      - id: mozilla-vs-moz
+        question:
+          en: Is Moz the same as Mozilla?
+          cn: Moz 跟 Mozilla 是一回事吗？
+        answer:
+          en: No — different companies. Mozilla makes Firefox. Moz (formerly SEOmoz) makes SEO tools including Domain Authority. The names look similar but the two are unrelated.
+          cn: 不是——两家公司。Mozilla 做 Firefox。Moz（前身 SEOmoz）做 SEO 工具，包括 Domain Authority。名字像但没关系。
+        confidence: 9
+        reference:
+          - docs/2-da-dr.en.md
+
+      - id: other-metrics
+        question:
+          en: Are there other third-party link authority metrics besides DA and DR?
+          cn: 除了 DA 和 DR 还有别的第三方链接权重指标吗？
+        answer:
+          en: Yes — Semrush Authority Score (0–100, login required), Majestic Trust Flow and Citation Flow (each 0–100, partial free tier). Each uses its own crawler and scoring formula; same caveats as DA / DR.
+          cn: 有——Semrush Authority Score（0–100，需登录）、Majestic Trust Flow 与 Citation Flow（各 0–100，部分免费）。各家用自己的爬虫和打分公式；同样的局限。
+        confidence: 8
+        reference:
+          - docs/2-da-dr.en.md
+
+  - name:
+      en: meaning
+      cn: 含义
+    qa:
+      - id: high-da-rank
+        question:
+          en: Does a high DA or DR mean I will rank well?
+          cn: DA 或 DR 高就意味着排名好吗？
+        answer:
+          en: No. DA / DR are relative link-graph metrics, not direct ranking factors. A high DR is useful for screening backlink sellers and tracking trend, but doesn't directly translate to ranking on any specific query.
+          cn: 不。DA / DR 是相对的链接图指标，不是直接的排名因子。高 DR 适合筛卖外链的人和跟踪趋势，但跟具体某个查询的排名不直接挂钩。
+        confidence: 9
+        reference:
+          - docs/2-da-dr.en.md
+
+      - id: score-volatility
+        question:
+          en: Why does my DA or DR change without me doing anything?
+          cn: 为什么我没改东西 DA / DR 也会变？
+        answer:
+          en: Moz and Ahrefs update their link indices on rolling schedules. Your score can shift ±2-5 points in a week without your site changing. Don't panic over small fluctuations.
+          cn: Moz 和 Ahrefs 都在滚动更新自己的链接索引。你没改站，分数一周也可能波动 ±2-5 分。小波动不用慌。
+        confidence: 8
+        reference:
+          - docs/2-da-dr.en.md
+
+      - id: nofollow-affects-dr
+        question:
+          en: Does nofollow affect DR?
+          cn: nofollow 链接影响 DR 吗？
+        answer:
+          en: No — DR ignores nofollow, ugc, and sponsored links entirely. A backlink profile that's mostly nofollow (e.g., forum profiles) will look weak in DR. DA gives nofollow links partial weight.
+          cn: 不——DR 完全忽略 nofollow、ugc、sponsored 链接。一个几乎全是 nofollow 的链接档案（比如论坛 profile）DR 会很低；DA 给 nofollow 部分权重。
+        confidence: 8
+        reference:
+          - docs/2-da-dr.en.md

@@ -64,7 +64,7 @@ data:
         confidence: 9
         reference:
           - docs/1-seo-basics.en.md
-          - docs/3-bing-indexnow.en.md
+          - docs/4-bing-indexnow.en.md
 
       - id: not-indexed-troubleshoot
         question:

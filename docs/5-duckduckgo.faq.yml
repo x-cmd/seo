@@ -1,0 +1,92 @@
+id: x-seo-5-duckduckgo
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: what-is-duckduckgo
+        question:
+          en: What is DuckDuckGo?
+          cn: 什么是 DuckDuckGo？
+        answer:
+          en: A privacy-focused search engine founded in 2008 by Gabriel Weinberg. ~0.7% global search market in 2026. Mostly backed by Bing's index; runs its own DuckDuckBot crawler for select verticals; ships DuckAssist + AI Chat.
+          cn: 2008 年由 Gabriel Weinberg 创立的注重隐私的搜索引擎。2026 年全球搜索市场约 0.7%。主要由 Bing 索引支撑；为部分垂类运行自己的 DuckDuckBot 爬虫；提供 DuckAssist + AI Chat。
+        confidence: 9
+        reference:
+          - docs/5-duckduckgo.en.md
+          - docs/5-duckduckgo.cn.md
+
+      - id: how-to-optimize
+        question:
+          en: How do I optimize for DuckDuckGo?
+          cn: 如何为 DuckDuckGo 优化？
+        answer:
+          en: 95% is Bing optimization. The DDG-specific 5%: Wikipedia presence for instant answers, privacy-friendly content, optimize Apple Maps for local SEO, allow DuckDuckBot in robots.txt.
+          cn: 95% 是 Bing 优化。DDG 专属 5%：Wikipedia 存在带来即时答案、注重隐私的内容、为本地 SEO 优化 Apple Maps、允许 DuckDuckBot 在 robots.txt。
+        confidence: 8
+        reference:
+          - docs/5-duckduckgo.en.md
+
+  - name:
+      en: privacy
+      cn: 隐私
+    qa:
+      - id: why-privacy
+        question:
+          en: Why is DuckDuckGo privacy-focused?
+          cn: 为什么 DuckDuckGo 注重隐私？
+        answer:
+          en: No `referer` header leaks (clicks don't carry search query); no search history stored; no cookies; no IP address logged; no personalization / filter bubble.
+          cn: 没有 referer 头泄漏（点击不携带搜索词）；不存储搜索历史；没有 cookie；不记录 IP；没有个性化 / 过滤气泡。
+        confidence: 9
+        reference:
+          - docs/5-duckduckgo.en.md
+
+      - id: track-ddg-traffic
+        question:
+          en: How do I track DuckDuckGo traffic?
+          cn: 如何追踪 DuckDuckGo 流量？
+        answer:
+          en: Hard — no referer keyword, no UA snippet. Estimate via analytics by source/medium, server logs matching known DDG crawler IPs, or user surveys. In practice, DDG traffic is small but high-quality.
+          cn: 难 —— 没有 referer 关键词，没有 UA 片段。按 source/medium 分析、服务器日志匹配已知 DDG 爬虫 IP、用户调查来估计。实际 DDG 流量小但质量高。
+        confidence: 8
+        reference:
+          - docs/5-duckduckgo.en.md
+
+  - name:
+      en: technical
+      cn: 技术
+    qa:
+      - id: duckduckbot
+        question:
+          en: What is DuckDuckBot?
+          cn: 什么是 DuckDuckBot？
+        answer:
+          en: DuckDuckGo's web crawler. Mostly used for Wikipedia updates, open data sources (OpenStreetMap, Wikidata), and link validation. Most DDG web results come via Bingbot, not DuckDuckBot.
+          cn: DuckDuckGo 的网页爬虫。主要用于 Wikipedia 更新、开源数据源（OpenStreetMap、Wikidata）和链接验证。大多数 DDG 网页结果来自 Bingbot 而非 DuckDuckBot。
+        confidence: 9
+        reference:
+          - docs/5-duckduckgo.en.md
+
+      - id: ddg-maps
+        question:
+          en: How do I do local SEO on DuckDuckGo?
+          cn: 如何在 DuckDuckGo 上做本地 SEO？
+        answer:
+          en: DuckDuckGo Maps uses Apple Maps, not Google Maps. Optimize for Apple Maps via Apple Business Connect (businessconnect.apple.com) — claim your business, fill out the profile, encourage reviews.
+          cn: DuckDuckGo Maps 用 Apple Maps 而非 Google Maps。通过 Apple Business Connect（businessconnect.apple.com）为 Apple Maps 优化——认领你的商家、填写资料、鼓励评论。
+        confidence: 8
+        reference:
+          - docs/5-duckduckgo.en.md
+
+      - id: indexnow-ddg
+        question:
+          en: Does IndexNow cover DuckDuckGo?
+          cn: IndexNow 覆盖 DuckDuckGo 吗？
+        answer:
+          en: Yes — indirectly via Bing. DDG web search runs on Bing's index; IndexNow submissions are picked up automatically.
+          cn: 是的 —— 经 Bing 间接。DDG 网页搜索跑在 Bing 索引上；IndexNow 提交自动被抓取。
+        confidence: 8
+        reference:
+          - docs/5-duckduckgo.en.md

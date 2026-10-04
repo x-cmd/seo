@@ -291,14 +291,15 @@ A 30-minute checklist to get a brand-new site indexed:
 
 ## What's next?
 
-- **2-google-seo** — Google-specific SEO + Search Console.
-- **3-bing-indexnow** — Bing + the IndexNow protocol.
-- **5-yahoo** — Yahoo Search.
-- **4-duckduckgo** — DuckDuckGo.
-- **6-yandex** — Yandex (Russian-language).
-- **7-baidu** — Baidu.
-- **8-shenma** — Shenma (mobile).
-- **9-sogou** — Sogou (Tencent / WeChat).
+- **2-da-dr** — DA / DR — Moz Domain Authority vs Ahrefs Domain Rating.
+- **3-google-seo** — Google-specific SEO + Search Console.
+- **4-bing-indexnow** — Bing + the IndexNow protocol.
+- **6-yahoo** — Yahoo Search.
+- **5-duckduckgo** — DuckDuckGo.
+- **7-yandex** — Yandex (Russian-language).
+- **8-baidu** — Baidu.
+- **9-shenma** — Shenma (mobile).
+- **10-sogou** — Sogou (Tencent / WeChat).
 
 ## Source & Official Resources
 

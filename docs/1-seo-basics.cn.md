@@ -263,14 +263,15 @@ Sitemap: https://example.com/sitemap.xml
 
 ## 下一步？
 
-- **2-google-seo** — 谷歌专属 SEO + Search Console。
-- **3-bing-indexnow** — Bing + IndexNow 协议。
-- **5-yahoo** — Yahoo Search。
-- **4-duckduckgo** — DuckDuckGo。
-- **6-yandex** — Yandex（俄语搜索）。
-- **7-baidu** — 百度。
-- **8-shenma** — 神马（移动端）。
-- **9-sogou** — 搜狗（腾讯 / 微信）。
+- **2-da-dr** — DA / DR — Moz 域名权重 vs Ahrefs 域名评分。
+- **3-google-seo** — 谷歌专属 SEO + Search Console。
+- **4-bing-indexnow** — Bing + IndexNow 协议。
+- **6-yahoo** — Yahoo Search。
+- **5-duckduckgo** — DuckDuckGo。
+- **7-yandex** — Yandex（俄语搜索）。
+- **8-baidu** — 百度。
+- **9-shenma** — 神马（移动端）。
+- **10-sogou** — 搜狗（腾讯 / 微信）。
 
 ## 源码与官方资源
 

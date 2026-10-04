@@ -1,0 +1,70 @@
+id: x-seo-7-yandex
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: what-is-yandex
+        question:
+          en: What is Yandex?
+          cn: 什么是 Yandex？
+        answer:
+          en: The dominant Russian-language search engine (~60% Russian share in 2026). Operates Yandex.Search, Yandex.Webmaster, Yandex.Metrica, Yandex.Direct, YandexGPT.
+          cn: 俄语搜索市场龙头（俄语搜索市占约 60%）。运营 Yandex.Search、Yandex.Webmaster、Yandex.Metrica、Yandex.Direct、YandexGPT。
+        confidence: 9
+        reference:
+          - docs/7-yandex.en.md
+          - docs/7-yandex.cn.md
+
+      - id: how-to-optimize-yandex
+        question:
+          en: How do I optimize for Yandex?
+          cn: 如何为 Yandex 优化？
+        answer:
+          en: Russian-language content for Russian audiences; verify site in Yandex.Webmaster and submit sitemap; install Yandex.Metrica on every page; build .ru / .рф backlinks; allow YandexBot in robots.txt.
+          cn: 为俄语受众提供俄语内容；在 Yandex.Webmaster 验证站点并提交 sitemap；所有页面安装 Yandex.Metrica；积累 .ru / .рф 反向链接；在 robots.txt 允许 YandexBot。
+        confidence: 8
+        reference:
+          - docs/7-yandex.en.md
+
+  - name:
+      en: tools
+      cn: 工具
+    qa:
+      - id: yandex-webmaster
+        question:
+          en: What is Yandex.Webmaster?
+          cn: 什么是 Yandex.Webmaster？
+        answer:
+          en: Yandex's free webmaster tool at webmaster.yandex.com — verify site ownership, submit sitemaps, monitor indexing, check mobile-friendliness, inspect crawl issues.
+          cn: Yandex 的免费站长工具——验证站点所有权、提交 sitemap、监控收录、检查移动友好性、查看抓取问题。
+        confidence: 9
+        reference:
+          - docs/7-yandex.en.md
+
+      - id: yandex-metrica
+        question:
+          en: What is Yandex.Metrica and why does it matter for SEO?
+          cn: 什么是 Yandex.Metrica？为什么它对 SEO 重要？
+        answer:
+          en: Yandex's free web analytics. Unlike Google Analytics, Yandex.Metrica data (bounce rate, time on site, page depth) can influence Yandex search ranking — behavioral signals feed back into the algorithm.
+          cn: Yandex 的免费网站分析。与 Google Analytics 不同，Yandex.Metrica 数据（跳出率、停留时间、浏览深度）会影响 Yandex 搜索排名——行为信号回流到算法。
+        confidence: 8
+        reference:
+          - docs/7-yandex.en.md
+
+  - name:
+      en: vs google
+      cn: vs google
+    qa:
+      - id: yandex-vs-google
+        question:
+          en: How is Yandex SEO different from Google SEO?
+          cn: Yandex SEO 与 Google SEO 有何不同？
+        answer:
+          en: Yandex weighs behavioral signals (Yandex.Metrica data) and geo-targeting (host IP + .ru / .рф TLD) more heavily; no ICP-style filing required; Russian-language NLP is much stronger on Yandex.
+          cn: Yandex 比 Google 更看重行为信号（Yandex.Metrica 数据）与地理位置（主机 IP + .ru / .рф TLD）；无需 ICP 类备案；Yandex 的俄语 NLP 显著更强。
+        confidence: 8
+        reference:
+          - docs/7-yandex.en.md

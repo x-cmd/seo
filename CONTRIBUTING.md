@@ -11,18 +11,19 @@ topic library.
 | Slot | Article | Add a new one? |
 | --- | --- | --- |
 | `1-seo-basics` | What is SEO + small-site indexing. | Refresh in place. |
-| `2-google-seo` | Google SEO + Search Console. | Refresh in place. |
-| `3-bing-indexnow` | Bing + IndexNow. | Refresh in place. |
-| `4-duckduckgo` | DuckDuckGo SEO. | Refresh in place. |
-| `5-yahoo` | Yahoo Search. | Refresh in place. |
-| `6-yandex` | Yandex SEO (Russian-language). | Refresh in place. |
-| `7-baidu` | Baidu SEO. | Refresh in place. |
-| `8-shenma` | Shenma SEO. | Refresh in place. |
-| `9-sogou` | Sogou SEO (Tencent / WeChat). | Refresh in place. |
+| `2-da-dr` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating. | Refresh in place. |
+| `3-google-seo` | Google SEO + Search Console. | Refresh in place. |
+| `4-bing-indexnow` | Bing + IndexNow. | Refresh in place. |
+| `5-duckduckgo` | DuckDuckGo SEO. | Refresh in place. |
+| `6-yahoo` | Yahoo Search. | Refresh in place. |
+| `7-yandex` | Yandex SEO (Russian-language). | Refresh in place. |
+| `8-baidu` | Baidu SEO. | Refresh in place. |
+| `9-shenma` | Shenma SEO. | Refresh in place. |
+| `10-sogou` | Sogou SEO (Tencent / WeChat). | Refresh in place. |
 
-Future slots (`10-…`, `11-…`, …) can introduce additional
-engines (Naver, Seznam, Brave Search, etc.) — open a PR with
-a new 4-tuple slot.
+Future slots (`11-…`, `12-…`, …) can introduce additional
+topics (Naver, Seznam, Brave Search, on-page SEO, technical
+SEO, etc.) — open a PR with a new 4-tuple slot.
 
 ## Per-slot file convention
 
@@ -61,7 +62,7 @@ x-json-ld:
 
 ```markdown
 ---
-name: 2-google-seo
+name: 3-google-seo
 description: Practical guide to ranking on Google in 2026 — E-E-A-T,
   Core Web Vitals, structured data, Search Console workflow.
 type: summary
@@ -88,7 +89,7 @@ highlights:
 ## `.faq.yml` format
 
 ```yaml
-id: x-seo-2-google-seo
+id: x-seo-3-google-seo
 
 data:
   - name:
@@ -104,8 +105,8 @@ data:
           cn: Google 提供的免费工具，展示 Google 如何看待你的网站——收录状态、搜索查询、sitemap、人工操作。
         confidence: 9
         reference:
-          - docs/2-google-seo.en.md
-          - docs/2-google-seo.cn.md
+          - docs/3-google-seo.en.md
+          - docs/3-google-seo.cn.md
 ```
 
 Each FAQ entry has:

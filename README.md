@@ -23,14 +23,15 @@ x-cmd/seo/
 ├── LICENSE                   # Apache-2.0
 └── docs/
     ├── 1-seo-basics.{en,cn,llms,faq}.md          # what is SEO + small-site indexing
-    ├── 2-google-seo.{en,cn,llms,faq}.md          # Google SEO + Search Console
-    ├── 3-bing-indexnow.{en,cn,llms,faq}.md       # Bing Webmaster Tools + IndexNow
-    ├── 4-duckduckgo.{en,cn,llms,faq}.md          # DuckDuckGo SEO
-    ├── 5-yahoo.{en,cn,llms,faq}.md               # Yahoo Search (independent)
-    ├── 6-yandex.{en,cn,llms,faq}.md              # Yandex SEO (Russian-language)
-    ├── 7-baidu.{en,cn,llms,faq}.md               # Baidu SEO
-    ├── 8-shenma.{en,cn,llms,faq}.md              # Shenma SEO (UC / mobile)
-    └── 9-sogou.{en,cn,llms,faq}.md               # Sogou SEO (Tencent / WeChat)
+    ├── 2-da-dr.{en,cn,llms,faq}.md               # DA / DR — Moz + Ahrefs link authority metrics
+    ├── 3-google-seo.{en,cn,llms,faq}.md          # Google SEO + Search Console
+    ├── 4-bing-indexnow.{en,cn,llms,faq}.md       # Bing Webmaster Tools + IndexNow
+    ├── 5-duckduckgo.{en,cn,llms,faq}.md          # DuckDuckGo SEO
+    ├── 6-yahoo.{en,cn,llms,faq}.md               # Yahoo Search (independent)
+    ├── 7-yandex.{en,cn,llms,faq}.md              # Yandex SEO (Russian-language)
+    ├── 8-baidu.{en,cn,llms,faq}.md               # Baidu SEO
+    ├── 9-shenma.{en,cn,llms,faq}.md              # Shenma SEO (UC / mobile)
+    └── 10-sogou.{en,cn,llms,faq}.md               # Sogou SEO (Tencent / WeChat)
 ```
 
 The leading integer is the reading order. Articles are kept in
@@ -42,14 +43,15 @@ sync across all four files per slot: `.en.md`, `.cn.md`,
 | Slot | Article | Purpose |
 | --- | --- | --- |
 | `1-seo-basics` | What is SEO + how small sites improve indexing | The first article — definitions, core concepts, sitemap / robots.txt / structured data / backlinks. |
-| `2-google-seo` | Google SEO + Search Console | The biggest search engine; how to optimize for it; how to use Google Search Console. |
-| `3-bing-indexnow` | Bing Webmaster Tools + IndexNow | Bing Webmaster Tools; the IndexNow protocol. |
-| `4-duckduckgo` | DuckDuckGo SEO | Privacy-focused; Bing-derived; smaller market share but growing. |
-| `5-yahoo` | Yahoo Search | Yahoo as a separate search engine (powered by Bing, but with its own products). |
-| `6-yandex` | Yandex SEO | The Russian-language search giant; Yandex.Webmaster + Yandex.Metrica ecosystem. |
-| `7-baidu` | Baidu SEO | The Chinese-language search giant; Baidu Search Resource Platform. |
-| `8-shenma` | Shenma SEO | The mobile-focused Chinese search engine by UC Browser. |
-| `9-sogou` | Sogou SEO | Tencent-backed Chinese search; deep WeChat / QQ ecosystem integration. |
+| `2-da-dr` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating | The two leading third-party link-authority metrics, why they don't agree, and the fastest no-login lookup. |
+| `3-google-seo` | Google SEO + Search Console | The biggest search engine; how to optimize for it; how to use Google Search Console. |
+| `4-bing-indexnow` | Bing Webmaster Tools + IndexNow | Bing Webmaster Tools; the IndexNow protocol. |
+| `5-duckduckgo` | DuckDuckGo SEO | Privacy-focused; Bing-derived; smaller market share but growing. |
+| `6-yahoo` | Yahoo Search | Yahoo as a separate search engine (powered by Bing, but with its own products). |
+| `7-yandex` | Yandex SEO | The Russian-language search giant; Yandex.Webmaster + Yandex.Metrica ecosystem. |
+| `8-baidu` | Baidu SEO | The Chinese-language search giant; Baidu Search Resource Platform. |
+| `9-shenma` | Shenma SEO | The mobile-focused Chinese search engine by UC Browser. |
+| `10-sogou` | Sogou SEO | Tencent-backed Chinese search; deep WeChat / QQ ecosystem integration. |
 
 ## Sister repos
 
