@@ -1,5 +1,5 @@
 ---
-name: 4-yahoo
+name: 5-yahoo
 description: Yahoo Search in 2026 — web results powered by Bing since 2009, but Yahoo runs its own crawlers (Yahoo! Slurp), own product ecosystem (Yahoo News, Finance, Mail), and historical ranking signals. How to optimize for Yahoo.
 type: summary
 ---

@@ -1,6 +1,6 @@
 ---
 name: seo
-description: SEO topic library — basics, Google / Bing / Yahoo / DuckDuckGo / Baidu / Shenma, and small-site indexing strategies. Use when the user asks about "SEO", "search engine optimization", "Google Search Console", "IndexNow", "Baidu SEO", "Shenma", or how to rank / get indexed.
+description: SEO topic library — basics, Google / Bing / DuckDuckGo / Yahoo / Yandex / Baidu / Shenma / Sogou, and small-site indexing strategies. Use when the user asks about "SEO", "search engine optimization", "Google Search Console", "IndexNow", "Baidu SEO", "Shenma", "Sogou", or how to rank / get indexed.
 metadata: type=topic-library, source=team-curated, schema=4-tuple-md, refresh=manual, license=apache-2.0, scope=seo
 ---
 
@@ -43,20 +43,24 @@ Each slot is four files, kept in sync:
 | `1-seo-basics` | What is SEO + small-site indexing. | Definitions + practical tips. |
 | `2-google-seo` | Google SEO + Search Console. | Google-specific. |
 | `3-bing-indexnow` | Bing + IndexNow protocol. | Bing-specific. |
-| `4-yahoo` | Yahoo Search (independent). | Yahoo-specific. |
-| `5-duckduckgo` | DuckDuckGo SEO. | DuckDuckGo-specific. |
-| `6-baidu` | Baidu SEO. | Baidu-specific (Chinese). |
-| `7-shenma` | Shenma SEO (mobile). | Shenma-specific (Chinese). |
+| `4-duckduckgo` | DuckDuckGo SEO. | DuckDuckGo-specific. |
+| `5-yahoo` | Yahoo Search (independent). | Yahoo-specific. |
+| `6-yandex` | Yandex SEO (Russian-language). | Yandex-specific (Russian). |
+| `7-baidu` | Baidu SEO. | Baidu-specific (Chinese). |
+| `8-shenma` | Shenma SEO (mobile). | Shenma-specific (Chinese). |
+| `9-sogou` | Sogou SEO (Tencent / WeChat). | Sogou-specific (Chinese). |
 
 ## Common agent queries
 
 ```sh
 # "How do I get my site indexed on Google?" — read 1-seo-basics, then 2-google-seo.
 # "How do I submit URLs to Bing fast?" — read 3-bing-indexnow.
-# "How do I optimize for Baidu?" — read 6-baidu.
-# "Why doesn't my site appear on DuckDuckGo?" — read 5-duckduckgo.
+# "How do I optimize for Baidu?" — read 7-baidu.
+# "Why doesn't my site appear on DuckDuckGo?" — read 4-duckduckgo.
 # "What's IndexNow?" — read 3-bing-indexnow.
 # "What does Search Console do?" — read 2-google-seo.
+# "How do I optimize for Yandex?" — read 6-yandex.
+# "How do I submit URLs to Sogou?" — read 9-sogou.
 ```
 
 When a question requires per-engine guidance, **always cross-

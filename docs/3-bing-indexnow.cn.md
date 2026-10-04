@@ -225,10 +225,12 @@ Bing 可以处罚你的站：
 
 ## 下一步？
 
-- **4-yahoo** — Yahoo Search（由 Bing 提供）。
-- **5-duckduckgo** — DuckDuckGo（由 Bing + 其他来源提供）。
-- **6-baidu** — 百度（中文）。
-- **7-shenma** — 神马（移动端，中文）。
+- **5-yahoo** — Yahoo Search（由 Bing 提供）。
+- **4-duckduckgo** — DuckDuckGo（由 Bing + 其他来源提供）。
+- **6-yandex** — Yandex（俄语搜索）。
+- **7-baidu** — 百度（中文）。
+- **8-shenma** — 神马（移动端，中文）。
+- **9-sogou** — 搜狗（腾讯 / 微信）。
 
 ## 源码与官方资源
 

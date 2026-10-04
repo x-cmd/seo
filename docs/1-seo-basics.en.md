@@ -293,10 +293,12 @@ A 30-minute checklist to get a brand-new site indexed:
 
 - **2-google-seo** — Google-specific SEO + Search Console.
 - **3-bing-indexnow** — Bing + the IndexNow protocol.
-- **4-yahoo** — Yahoo Search.
-- **5-duckduckgo** — DuckDuckGo.
-- **6-baidu** — Baidu.
-- **7-shenma** — Shenma (mobile).
+- **5-yahoo** — Yahoo Search.
+- **4-duckduckgo** — DuckDuckGo.
+- **6-yandex** — Yandex (Russian-language).
+- **7-baidu** — Baidu.
+- **8-shenma** — Shenma (mobile).
+- **9-sogou** — Sogou (Tencent / WeChat).
 
 ## Source & Official Resources
 

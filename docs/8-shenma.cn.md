@@ -213,9 +213,11 @@ x-json-ld:
 - **1-seo-basics** — SEO 基础。
 - **2-google-seo** — 谷歌 SEO + Search Console。
 - **3-bing-indexnow** — Bing + IndexNow。
-- **4-yahoo** — Yahoo Search。
-- **5-duckduckgo** — DuckDuckGo。
-- **6-baidu** — 百度。
+- **5-yahoo** — Yahoo Search。
+- **4-duckduckgo** — DuckDuckGo。
+- **6-yandex** — Yandex（俄语搜索）。
+- **7-baidu** — 百度。
+- **9-sogou** — 搜狗（腾讯 / 微信）。
 
 ## 源码与官方资源
 

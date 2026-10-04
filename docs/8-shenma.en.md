@@ -253,9 +253,11 @@ A 1-hour checklist:
 - **1-seo-basics** — SEO fundamentals.
 - **2-google-seo** — Google SEO + Search Console.
 - **3-bing-indexnow** — Bing + IndexNow.
-- **4-yahoo** — Yahoo Search.
-- **5-duckduckgo** — DuckDuckGo.
-- **6-baidu** — Baidu.
+- **5-yahoo** — Yahoo Search.
+- **4-duckduckgo** — DuckDuckGo.
+- **6-yandex** — Yandex (Russian-language).
+- **7-baidu** — Baidu.
+- **9-sogou** — Sogou (Tencent / WeChat).
 
 ## Source & Official Resources
 

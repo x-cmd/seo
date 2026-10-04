@@ -213,9 +213,11 @@ via Yahoo News Publisher.
 
 ## What's next?
 
-- **5-duckduckgo** — DuckDuckGo SEO.
-- **6-baidu** — Baidu SEO (Chinese-language).
-- **7-shenma** — Shenma SEO (mobile, Chinese).
+- **4-duckduckgo** — DuckDuckGo SEO.
+- **6-yandex** — Yandex (Russian-language).
+- **7-baidu** — Baidu SEO (Chinese-language).
+- **8-shenma** — Shenma SEO (mobile, Chinese).
+- **9-sogou** — Sogou (Tencent / WeChat).
 
 ## Source & Official Resources
 

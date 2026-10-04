@@ -13,14 +13,16 @@ topic library.
 | `1-seo-basics` | What is SEO + small-site indexing. | Refresh in place. |
 | `2-google-seo` | Google SEO + Search Console. | Refresh in place. |
 | `3-bing-indexnow` | Bing + IndexNow. | Refresh in place. |
-| `4-yahoo` | Yahoo Search. | Refresh in place. |
-| `5-duckduckgo` | DuckDuckGo SEO. | Refresh in place. |
-| `6-baidu` | Baidu SEO. | Refresh in place. |
-| `7-shenma` | Shenma SEO. | Refresh in place. |
+| `4-duckduckgo` | DuckDuckGo SEO. | Refresh in place. |
+| `5-yahoo` | Yahoo Search. | Refresh in place. |
+| `6-yandex` | Yandex SEO (Russian-language). | Refresh in place. |
+| `7-baidu` | Baidu SEO. | Refresh in place. |
+| `8-shenma` | Shenma SEO. | Refresh in place. |
+| `9-sogou` | Sogou SEO (Tencent / WeChat). | Refresh in place. |
 
-Future slots (`8-…`, `9-…`, …) can introduce additional engines
-(Yandex, Naver, Sogou, etc.) — open a PR with a new 4-tuple
-slot.
+Future slots (`10-…`, `11-…`, …) can introduce additional
+engines (Naver, Seznam, Brave Search, etc.) — open a PR with
+a new 4-tuple slot.
 
 ## Per-slot file convention
 

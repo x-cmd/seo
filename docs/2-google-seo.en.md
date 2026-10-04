@@ -273,10 +273,12 @@ A 1-hour checklist for a small site:
 
 - **3-bing-indexnow** — Bing Webmaster Tools + the
   IndexNow protocol.
-- **4-yahoo** — Yahoo Search.
-- **5-duckduckgo** — DuckDuckGo SEO.
-- **6-baidu** — Baidu SEO.
-- **7-shenma** — Shenma (mobile).
+- **5-yahoo** — Yahoo Search.
+- **4-duckduckgo** — DuckDuckGo SEO.
+- **6-yandex** — Yandex (Russian-language).
+- **7-baidu** — Baidu SEO.
+- **8-shenma** — Shenma (mobile).
+- **9-sogou** — Sogou (Tencent / WeChat).
 
 ## Source & Official Resources
 

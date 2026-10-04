@@ -1,4 +1,4 @@
-id: x-seo-5-duckduckgo
+id: x-seo-4-duckduckgo
 
 data:
   - name:
@@ -14,8 +14,8 @@ data:
           cn: 2008 年由 Gabriel Weinberg 创立的注重隐私的搜索引擎。2026 年全球搜索市场约 0.7%。主要由 Bing 索引支撑；为部分垂类运行自己的 DuckDuckBot 爬虫；提供 DuckAssist + AI Chat。
         confidence: 9
         reference:
-          - docs/5-duckduckgo.en.md
-          - docs/5-duckduckgo.cn.md
+          - docs/4-duckduckgo.en.md
+          - docs/4-duckduckgo.cn.md
 
       - id: how-to-optimize
         question:
@@ -26,7 +26,7 @@ data:
           cn: 95% 是 Bing 优化。DDG 专属 5%：Wikipedia 存在带来即时答案、注重隐私的内容、为本地 SEO 优化 Apple Maps、允许 DuckDuckBot 在 robots.txt。
         confidence: 8
         reference:
-          - docs/5-duckduckgo.en.md
+          - docs/4-duckduckgo.en.md
 
   - name:
       en: privacy
@@ -41,7 +41,7 @@ data:
           cn: 没有 referer 头泄漏（点击不携带搜索词）；不存储搜索历史；没有 cookie；不记录 IP；没有个性化 / 过滤气泡。
         confidence: 9
         reference:
-          - docs/5-duckduckgo.en.md
+          - docs/4-duckduckgo.en.md
 
       - id: track-ddg-traffic
         question:
@@ -52,7 +52,7 @@ data:
           cn: 难 —— 没有 referer 关键词，没有 UA 片段。按 source/medium 分析、服务器日志匹配已知 DDG 爬虫 IP、用户调查来估计。实际 DDG 流量小但质量高。
         confidence: 8
         reference:
-          - docs/5-duckduckgo.en.md
+          - docs/4-duckduckgo.en.md
 
   - name:
       en: technical
@@ -67,7 +67,7 @@ data:
           cn: DuckDuckGo 的网页爬虫。主要用于 Wikipedia 更新、开源数据源（OpenStreetMap、Wikidata）和链接验证。大多数 DDG 网页结果来自 Bingbot 而非 DuckDuckBot。
         confidence: 9
         reference:
-          - docs/5-duckduckgo.en.md
+          - docs/4-duckduckgo.en.md
 
       - id: ddg-maps
         question:
@@ -78,7 +78,7 @@ data:
           cn: DuckDuckGo Maps 用 Apple Maps 而非 Google Maps。通过 Apple Business Connect（businessconnect.apple.com）为 Apple Maps 优化——认领你的商家、填写资料、鼓励评论。
         confidence: 8
         reference:
-          - docs/5-duckduckgo.en.md
+          - docs/4-duckduckgo.en.md
 
       - id: indexnow-ddg
         question:
@@ -89,4 +89,4 @@ data:
           cn: 是的 —— 经 Bing 间接。DDG 网页搜索跑在 Bing 索引上；IndexNow 提交自动被抓取。
         confidence: 8
         reference:
-          - docs/5-duckduckgo.en.md
+          - docs/4-duckduckgo.en.md

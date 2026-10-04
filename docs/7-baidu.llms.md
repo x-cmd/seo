@@ -1,5 +1,5 @@
 ---
-name: 6-baidu
+name: 7-baidu
 description: Baidu SEO in 2026 — dominant Chinese-language search (~75% Chinese share). ICP filing required for mainland-China sites. Baidu Search Resource Platform (ziyuan.baidu.com) for sitemap + URL submission. Distinct ranking factors (title/meta keywords weighted, domain age matters more, Tieba/Baike/Zhidao integration).
 type: summary
 ---

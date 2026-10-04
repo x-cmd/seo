@@ -252,7 +252,8 @@ curl -X POST "https://ziyuan.baidu.com/linksubmit/jsonandsubmit" \
 
 ## 下一步？
 
-- **7-shenma** — 神马 SEO（移动端，中文）。
+- **8-shenma** — 神马 SEO（移动端，中文）。
+- **9-sogou** — 搜狗（腾讯 / 微信）。
 
 ## 源码与官方资源
 

@@ -1,5 +1,5 @@
 ---
-name: 5-duckduckgo
+name: 4-duckduckgo
 description: DuckDuckGo SEO in 2026 — privacy-first search engine, ~0.7% global share. Mostly Bing-backed; DuckDuckBot for select verticals; DuckAssist + AI Chat. No own webmaster tool — use Bing Webmaster Tools.
 type: summary
 ---

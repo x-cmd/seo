@@ -238,8 +238,11 @@ indirectly helps.
 
 ## What's next?
 
-- **6-baidu** — Baidu SEO (Chinese-language).
-- **7-shenma** — Shenma SEO (mobile, Chinese).
+- **5-yahoo** — Yahoo Search.
+- **6-yandex** — Yandex (Russian-language).
+- **7-baidu** — Baidu SEO (Chinese-language).
+- **8-shenma** — Shenma SEO (mobile, Chinese).
+- **9-sogou** — Sogou (Tencent / WeChat).
 
 ## Source & Official Resources
 

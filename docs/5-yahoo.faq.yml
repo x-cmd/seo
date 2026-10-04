@@ -1,4 +1,4 @@
-id: x-seo-4-yahoo
+id: x-seo-5-yahoo
 
 data:
   - name:
@@ -14,8 +14,8 @@ data:
           cn: 是的 —— 自 2009 年起（2015 年延期），Yahoo 网页搜索用 Bing 的索引。Yahoo 跑自己的爬虫（Yahoo! Slurp）但索引是 Bing 的。
         confidence: 9
         reference:
-          - docs/4-yahoo.en.md
-          - docs/4-yahoo.cn.md
+          - docs/5-yahoo.en.md
+          - docs/5-yahoo.cn.md
 
       - id: optimize-yahoo
         question:
@@ -26,7 +26,7 @@ data:
           cn: 90% 是 Bing 优化（见 3-bing-indexnow）。Yahoo 专属 10%：域名年龄、.com/.net 顶级域名、标题/URL 精确匹配关键词、在 Yahoo News / Yahoo Finance 中被引用。
         confidence: 8
         reference:
-          - docs/4-yahoo.en.md
+          - docs/5-yahoo.en.md
 
       - id: yahoo-news-seo
         question:
@@ -37,7 +37,7 @@ data:
           cn: 通过 Yahoo News Publisher（partner.yahoo.com）提交。Yahoo News 偏好原创来源、作者署名、时效性与品牌权威，而非聚合。
         confidence: 8
         reference:
-          - docs/4-yahoo.en.md
+          - docs/5-yahoo.en.md
 
   - name:
       en: crawlers
@@ -52,7 +52,7 @@ data:
           cn: Yahoo 的网页爬虫。与 Bingbot 并行跑。用户代理：Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)。在 robots.txt 允许——不要屏蔽。
         confidence: 9
         reference:
-          - docs/4-yahoo.en.md
+          - docs/5-yahoo.en.md
 
       - id: slurp-robots-txt
         question:
@@ -63,7 +63,7 @@ data:
           cn: 不 —— Yahoo 部分爬取独立于 Bingbot 跑 Yahoo! Slurp。屏蔽会让 Yahoo 漏掉你的页面。在 robots.txt 加 `User-agent: Yahoo! Slurp` / `Allow: /`。
         confidence: 8
         reference:
-          - docs/4-yahoo.en.md
+          - docs/5-yahoo.en.md
 
   - name:
       en: products
@@ -78,7 +78,7 @@ data:
           cn: Yahoo Finance 是有自己数据 + 排名的独立产品。覆盖聚焦股票代码、原创财务分析、通过 Yahoo Finance 批准 PR 渠道分发的新闻稿。
         confidence: 8
         reference:
-          - docs/4-yahoo.en.md
+          - docs/5-yahoo.en.md
 
       - id: yahoo-answers
         question:
@@ -89,7 +89,7 @@ data:
           cn: Yahoo Answers 于 2021 年关闭（只读归档保留）。URL 仍为一些旧查询排名，但平台不再活跃。
         confidence: 9
         reference:
-          - docs/4-yahoo.en.md
+          - docs/5-yahoo.en.md
 
   - name:
       en: tools
@@ -104,7 +104,7 @@ data:
           cn: 没有 —— Yahoo Site Explorer 于 2011 年随 Bing 协议停止运营。Yahoo 网页搜索（也就是 Bing）用 Bing Webmaster Tools。
         confidence: 9
         reference:
-          - docs/4-yahoo.en.md
+          - docs/5-yahoo.en.md
 
       - id: indexnow-yahoo
         question:
@@ -115,4 +115,4 @@ data:
           cn: 是的 —— Yahoo 网页搜索跑在 Bing 索引上。IndexNow 提交自动被 Yahoo 抓取。Yahoo News / Finance 通过 Yahoo 自有 Publisher 入口提交。
         confidence: 8
         reference:
-          - docs/4-yahoo.en.md
+          - docs/5-yahoo.en.md

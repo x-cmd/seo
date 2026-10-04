@@ -1,5 +1,5 @@
 ---
-name: 7-shenma
+name: 8-shenma
 description: Shenma SEO in 2026 — UC Browser / Alibaba's mobile-focused Chinese search engine. Aggregated index (Google, Bing, partner APIs); mobile-only; Alibaba ecosystem integration. No own webmaster tool — use Google Search Console + Baidu Search Resource Platform.
 type: summary
 ---

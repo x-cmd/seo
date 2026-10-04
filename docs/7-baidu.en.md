@@ -304,7 +304,8 @@ A 1-hour checklist for Chinese-market sites:
 
 ## What's next?
 
-- **7-shenma** — Shenma SEO (mobile, Chinese).
+- **8-shenma** — Shenma SEO (mobile, Chinese).
+- **9-sogou** — Sogou (Tencent / WeChat).
 
 ## Source & Official Resources
 

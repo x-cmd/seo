@@ -203,8 +203,11 @@ DuckDuckGo 大部分网页结果来自 Bingbot 的爬取，不是 DuckDuckBot。
 
 ## 下一步？
 
-- **6-baidu** — 百度 SEO（中文）。
-- **7-shenma** — 神马 SEO（移动端，中文）。
+- **5-yahoo** — Yahoo Search。
+- **6-yandex** — Yandex（俄语搜索）。
+- **7-baidu** — 百度 SEO（中文）。
+- **8-shenma** — 神马 SEO（移动端，中文）。
+- **9-sogou** — 搜狗（腾讯 / 微信）。
 
 ## 源码与官方资源
 

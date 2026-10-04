@@ -250,11 +250,13 @@ A 30-minute checklist:
 
 ## What's next?
 
-- **4-yahoo** — Yahoo Search (powered by Bing).
-- **5-duckduckgo** — DuckDuckGo (powered by Bing + other
+- **5-yahoo** — Yahoo Search (powered by Bing).
+- **4-duckduckgo** — DuckDuckGo (powered by Bing + other
   sources).
-- **6-baidu** — Baidu (Chinese-language).
-- **7-shenma** — Shenma (mobile, Chinese).
+- **6-yandex** — Yandex (Russian-language).
+- **7-baidu** — Baidu (Chinese-language).
+- **8-shenma** — Shenma (mobile, Chinese).
+- **9-sogou** — Sogou (Tencent / WeChat).
 
 ## Source & Official Resources
 
