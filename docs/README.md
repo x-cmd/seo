@@ -1,0 +1,87 @@
+# seo — docs
+
+Search engine optimization, one engine and one market at a time.
+Published at <https://x-cmd.com/seo>.
+
+The library is grouped into four chapters. Chapter 1 is the shared
+vocabulary, chapter 2 the engines that compete worldwide, chapter 3 the
+Chinese-language engines, and chapter 4 the markets where the local
+engine beats the global one.
+
+Every article below exists in English (`en.md`) and Chinese (`cn.md`),
+and carries its own `llms.md` summary and `faq.yml` — the questions
+that page answers, in both languages.
+
+## 1 · Fundamentals
+
+| page | what it covers |
+|---|---|
+| [SEO Basics](1-fundamentals/seo-basics/en.md) | what SEO is, the crawl → index → rank pipeline, and how a small site gets indexed |
+| [DA / DR](1-fundamentals/da/en.md) | Moz Domain Authority vs Ahrefs Domain Rating — where the numbers come from, why they disagree |
+
+## 2 · Global engines
+
+| page | engine | good for |
+|---|---|---|
+| [Google SEO](2-global-engines/google-seo/en.md) | Google | the engine that matters most, plus Search Console |
+| [Bing + IndexNow](2-global-engines/bing-indexnow/en.md) | Bing | Webmaster Tools and the instant-submission protocol |
+| [DuckDuckGo](2-global-engines/duckduckgo/en.md) | DuckDuckGo | privacy search, and the fact that it runs on other people's index |
+| [Yahoo Search](2-global-engines/yahoo/en.md) | Yahoo | a separate product on top of Bing's index |
+| [Yandex](2-global-engines/yandex/en.md) | Yandex | the Russian-language search giant |
+
+## 3 · Chinese engines
+
+| page | engine | good for |
+|---|---|---|
+| [Baidu](3-china-engines/baidu/en.md) | 百度 | the Chinese-language search giant, ICP 备案, 搜索资源平台 |
+| [Shenma](3-china-engines/shenma/en.md) | 神马 | the mobile-first engine behind UC Browser |
+| [Sogou](3-china-engines/sogou/en.md) | 搜狗 | Tencent's engine, and the WeChat / QQ ecosystem |
+
+## 4 · Regional markets
+
+Where the default engine is not Google. Each page covers one market:
+who the local engines are, how big they actually are, how that market
+searches, and what an optimizer has to do differently there.
+
+| page | market | the local angle |
+|---|---|---|
+| [Regional search engines](4-regional-markets/overview/en.md) | overview | three shapes of local engine, and how to pick what to optimize for |
+| [Korea](4-regional-markets/korea/en.md) | 韩国 | Naver's vertical search, and Daum inside KakaoTalk |
+| [Japan](4-regional-markets/japan/en.md) | 日本 | Yahoo! JAPAN's own product on Google's index |
+| [Taiwan](4-regional-markets/taiwan/en.md) | 台湾 | Google's default and Yahoo! Taiwan's second place |
+| [Vietnam](4-regional-markets/vietnam/en.md) | 越南 | Cốc Cốc, an independent index built in Vietnam |
+| [Southeast Asia](4-regional-markets/southeast-asia/en.md) | 东南亚 | Android defaults and in-app search eating Google queries |
+| [Czech Republic](4-regional-markets/czech/en.md) | 捷克 | Seznam — a real independent index, not a wrapper |
+| [German-speaking Europe](4-regional-markets/german-speaking-europe/en.md) | 德语区 | Ecosia, MetaGer, Qwant, Startpage, and Google's slide |
+| [Russia](4-regional-markets/russia/en.md) | 俄罗斯 | Yandex's home turf after 2022 |
+| [India](4-regional-markets/india/en.md) | 印度 | Google's near-monopoly and the AI-search wobble |
+| [Brazil](4-regional-markets/brazil/en.md) | 巴西 | where Bing and Yahoo still out-weigh their global average |
+
+## Layout
+
+```
+docs/
+├── README.md              # this file
+├── _sidebar.yml           # chapter → page navigation
+├── 1-fundamentals/
+│   ├── seo-basics/        # cn.md, en.md, llms.md, faq.yml
+│   └── da/
+├── 2-global-engines/
+│   ├── google-seo/
+│   ├── bing-indexnow/
+│   ├── duckduckgo/
+│   ├── yahoo/
+│   └── yandex/
+├── 3-china-engines/
+│   ├── baidu/
+│   ├── shenma/
+│   └── sogou/
+└── 4-regional-markets/
+    ├── overview/
+    ├── korea/
+    └── ...
+```
+
+One article = one folder = one URL slug. The chapter directory above
+it is organization only — the folder name is what the site publishes as
+`x-cmd.com/seo/<slug>/`.

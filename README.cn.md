@@ -20,43 +20,93 @@ x-cmd/seo/
 ├── SKILL.md                  # AI agent 配方
 ├── LICENSE                   # Apache-2.0
 └── docs/
-    ├── 1-seo-basics.{en,cn,llms,faq}.md          # 什么是 SEO + 小站收录
-    ├── 2-da.{en,cn,llms,faq}.md               # DA / DR — Moz 域名权重 + Ahrefs 域名评分
-    ├── 3-google-seo.{en,cn,llms,faq}.md          # 谷歌 SEO + Search Console
-    ├── 4-bing-indexnow.{en,cn,llms,faq}.md       # Bing Webmaster Tools + IndexNow
-    ├── 5-duckduckgo.{en,cn,llms,faq}.md          # DuckDuckGo SEO
-    ├── 6-yahoo.{en,cn,llms,faq}.md               # Yahoo Search（独立）
-    ├── 7-yandex.{en,cn,llms,faq}.md              # Yandex SEO（俄语搜索）
-    ├── 8-baidu.{en,cn,llms,faq}.md               # 百度 SEO
-    ├── 9-shenma.{en,cn,llms,faq}.md              # 神马 SEO（移动端）
-    └── 10-sogou.{en,cn,llms,faq}.md               # 搜狗 SEO（腾讯 / 微信）
+    ├── README.md             # 分章节索引
+    ├── _sidebar.yml          # 章节 → 页面导航
+    ├── 1-fundamentals/       # 公共词汇
+    │   ├── seo-basics/       # 什么是 SEO + 小站收录
+    │   └── da/               # DA / DR — Moz 域名权重 + Ahrefs 域名评分
+    ├── 2-global-engines/     # 全球竞争的引擎
+    │   ├── google-seo/       # 谷歌 SEO + Search Console
+    │   ├── bing-indexnow/    # Bing Webmaster Tools + IndexNow
+    │   ├── duckduckgo/       # DuckDuckGo SEO
+    │   ├── yahoo/            # Yahoo Search（独立）
+    │   └── yandex/           # Yandex SEO（俄语搜索）
+    ├── 3-china-engines/      # 中文引擎
+    │   ├── baidu/            # 百度 SEO
+    │   ├── shenma/           # 神马 SEO（移动端）
+    │   └── sogou/            # 搜狗 SEO（腾讯 / 微信）
+    └── 4-regional-markets/   # 本地引擎赢过全球引擎的市场
+        ├── overview/         # 本地引擎有哪几种形态，该优化谁
+        ├── korea/            # Naver、Daum、Kakao
+        ├── japan/            # Yahoo! JAPAN、运营商引擎
+        ├── taiwan/           # Google + Yahoo 台湾
+        ├── vietnam/          # Cốc Cốc
+        ├── southeast-asia/   # 安卓默认位 + 应用内搜索
+        ├── czech/            # Seznam
+        ├── german-speaking-europe/  # Ecosia、MetaGer、Qwant、Startpage
+        ├── russia/           # Yandex 的主场
+        ├── india/            # 谷歌近乎垄断
+        └── brazil/           # Bing 与 Yahoo 份额高于全球均值
 ```
 
-文件名前缀的数字是阅读顺序。每个槽位的四个文件保持同步：
-`.en.md`、`.cn.md`、`.llms.md`、`.faq.yml`。
+文章按**章节**分组。章节目录只是内部组织层——叶子目录名才是 URL
+slug，发布为 `x-cmd.com/seo/<slug>/`。
 
-## 文章槽位
+每篇文章是四个同步的文件：`.en.md`、`.cn.md`、`.llms.md`、`.faq.yml`。
 
-| 槽位 | 文章 | 用途 |
-| --- | --- | --- |
-| `1-seo-basics` | 什么是 SEO + 小站收录 | 第一篇——定义、核心概念、sitemap / robots.txt / 结构化数据 / 反向链接。 |
-| `2-da` | DA / DR — Moz 域名权重 vs Ahrefs 域名评分 | 两个最常见的第三方链接权重指标；分数为何对不上；最快的无登录查询。 |
-| `3-google-seo` | 谷歌 SEO + Search Console | 最大的搜索引擎；如何优化；如何用 Search Console。 |
-| `4-bing-indexnow` | Bing Webmaster Tools + IndexNow | Bing 站长工具；IndexNow 协议。 |
-| `5-duckduckgo` | DuckDuckGo SEO | 注重隐私；Bing 衍生结果；市场份额较小但在增长。 |
-| `6-yahoo` | Yahoo Search | Yahoo 作为独立搜索引擎（由 Bing 驱动，但有自己的产品）。 |
-| `7-yandex` | Yandex SEO | 俄语搜索龙头；Yandex.Webmaster + Yandex.Metrica 生态。 |
-| `8-baidu` | 百度 SEO | 中文搜索巨头；百度搜索资源平台。 |
-| `9-shenma` | 神马 SEO | UC 浏览器背后的移动端中文搜索引擎。 |
-| `10-sogou` | 搜狗 SEO | 腾讯系中文搜索；与微信 / QQ 生态深度集成。 |
+## 章节
+
+### 1 · 基础
+
+| 文章 | 用途 |
+| --- | --- |
+| [`seo-basics`](./docs/1-fundamentals/seo-basics/en.md) | 什么是 SEO + 小站如何提高收录——定义、核心概念、sitemap / robots.txt / 结构化数据 / 反向链接。 |
+| [`da`](./docs/1-fundamentals/da/en.md) | DA / DR — Moz 域名权重 vs Ahrefs 域名评分——两个最常见的第三方链接权重指标；分数为何对不上；最快的无登录查询。 |
+
+### 2 · 全球引擎
+
+| 文章 | 用途 |
+| --- | --- |
+| [`google-seo`](./docs/2-global-engines/google-seo/en.md) | 谷歌 SEO + Search Console——最大的搜索引擎；如何优化；如何用 Search Console。 |
+| [`bing-indexnow`](./docs/2-global-engines/bing-indexnow/en.md) | Bing Webmaster Tools + IndexNow——即时提交协议。 |
+| [`duckduckgo`](./docs/2-global-engines/duckduckgo/en.md) | DuckDuckGo SEO——注重隐私；Bing 衍生结果；市场份额较小但在增长。 |
+| [`yahoo`](./docs/2-global-engines/yahoo/en.md) | Yahoo Search——Yahoo 作为独立搜索引擎（由 Bing 驱动，但有自己的产品）。 |
+| [`yandex`](./docs/2-global-engines/yandex/en.md) | Yandex SEO——俄语搜索龙头；Yandex.Webmaster + Yandex.Metrica 生态。 |
+
+### 3 · 中文引擎
+
+| 文章 | 用途 |
+| --- | --- |
+| [`baidu`](./docs/3-china-engines/baidu/en.md) | 百度 SEO——中文搜索巨头；百度搜索资源平台。 |
+| [`shenma`](./docs/3-china-engines/shenma/en.md) | 神马 SEO——UC 浏览器背后的移动端中文搜索引擎。 |
+| [`sogou`](./docs/3-china-engines/sogou/en.md) | 搜狗 SEO——腾讯系中文搜索；与微信 / QQ 生态深度集成。 |
+
+### 4 · 区域市场
+
+谷歌几乎处处是默认引擎，但不是处处都是。这一章覆盖那些本地引擎
+真能拿到份额的市场、当地人实际怎么搜、以及优化时需要改什么。
+
+| 文章 | 用途 |
+| --- | --- |
+| [`overview`](./docs/4-regional-markets/overview/en.md) | 本地引擎的三种形态——独立索引、授权套壳、元搜索——以及怎么决定值不值得投。 |
+| [`korea`](./docs/4-regional-markets/korea/en.md) | 韩国——Naver 的垂直搜索、KakaoTalk 里的 Daum，以及为什么韩语查询更像提问而非关键词。 |
+| [`japan`](./docs/4-regional-markets/japan/en.md) | 日本——Yahoo! JAPAN 跑在 Google 索引上的独立产品，以及运营商引擎。 |
+| [`taiwan`](./docs/4-regional-markets/taiwan/en.md) | 台湾——谷歌的默认位与 Yahoo 台湾长期的第二。 |
+| [`vietnam`](./docs/4-regional-markets/vietnam/en.md) | 越南——Cốc Cốc，一套在越南自建自营的独立索引。 |
+| [`southeast-asia`](./docs/4-regional-markets/southeast-asia/en.md) | 东南亚——安卓默认入口与应用内搜索正在从谷歌手里拿走查询。 |
+| [`czech`](./docs/4-regional-markets/czech/en.md) | 捷克——Seznam，真正的独立索引而非套壳，有自己的站长工具。 |
+| [`german-speaking-europe`](./docs/4-regional-markets/german-speaking-europe/en.md) | 德国、法国、荷兰——Ecosia、MetaGer、Qwant、Startpage，以及谷歌的下滑。 |
+| [`russia`](./docs/4-regional-markets/russia/en.md) | 俄罗斯——2022 年后 Yandex 的主场，以及国家背书的替代品。 |
+| [`india`](./docs/4-regional-markets/india/en.md) | 印度——谷歌近乎垄断，以及 AI 搜索带来的晃动。 |
+| [`brazil`](./docs/4-regional-markets/brazil/en.md) | 巴西——Bing 与 Yahoo 份额高于全球均值的地方。 |
 
 ## 姊妹仓库
 
 - [`x-cmd/cve`](https://github.com/x-cmd/cve) — 专题文库模式参考。
 - [`x-cmd/gpg`](https://github.com/x-cmd/gpg) — 专题文库模式参考。
-- [`x-cmd/terminal`](https://github.com/x-cmd/terminal) — 终端专题文库。
-- [`x-cmd/browser`](https://github.com/x-cmd/browser) — 浏览器专题文库。
-- [`x-cmd/ghclaw`](https://github.com/x-cmd/ghclaw) — GitHub 事件 claw 设计。
+- [`x-cmd/terminal](https://github.com/x-cmd/terminal) — 终端专题文库。
+- [`x-cmd/browser](https://github.com/x-cmd/browser) — 浏览器专题文库。
+- [`x-cmd/ghclaw](https://github.com/x-cmd/ghclaw) — GitHub 事件 claw 设计。
 
 ## 许可
 

@@ -1,0 +1,25 @@
+# 官网 seo 侧边栏配置
+#
+# 章节（chapter）是内部组织层，URL 只取叶子目录名：
+#   docs/1-fundamentals/seo-basics/ → x-cmd.com/seo/seo-basics/
+
+fundamentals:
+  <icon>: i-lucide:book-open
+  <text>:
+    en: Fundamentals
+    cn: 基础
+global-engines:
+  <icon>: i-lucide:globe
+  <text>:
+    en: Global engines
+    cn: 全球引擎
+china-engines:
+  <icon>: i-lucide:square-gantt-chart
+  <text>:
+    en: Chinese engines
+    cn: 中文引擎
+regional-markets:
+  <icon>: i-lucide:map
+  <text>:
+    en: Regional markets
+    cn: 区域市场

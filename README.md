@@ -22,44 +22,97 @@ x-cmd/seo/
 ├── SKILL.md                  # AI-agent recipe
 ├── LICENSE                   # Apache-2.0
 └── docs/
-    ├── 1-seo-basics.{en,cn,llms,faq}.md          # what is SEO + small-site indexing
-    ├── 2-da.{en,cn,llms,faq}.md               # DA / DR — Moz + Ahrefs link authority metrics
-    ├── 3-google-seo.{en,cn,llms,faq}.md          # Google SEO + Search Console
-    ├── 4-bing-indexnow.{en,cn,llms,faq}.md       # Bing Webmaster Tools + IndexNow
-    ├── 5-duckduckgo.{en,cn,llms,faq}.md          # DuckDuckGo SEO
-    ├── 6-yahoo.{en,cn,llms,faq}.md               # Yahoo Search (independent)
-    ├── 7-yandex.{en,cn,llms,faq}.md              # Yandex SEO (Russian-language)
-    ├── 8-baidu.{en,cn,llms,faq}.md               # Baidu SEO
-    ├── 9-shenma.{en,cn,llms,faq}.md              # Shenma SEO (UC / mobile)
-    └── 10-sogou.{en,cn,llms,faq}.md               # Sogou SEO (Tencent / WeChat)
+    ├── README.md             # chapter-by-chapter index
+    ├── _sidebar.yml          # chapter → page navigation
+    ├── 1-fundamentals/       # the shared vocabulary
+    │   ├── seo-basics/       # what is SEO + small-site indexing
+    │   └── da/               # DA / DR — Moz + Ahrefs link authority metrics
+    ├── 2-global-engines/     # the engines that compete everywhere
+    │   ├── google-seo/       # Google SEO + Search Console
+    │   ├── bing-indexnow/    # Bing Webmaster Tools + IndexNow
+    │   ├── duckduckgo/       # DuckDuckGo SEO
+    │   ├── yahoo/            # Yahoo Search (independent)
+    │   └── yandex/           # Yandex SEO (Russian-language)
+    ├── 3-china-engines/      # the Chinese-language engines
+    │   ├── baidu/            # Baidu SEO
+    │   ├── shenma/           # Shenma SEO (UC / mobile)
+    │   └── sogou/            # Sogou SEO (Tencent / WeChat)
+    └── 4-regional-markets/   # where the local engine beats the global one
+        ├── overview/         # how local engines differ, and what to optimize
+        ├── korea/            # Naver, Daum, Kakao
+        ├── japan/            # Yahoo! JAPAN, carrier engines
+        ├── taiwan/           # Google + Yahoo! Taiwan
+        ├── vietnam/          # Cốc Cốc
+        ├── southeast-asia/   # Android defaults + in-app search
+        ├── czech/            # Seznam
+        ├── german-speaking-europe/  # Ecosia, MetaGer, Qwant, Startpage
+        ├── russia/           # Yandex's home turf
+        ├── india/            # Google's near-monopoly
+        └── brazil/           # where Bing and Yahoo still over-index
 ```
 
-The leading integer is the reading order. Articles are kept in
-sync across all four files per slot: `.en.md`, `.cn.md`,
+Articles are grouped into **chapters**. The chapter directory is
+organization only — the leaf folder name is the URL slug, published
+as `x-cmd.com/seo/<slug>/`.
+
+Every article is four files kept in sync: `.en.md`, `.cn.md`,
 `.llms.md`, `.faq.yml`.
 
-## Article slots
+## Chapters
 
-| Slot | Article | Purpose |
-| --- | --- | --- |
-| `1-seo-basics` | What is SEO + how small sites improve indexing | The first article — definitions, core concepts, sitemap / robots.txt / structured data / backlinks. |
-| `2-da` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating | The two leading third-party link-authority metrics, why they don't agree, and the fastest no-login lookup. |
-| `3-google-seo` | Google SEO + Search Console | The biggest search engine; how to optimize for it; how to use Google Search Console. |
-| `4-bing-indexnow` | Bing Webmaster Tools + IndexNow | Bing Webmaster Tools; the IndexNow protocol. |
-| `5-duckduckgo` | DuckDuckGo SEO | Privacy-focused; Bing-derived; smaller market share but growing. |
-| `6-yahoo` | Yahoo Search | Yahoo as a separate search engine (powered by Bing, but with its own products). |
-| `7-yandex` | Yandex SEO | The Russian-language search giant; Yandex.Webmaster + Yandex.Metrica ecosystem. |
-| `8-baidu` | Baidu SEO | The Chinese-language search giant; Baidu Search Resource Platform. |
-| `9-shenma` | Shenma SEO | The mobile-focused Chinese search engine by UC Browser. |
-| `10-sogou` | Sogou SEO | Tencent-backed Chinese search; deep WeChat / QQ ecosystem integration. |
+### 1 · Fundamentals
+
+| Article | Purpose |
+| --- | --- |
+| [`seo-basics`](./docs/1-fundamentals/seo-basics/en.md) | What is SEO + how small sites improve indexing — definitions, core concepts, sitemap / robots.txt / structured data / backlinks. |
+| [`da`](./docs/1-fundamentals/da/en.md) | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating — the two leading third-party link-authority metrics, why they don't agree, and the fastest no-login lookup. |
+
+### 2 · Global engines
+
+| Article | Purpose |
+| --- | --- |
+| [`google-seo`](./docs/2-global-engines/google-seo/en.md) | Google SEO + Search Console — the biggest search engine; how to optimize for it; how to use Google Search Console. |
+| [`bing-indexnow`](./docs/2-global-engines/bing-indexnow/en.md) | Bing Webmaster Tools + IndexNow — the instant-submission protocol. |
+| [`duckduckgo`](./docs/2-global-engines/duckduckgo/en.md) | DuckDuckGo SEO — privacy-focused; Bing-derived; smaller market share but growing. |
+| [`yahoo`](./docs/2-global-engines/yahoo/en.md) | Yahoo Search — Yahoo as a separate search engine (powered by Bing, but with its own products). |
+| [`yandex`](./docs/2-global-engines/yandex/en.md) | Yandex SEO — the Russian-language search giant; Yandex.Webmaster + Yandex.Metrica ecosystem. |
+
+### 3 · Chinese engines
+
+| Article | Purpose |
+| --- | --- |
+| [`baidu`](./docs/3-china-engines/baidu/en.md) | Baidu SEO — the Chinese-language search giant; Baidu Search Resource Platform. |
+| [`shenma`](./docs/3-china-engines/shenma/en.md) | Shenma SEO — the mobile-focused Chinese search engine by UC Browser. |
+| [`sogou`](./docs/3-china-engines/sogou/en.md) | Sogou SEO — Tencent-backed Chinese search; deep WeChat / QQ ecosystem integration. |
+
+### 4 · Regional markets
+
+Google is the default almost everywhere. It is not the default
+everywhere. These pages cover the markets where a local engine takes
+a real share, how that market actually searches, and what an optimizer
+has to change.
+
+| Article | Purpose |
+| --- | --- |
+| [`overview`](./docs/4-regional-markets/overview/en.md) | The three shapes of local engine — independent index, licensed wrapper, meta-search — and how to decide what is worth optimizing. |
+| [`korea`](./docs/4-regional-markets/korea/en.md) | Korea — Naver's vertical search, Daum inside KakaoTalk, and why a Korean query is a question rather than a keyword. |
+| [`japan`](./docs/4-regional-markets/japan/en.md) | Japan — Yahoo! JAPAN as a distinct product on Google's index, plus the carrier engines. |
+| [`taiwan`](./docs/4-regional-markets/taiwan/en.md) | Taiwan — Google's default and Yahoo! Taiwan's persistent second place. |
+| [`vietnam`](./docs/4-regional-markets/vietnam/en.md) | Vietnam — Cốc Cốc, an independent index built and run in Vietnam. |
+| [`southeast-asia`](./docs/4-regional-markets/southeast-asia/en.md) | Southeast Asia — Android default placements and in-app search taking queries away from Google. |
+| [`czech`](./docs/4-regional-markets/czech/en.md) | Czech Republic — Seznam, a real independent index rather than a wrapper, with its own webmaster tools. |
+| [`german-speaking-europe`](./docs/4-regional-markets/german-speaking-europe/en.md) | Germany, France, the Netherlands — Ecosia, MetaGer, Qwant, Startpage, and Google's slide. |
+| [`russia`](./docs/4-regional-markets/russia/en.md) | Russia — Yandex's home turf after 2022, and the state-aligned alternatives. |
+| [`india`](./docs/4-regional-markets/india/en.md) | India — Google's near-monopoly, and the wobble AI search is putting in it. |
+| [`brazil`](./docs/4-regional-markets/brazil/en.md) | Brazil — where Bing and Yahoo still over-index against their global average. |
 
 ## Sister repos
 
 - [`x-cmd/cve`](https://github.com/x-cmd/cve) — topic library pattern reference.
 - [`x-cmd/gpg`](https://github.com/x-cmd/gpg) — topic library pattern reference.
-- [`x-cmd/terminal`](https://github.com/x-cmd/terminal) — terminal topic library.
-- [`x-cmd/browser`](https://github.com/x-cmd/browser) — browser topic library.
-- [`x-cmd/ghclaw`](https://github.com/x-cmd/ghclaw) — GitHub event claw design.
+- [`x-cmd/terminal](https://github.com/x-cmd/terminal) — terminal topic library.
+- [`x-cmd/browser](https://github.com/x-cmd/browser) — browser topic library.
+- [`x-cmd/ghclaw](https://github.com/x-cmd/ghclaw) — GitHub event claw design.
 
 ## License
 
