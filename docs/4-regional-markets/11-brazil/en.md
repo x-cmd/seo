@@ -47,7 +47,7 @@ Brazilian engine at all.
 
 [![Brazil — mobile vs desktop](https://x-cmd.com/draw?type=bar&unit=%25&title=Brazil%20-%20mobile%20vs%20desktop&labels=Google,Bing,Yahoo!&series=Desktop:82.3,13.5,3.7&series=Mobile:95.5,0.7,0.3)](https://x-cmd.com/draw/explore?type=bar&unit=%25&title=Brazil%20-%20mobile%20vs%20desktop&labels=Google,Bing,Yahoo!&series=Desktop:82.3,13.5,3.7&series=Mobile:95.5,0.7,0.3)
 
-On desktop, Bing averaged 13.5% in 2025 and ran between roughly 16%
+On desktop, Bing averaged 13.5% in 2025 and ran between roughly 13%
 and 19% across 2026 — well above the ~11% worldwide desktop average,
 though below Japan's and Germany's desktop figures. On mobile it is
 under 1%, as everywhere.

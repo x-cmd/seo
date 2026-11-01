@@ -1,6 +1,6 @@
 ---
 name: vietnam
-description: 'Search engines in Vietnam 2026 — Google 94.2%, Cốc Cốc 4.4% (rising to 5.6% by late 2025), Bing 0.7% (2025 referral averages). Cốc Cốc is one of the last national-scale independent indexes: own crawler (coccocbot), own browser (Chromium fork), own ranking signals for Vietnamese. Covers Vietnamese diacritics handling, ASCII URL conventions, and the robots.txt line that admits coccocbot.'
+description: 'Search engines in Vietnam 2026 — Google 94.2%, Cốc Cốc 4.4% (5.3-6.0% in late 2025), Bing 0.7% (2025 referral averages). Cốc Cốc is one of the last national-scale independent indexes: own crawler (coccocbot), own browser (Chromium fork), own ranking signals for Vietnamese. Covers Vietnamese diacritics handling, ASCII URL conventions, and the robots.txt line that admits coccocbot.'
 type: summary
 ---
 

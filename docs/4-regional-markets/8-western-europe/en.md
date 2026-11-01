@@ -26,7 +26,7 @@ say, what the privacy cluster means, and what (little) changes in your
 work because of it.
 
 > **TL;DR.** 2025 referrals — Germany: Google 86.6%, Bing 6.4%,
-> Yahoo! 1.6%, DuckDuckGo 1.1%–1.5%, Ecosia 1.1%. France: Google
+> Yahoo! 1.6%, DuckDuckGo 1.5%, Ecosia 1.1%. France: Google
 > 88.0%, Bing 5.4%, Ecosia 1.2%, Qwant 0.9%. Netherlands: Google
 > 88.5%, Bing 4.9%. On **desktop** Bing is far bigger — 15.8% in
 > Germany on the 2025 average, and between roughly 13% and 18% across

@@ -42,7 +42,7 @@ Google 92%。Bing 5.9%——几乎是它约 4% 的全球均值的一倍半。Yah
 
 [![巴西 —— 移动端 vs 桌面端](https://x-cmd.com/draw?type=bar&unit=%25&title=%E5%B7%B4%E8%A5%BF%20%20%E7%A7%BB%E5%8A%A8%E7%AB%AF%20vs%20%E6%A1%8C%E9%9D%A2%E7%AB%AF&labels=Google,Bing,Yahoo!&series=Desktop:82.3,13.5,3.7&series=Mobile:95.5,0.7,0.3)](https://x-cmd.com/draw/explore?type=bar&unit=%25&title=%E5%B7%B4%E8%A5%BF%20%20%E7%A7%BB%E5%8A%A8%E7%AB%AF%20vs%20%E6%A1%8C%E9%9D%A2%E7%AB%AF&labels=Google,Bing,Yahoo!&series=Desktop:82.3,13.5,3.7&series=Mobile:95.5,0.7,0.3)
 
-桌面端 Bing 在 2025 年平均 13.5%，2026 年在约 16%–19% 之间运行——明显高于
+桌面端 Bing 在 2025 年平均 13.5%，2026 年在约 13%–19% 之间运行——明显高于
 约 11% 的全球桌面均值，不过低于日本和德国的桌面数字。移动端和到处一样，
 不到 1%。
 

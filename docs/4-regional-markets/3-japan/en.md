@@ -121,8 +121,8 @@ The 2025 averages are the stable baseline, but the monthly series
 since then records something genuinely Japanese happening. Desktop
 Bing climbed from about 17% at the start of 2025 to a 19% year
 average, then accelerated: roughly 28% by December 2025, and between
-40% and 52% of Japanese desktop search across the first eight months
-of 2026, with Google's desktop share falling correspondingly from the
+roughly 38% and 52% of Japanese desktop search across the first eight
+months of 2026, with Google's desktop share falling correspondingly from the
 mid-70s toward the low 50s.
 
 Two observations say this is a real shift rather than a measurement

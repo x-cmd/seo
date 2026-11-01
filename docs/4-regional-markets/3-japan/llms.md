@@ -23,7 +23,8 @@ highlights:
   - 2025 mobile: Google 85.0%, Yahoo! JAPAN 12.2%, Bing 0.7%. 2025 desktop: Google 73.2%, Bing 19.0%, Yahoo! JAPAN 6.1%
   - Bing's Japanese share comes from Windows and Edge defaults, not user preference
   - Japan's mobile search share was a *setting* rather than a *choice* for years; the choice screen makes it contestable in principle
-  - StatCounter's series shows a sharp break in September 2026 that appears worldwide, not only in Japan — treat late-2026 month-to-month moves with care
+  - Real Japan-specific shift before the break: desktop Bing rose from ~17% (early 2025) to 40–52% across the first eight months of 2026 while worldwide desktop Bing FELL from ~12% to 9%
+  - StatCounter's series shows a sharp global panel break in September 2026 — the Sep/Oct readings (desktop Bing near 55%) are not comparable with earlier months
 
 # Use Cases
 

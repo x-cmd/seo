@@ -21,8 +21,9 @@ x-json-ld:
 **The short answer:** Google handles about 90% of worldwide
 searches, so "just do Google" is right more often than not. But in
 roughly one market in ten, a local engine takes a real share — in
-Korea and Russia it takes more than Google does — and the reasons why
-are worth understanding on their own terms. This page explains which
+Russia nearly three times Google's, and in Korea more searches than
+Google on the query-volume count — and the reasons are worth
+understanding on their own terms. This page explains which
 markets those are, how a local engine actually works, and how to read
 the share numbers that describe them.
 
