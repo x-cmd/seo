@@ -27,14 +27,21 @@ done
 
 ## Article schema (per slot)
 
-Each slot is four files, kept in sync:
+Each slot is five language files plus two language-neutral files,
+kept in sync (language set as x-cmd/dbnomics):
 
 | File | Shape | Purpose |
 | --- | --- | --- |
 | `<slug>/en.md` | Markdown with YAML frontmatter. | Canonical English article. |
 | `<slug>/cn.md` | Same, in Chinese. | Chinese translation. |
+| `<slug>/de.md` | Same, in German. | German translation. |
+| `<slug>/es.md` | Same, in Spanish. | Spanish translation. |
+| `<slug>/ja.md` | Same, in Japanese. | Japanese translation. |
 | `<slug>/llms.md` | YAML frontmatter + flat structured sections. | LLM-friendly summary. |
 | `<slug>/faq.yml` | Bilingual `question` + `answer`. | FAQ + JSON-LD. |
+
+Answer in the user's language; when fetching a page, prefer the
+matching language file and fall back to `en.md`.
 
 Articles live in **chapters**: `docs/<n>-<chapter>/<m>-<slug>/`. The
 chapter directory and the leaf's `<m>-` prefix are organization only —

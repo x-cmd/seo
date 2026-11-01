@@ -44,16 +44,22 @@ the chapter it belongs to.
 
 ## Per-slot file convention
 
-Every article slot is a **folder of four files, kept in sync**:
+Every article slot is a **folder kept in sync across five languages**
+(the set used by [x-cmd/dbnomics](https://github.com/x-cmd/dbnomics)):
 
 | File | Purpose | Required? |
 | --- | --- | --- |
 | `docs/<chapter>/<slug>/en.md` | Canonical English article. | ✅ |
 | `docs/<chapter>/<slug>/cn.md` | Chinese translation. | ✅ |
+| `docs/<chapter>/<slug>/de.md` | German translation. | ✅ |
+| `docs/<chapter>/<slug>/es.md` | Spanish translation. | ✅ |
+| `docs/<chapter>/<slug>/ja.md` | Japanese translation. | ✅ |
 | `docs/<chapter>/<slug>/llms.md` | LLM-friendly summary — YAML frontmatter + flat prose. | ✅ |
 | `docs/<chapter>/<slug>/faq.yml` | Structured Q&A used for FAQ + JSON-LD. | ✅ |
 
-If you change `en.md`, change `cn.md` in the same commit.
+If you change `en.md`, change every language file in the same commit.
+Slots not yet at five languages carry en+cn and are extended language
+by language — translate from `en.md`, never from another translation.
 
 ## English frontmatter
 
@@ -150,7 +156,7 @@ Each FAQ entry has:
 
 The site's build pipeline validates:
 
-1. Every `en.md` has a matching `cn.md`.
+1. Every `en.md` has a matching `cn.md`, `de.md`, `es.md` and `ja.md`.
 2. Every slot has an `llms.md` and a `faq.yml`.
 3. The `faq.yml` is valid YAML and `id`s are unique.
 
