@@ -26,7 +26,8 @@ x-cmd/seo/
     ├── _sidebar.yml          # chapter → page navigation
     ├── 1-fundamentals/       # the shared vocabulary
     │   ├── 1-seo-basics/     # what is SEO + small-site indexing
-    │   └── 2-da/             # DA / DR — Moz + Ahrefs link authority metrics
+    │   ├── 2-da/             # DA / DR — Moz + Ahrefs link authority metrics
+    │   └── 3-search-engines/ # every engine in one table
     ├── 2-global-engines/     # the engines that compete everywhere
     │   ├── 1-google-seo/     # Google SEO + Search Console
     │   ├── 2-bing-indexnow/  # Bing Webmaster Tools + IndexNow
@@ -67,6 +68,7 @@ Every article is four files kept in sync: `.en.md`, `.cn.md`,
 | --- | --- |
 | [`seo-basics`](./docs/1-fundamentals/1-seo-basics/en.md) | What is SEO + how small sites improve indexing — definitions, core concepts, sitemap / robots.txt / structured data / backlinks. |
 | [`da`](./docs/1-fundamentals/2-da/en.md) | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating — the two leading third-party link-authority metrics, why they don't agree, and the fastest no-login lookup. |
+| [`search-engines`](./docs/1-fundamentals/3-search-engines/en.md) | Search engines of the world in one table — index ownership, 2025 home share, user estimates, SEO relevance, and how to get indexed, each row linking to its article. |
 
 ### 2 · Global engines
 

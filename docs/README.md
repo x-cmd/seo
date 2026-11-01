@@ -18,6 +18,7 @@ that page answers, in both languages.
 |---|---|
 | [SEO Basics](1-fundamentals/1-seo-basics/en.md) | what SEO is, the crawl → index → rank pipeline, and how a small site gets indexed |
 | [DA / DR](1-fundamentals/2-da/en.md) | Moz Domain Authority vs Ahrefs Domain Rating — where the numbers come from, why they disagree |
+| [Search engines at a glance](1-fundamentals/3-search-engines/en.md) | every engine in one table — index, share, users, SEO relevance, how to get in |
 
 ## 2 · Global engines
 
@@ -65,7 +66,8 @@ docs/
 ├── _sidebar.yml           # chapter → page navigation
 ├── 1-fundamentals/
 │   ├── 1-seo-basics/      # cn.md, en.md, llms.md, faq.yml
-│   └── 2-da/
+│   ├── 2-da/
+│   └── 3-search-engines/
 ├── 2-global-engines/
 │   ├── 1-google-seo/
 │   ├── 2-bing-indexnow/

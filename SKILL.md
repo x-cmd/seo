@@ -47,6 +47,7 @@ the site strips both, so the URL slug is the name after the prefix
 | --- | --- | --- | --- |
 | `1-fundamentals` | `seo-basics` | What is SEO + small-site indexing. | Definitions + practical tips. |
 | `1-fundamentals` | `da` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating. | Cross-cutting — query tools + scoring caveats. |
+| `1-fundamentals` | `search-engines` | Search engines of the world in one table. | Cross-cutting — index ownership, share, users, submission routes. |
 | `2-global-engines` | `google-seo` | Google SEO + Search Console. | Google-specific. |
 | `2-global-engines` | `bing-indexnow` | Bing + IndexNow protocol. | Bing-specific. |
 | `2-global-engines` | `duckduckgo` | DuckDuckGo SEO. | DuckDuckGo-specific. |
@@ -79,6 +80,7 @@ the site strips both, so the URL slug is the name after the prefix
 # "What does Search Console do?" — read google-seo.
 # "How do I optimize for Yandex?" — read yandex.
 # "How do I submit URLs to Sogou?" — read sogou.
+# "Which search engines exist, and which have their own index?" — read search-engines.
 # "Which search engine matters in Korea?" — read korea.
 # "How do I reach Japanese users?" — read japan.
 # "Do I need to optimize for a local engine outside the US?" — read overview.

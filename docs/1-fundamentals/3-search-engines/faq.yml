@@ -1,0 +1,125 @@
+id: x-seo-search-engines
+
+data:
+  - name:
+      en: the table
+      cn: 这张表
+    qa:
+      - id: how-many-own-index-engines
+        question:
+          en: How many search engines actually have their own index?
+          cn: 世界上到底有几个引擎有自己的索引？
+        answer:
+          en: |
+            About seven at national scale or larger: Google, Bing, Yandex,
+            Baidu, Naver, Seznam and Cốc Cốc — plus Qwant's, which is real
+            but small. Every other search engine is a product built on one
+            of those indexes: DuckDuckGo, Yahoo! Search and Ecosia serve
+            Bing's; Yahoo! JAPAN, Yahoo! Taiwan and Startpage serve
+            Google's; MetaGer is a meta-search.
+
+            That is why submission routes repeat across the table — there
+            are only seven front doors.
+          cn: |
+            国家级及以上规模的大约七个：Google、Bing、Yandex、百度、Naver、
+            Seznam、Cốc Cốc——外加 Qwant 的（真实存在但规模小）。其余所有
+            搜索引擎都建在别人的索引上：DuckDuckGo、Yahoo! Search、Ecosia
+            用 Bing 的；Yahoo! JAPAN、Yahoo! 台湾、Startpage 用 Google 的；
+            MetaGer 是元搜索。
+
+            这就是表里「收录方式」不断重复的原因——前门一共只有七扇。
+        confidence: 9
+        reference:
+          - docs/1-fundamentals/3-search-engines/en.md
+          - docs/1-fundamentals/3-search-engines/cn.md
+
+      - id: why-no-webmaster-tool
+        question:
+          en: Why do some engines have a webmaster tool and others don't?
+          cn: 为什么有的引擎有站长工具、有的没有？
+        answer:
+          en: |
+            Because a webmaster tool only exists where there is an index to
+            submit to. Naver, Seznam, Yandex, Baidu and Bing each crawl and
+            rank their own index, so each runs a submission and diagnostics
+            tool. Engines without a tool — Yahoo! JAPAN, Yahoo! Taiwan,
+            Ecosia, Startpage, DuckDuckGo — are riding somebody else's
+            index, without exception.
+          cn: |
+            因为只有存在「可供提交的索引」，站长工具才有意义。Naver、
+            Seznam、Yandex、百度、Bing 各自爬、各排各的索引，所以各自有
+            提交与诊断工具。没有工具的引擎——Yahoo! JAPAN、Yahoo! 台湾、
+            Ecosia、Startpage、DuckDuckGo——无一例外都在骑别人家的索引。
+        confidence: 9
+        reference:
+          - docs/1-fundamentals/3-search-engines/en.md
+          - docs/1-fundamentals/3-search-engines/cn.md
+
+      - id: share-vs-users-column
+        question:
+          en: The Share and Users columns — are they comparable across rows?
+          cn: 份额列和用户列能横向比较吗？
+        answer:
+          en: |
+            No, and not meant to be. Share is the engine's slice of home-market
+            searches on StatCounter's 2025 outbound-referral averages — it
+            undercounts engines that answer queries on their own pages (Naver
+            reads 45.6% on referrals but 62.9% on Korean query volume). Users
+            come from mixed published sources — app MAU, site visits, daily
+            query estimates — so the column is order-of-magnitude context
+            only. Cells without a solid published figure say "—".
+          cn: |
+            不能，也不打算能比。份额是 StatCounter 2025 年外跳引荐口径下的
+            主场占比——它系统性低估在自己页面上就把答案给完的引擎（Naver
+            引荐口径 45.6%，查询量口径 62.9%）。用户数来自口径各异的公开
+            来源——App 月活、站点访问、每日查询估计——只能当数量级参考。
+            没有可靠公开数字的格子写「—」。
+        confidence: 9
+        reference:
+          - docs/1-fundamentals/3-search-engines/en.md
+          - docs/1-fundamentals/3-search-engines/cn.md
+
+      - id: coccoc-how-to-get-in
+        question:
+          en: How does a site get into Cốc Cốc if it has no webmaster portal?
+          cn: Cốc Cốc 没有提交门户，站点怎么进它的索引？
+        answer:
+          en: |
+            By being crawlable. Cốc Cốc discovers Vietnamese-language sites
+            with its own bot, coccocbot — allow it in robots.txt and the
+            crawler does the rest. There is no separate submission portal
+            comparable to Search Console, and none is needed.
+          cn: |
+            靠「可以被爬到」。Cốc Cốc 用自己的爬虫 coccocbot 发现越南语站点
+            ——在 robots.txt 里放行它，剩下的爬虫自己会做。没有类似
+            Search Console 的独立提交门户，也不需要。
+        confidence: 9
+        reference:
+          - docs/1-fundamentals/3-search-engines/en.md
+          - docs/4-regional-markets/5-vietnam/en.md
+
+      - id: non-engine-surfaces
+        question:
+          en: Why does the page list TikTok and WhatsApp if they aren't search engines?
+          cn: TikTok、WhatsApp 不是搜索引擎，为什么也上表？
+        answer:
+          en: |
+            Because a share table only counts searches that went through a
+            search engine, and in several markets a growing share of
+            looking-things-up never does. TikTok's search bar is where many
+            younger users start; Shopee, Lazada, Tokopedia and Mercado Livre
+            absorb product queries; KakaoTalk's `#` search answers inside
+            chat; WhatsApp Business is where Brazilian and Indian search
+            traffic converts. A map that omits them mislabels where the
+            queries went.
+          cn: |
+            因为份额表只数经过搜索引擎的搜索，而好几个市场里越来越大的
+            一块「查东西」根本不经过搜索引擎。TikTok 的搜索条是许多年轻
+            用户的起点；Shopee、Lazada、Tokopedia、Mercado Livre 接走商品
+            查询；KakaoTalk 的 `#` 在聊天里直接作答；WhatsApp Business 是
+            巴西和印度搜索流量转化的落点。少了它们，这张地图就标错了
+            查询的去向。
+        confidence: 8
+        reference:
+          - docs/1-fundamentals/3-search-engines/en.md
+          - docs/4-regional-markets/6-southeast-asia/en.md

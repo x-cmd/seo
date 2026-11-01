@@ -17,6 +17,7 @@ prefix, so the URL slug is the name after it (`2-korea/` →
 | --- | --- | --- | --- |
 | `1-fundamentals` | `seo-basics` | What is SEO + small-site indexing. | Refresh in place. |
 | `1-fundamentals` | `da` | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating. | Refresh in place. |
+| `1-fundamentals` | `search-engines` | Search engines of the world in one table. | Refresh in place — keep shares and user estimates current. |
 | `2-global-engines` | `google-seo` | Google SEO + Search Console. | Refresh in place. |
 | `2-global-engines` | `bing-indexnow` | Bing + IndexNow. | Refresh in place. |
 | `2-global-engines` | `duckduckgo` | DuckDuckGo SEO. | Refresh in place. |

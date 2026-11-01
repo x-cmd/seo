@@ -24,7 +24,8 @@ x-cmd/seo/
     ├── _sidebar.yml          # 章节 → 页面导航
     ├── 1-fundamentals/       # 公共词汇
     │   ├── 1-seo-basics/     # 什么是 SEO + 小站收录
-    │   └── 2-da/             # DA / DR — Moz 域名权重 + Ahrefs 域名评分
+    │   ├── 2-da/             # DA / DR — Moz 域名权重 + Ahrefs 域名评分
+    │   └── 3-search-engines/ # 所有引擎一张表
     ├── 2-global-engines/     # 全球竞争的引擎
     │   ├── 1-google-seo/     # 谷歌 SEO + Search Console
     │   ├── 2-bing-indexnow/  # Bing Webmaster Tools + IndexNow
@@ -63,6 +64,7 @@ x-cmd/seo/
 | --- | --- |
 | [`seo-basics`](./docs/1-fundamentals/1-seo-basics/en.md) | 什么是 SEO + 小站如何提高收录——定义、核心概念、sitemap / robots.txt / 结构化数据 / 反向链接。 |
 | [`da`](./docs/1-fundamentals/2-da/en.md) | DA / DR — Moz 域名权重 vs Ahrefs 域名评分——两个最常见的第三方链接权重指标；分数为何对不上；最快的无登录查询。 |
+| [`search-engines`](./docs/1-fundamentals/3-search-engines/en.md) | 世界搜索引擎一张表——索引归属、2025 主场份额、用户估计、SEO 价值与收录方式，每行链接到对应文章。 |
 
 ### 2 · 全球引擎
 
