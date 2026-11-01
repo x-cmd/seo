@@ -1,0 +1,108 @@
+id: x-seo-brazil
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: brazil-market-share
+        question:
+          en: What is Brazil's search engine market share?
+          cn: 巴西搜索引擎的市场份额是多少？
+        answer:
+          en: |
+            2025 full-year averages, all devices, from StatCounter: Google
+            92.0%, Bing 5.9%, Yahoo! 1.6%, Yandex 0.2%, DuckDuckGo 0.2%.
+            There is no Brazilian engine of any consequence.
+
+            The device split matters: desktop Bing averaged 13.5% in 2025
+            and climbed toward 16% through 2026 — the strongest showing in
+            any market covered in this chapter — while mobile Bing is
+            under 1%.
+          cn: |
+            2025 全年平均、全设备，来源 StatCounter：Google 92.0%、
+            Bing 5.9%、Yahoo! 1.6%、Yandex 0.2%、DuckDuckGo 0.2%。
+            没有任何有分量的巴西本地引擎。
+
+            设备拆分重要：桌面端 Bing 2025 年平均 13.5%，2026 年继续向
+            16% 爬——是本章所有市场里最强的表现；移动端则不到 1%。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/brazil/en.md
+          - docs/4-regional-markets/brazil/cn.md
+
+      - id: brazil-portuguese-not-spanish
+        question:
+          en: Can I use the same content for Brazil and the rest of Latin America?
+          cn: 巴西和拉美其他地方能用同一份内容吗？
+        answer:
+          en: |
+            No. Brazil is Portuguese and the rest of Latin America is
+            Spanish. And within Portuguese, write Brazilian Portuguese
+            (pt-BR) — it differs from European Portuguese in vocabulary,
+            spelling and idiom: celular not telemóvel, ônibus not
+            autocarro, trem not comboio.
+
+            If you serve Portugal too, use hreflang between pt-BR and
+            pt-PT. They are different markets with different vocabulary,
+            not two spellings of one page.
+          cn: |
+            不能。巴西说葡萄牙语，拉美其他地方说西班牙语。而且在
+            葡萄牙语内部，要写巴西葡萄牙语（pt-BR）——它在词汇、拼写和
+            习语上都不同于欧洲葡萄牙语：celular 而非 telemóvel、
+            ônibus 而非 autocarro、trem 而非 comboio。
+
+            如果也服务葡萄牙，pt-BR 与 pt-PT 之间用 hreflang。它们是
+            词汇不同的两个市场，不是一份页面的两种拼法。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/brazil/en.md
+          - docs/4-regional-markets/brazil/cn.md
+
+      - id: brazil-bing-desktop
+        question:
+          en: Is Bing worth optimizing for in Brazil?
+          cn: 在巴西值得做 Bing 吗？
+        answer:
+          en: |
+            Depends entirely on your device mix. Bing holds 13.5% of
+            Brazilian desktop search (2025 average, still climbing through
+            2026) but under 1% on mobile. A B2B or office-desktop audience
+            sees a real slice; a mobile consumer audience sees none.
+
+            Either way the cost is one Bing Webmaster Tools account plus
+            IndexNow — cheap enough to just do it.
+          cn: |
+            完全取决于设备结构。Bing 占巴西桌面搜索的 13.5%（2025 年
+            平均，2026 年仍在爬），但移动端不到 1%。B2B 或办公桌面受众
+            看得到实在的一块；移动消费受众看不到。
+
+            无论哪种，成本都只是一个 Bing 站长工具账号加 IndexNow——
+            便宜到直接做掉就行。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/brazil/en.md
+          - docs/4-regional-markets/brazil/cn.md
+
+      - id: brazil-whatsapp
+        question:
+          en: Why does WhatsApp matter for Brazilian SEO?
+          cn: 为什么 WhatsApp 对巴西 SEO 重要？
+        answer:
+          en: |
+            WhatsApp reaches over 90% of Brazilian internet users, so it
+            is the surface search traffic lands on rather than a search
+            engine itself. WhatsApp Business and click-to-chat links are
+            the conversion and support channel — put them where
+            appropriate in titles, descriptions and structured data on
+            commercial pages, and treat the click-to-chat as the call to
+            action that a phone number is elsewhere.
+          cn: |
+            WhatsApp 在巴西网民中渗透率超过 90%，所以它是搜索流水的
+            落点，而不是搜索引擎本身。WhatsApp Business 和点击即聊链接
+            是转化与客服渠道——在商业页面合适的位置放进标题、描述和
+            结构化数据，并把点击即聊当作别处电话号码那样的行动召唤。
+        confidence: 8
+        reference:
+          - docs/4-regional-markets/brazil/en.md
+          - docs/4-regional-markets/brazil/cn.md
