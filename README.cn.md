@@ -43,7 +43,7 @@ x-cmd/seo/
         ├── 5-vietnam/        # Cốc Cốc
         ├── 6-southeast-asia/ # 安卓默认位 + 应用内搜索
         ├── 7-czech/          # Seznam
-        ├── 8-german-speaking-europe/  # Ecosia、MetaGer、Qwant、Startpage
+        ├── 8-western-europe/  # Ecosia、MetaGer、Qwant、Startpage
         ├── 9-russia/         # Yandex 的主场
         ├── 10-india/         # 谷歌近乎垄断
         └── 11-brazil/        # Bing 与 Yahoo 份额高于全球均值
@@ -96,7 +96,7 @@ x-cmd/seo/
 | [`vietnam`](./docs/4-regional-markets/5-vietnam/en.md) | 越南——Cốc Cốc，一套在越南自建自营的独立索引。 |
 | [`southeast-asia`](./docs/4-regional-markets/6-southeast-asia/en.md) | 东南亚——安卓默认入口与应用内搜索正在从谷歌手里拿走查询。 |
 | [`czech`](./docs/4-regional-markets/7-czech/en.md) | 捷克——Seznam，真正的独立索引而非套壳，有自己的站长工具。 |
-| [`german-speaking-europe`](./docs/4-regional-markets/8-german-speaking-europe/en.md) | 德国、法国、荷兰——Ecosia、MetaGer、Qwant、Startpage，以及谷歌的下滑。 |
+| [`western-europe`](./docs/4-regional-markets/8-western-europe/en.md) | 德国、法国、荷兰——Ecosia、MetaGer、Qwant、Startpage，以及谷歌的下滑。 |
 | [`russia`](./docs/4-regional-markets/9-russia/en.md) | 俄罗斯——2022 年后 Yandex 的主场，以及国家背书的替代品。 |
 | [`india`](./docs/4-regional-markets/10-india/en.md) | 印度——谷歌近乎垄断，以及 AI 搜索带来的晃动。 |
 | [`brazil`](./docs/4-regional-markets/11-brazil/en.md) | 巴西——Bing 与 Yahoo 份额高于全球均值的地方。 |

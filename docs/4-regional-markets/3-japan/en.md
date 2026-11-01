@@ -29,7 +29,8 @@ phone is allowed to start with.
 > Yahoo! JAPAN runs on Google's index, so **you do not need a second
 > SEO strategy** — but its layout is different, so titles and click
 > -through rates are not. Bing's share is almost entirely desktop
-> (19.0% desktop vs 0.7% mobile). The
+> (19.0% desktop vs 0.7% mobile) — and during 2026 Japanese desktop
+> Bing rose dramatically, a shift covered below. The
 > [Mobile Software Competition Act](https://www.jftc.go.jp/en/pressreleases/yearly-2025/March/250331.html)
 > took force in December 2025 and now lets users pick a default search
 > engine on both iOS and Android — and the JFTC has already ordered
@@ -75,7 +76,7 @@ What Yahoo! JAPAN adds on top is substantial:
   Google's, so a page that ranks 4th on Google may not be in the same
   position on Yahoo! JAPAN.
 
-**The practical consequence is good news.** You do not need a Japanese
+**The practical consequence is simple.** You do not need a Japanese
 Yahoo! strategy. You need a Google strategy, done with Japanese
 keywords, and then you need to check how your pages look and click in
 Yahoo! JAPAN's layout. That is a title-tag and meta-description
@@ -111,9 +112,39 @@ Put the two runners-up side by side and you get a practical rule:
   Bing Webmaster Tools account, one sitemap, one
   [IndexNow](https://www.indexnow.org/) setup.
 
-So: for phone users, doing Google well gets you Yahoo! JAPAN thrown
-in for free; for office-PC users, spend the small extra effort to add
-Bing.
+In short: on phones, Google work already includes Yahoo! JAPAN; on
+office PCs, Bing is the one addition that needs making.
+
+## The 2026 shift — desktop Bing's real surge
+
+The 2025 averages are the stable baseline, but the monthly series
+since then records something genuinely Japanese happening. Desktop
+Bing climbed from about 17% at the start of 2025 to a 19% year
+average, then accelerated: roughly 28% by December 2025, and between
+40% and 52% of Japanese desktop search across the first eight months
+of 2026, with Google's desktop share falling correspondingly from the
+mid-70s toward the low 50s.
+
+Two observations say this is a real shift rather than a measurement
+artifact. It began in late 2025, months *before* StatCounter's global
+panel break of September 2026. And worldwide desktop Bing *fell* over
+the same period, from about 12% to 9% — if the Japanese movement were
+a tracking glitch, it would not be confined to one country while the
+world series moved the other way.
+
+What the data does not show is the cause. The mechanism available at
+this scale is the one that has always put Bing on desktops — Windows
+and Edge defaults — but why Japan, and why so fast, is not settled by
+the public numbers. The September and October 2026 readings (desktop
+Bing near 55%) fall inside the global panel break, so those two
+months should be read separately from everything above.
+
+For a site watching Japan, the 2026 all-device figures run closer to
+Google ~60% / Bing ~30% than the 2025 averages of 79.5 / 9.2. The
+practical conclusions barely move — Yahoo! JAPAN is still a wrapper on
+Google's index, and Bing is still one Webmaster Tools account — but
+the desktop slice Bing represents is now far larger than the 2025
+chart suggests.
 
 ## The December 2025 rule change
 
@@ -171,7 +202,7 @@ would become a market where a *foreign* engine with its *own* index
 held a double-digit share — a genuinely new competitive shape, and
 worth re-reading this page when it happens.
 
-## What to actually do
+## What this means in practice
 
 **If you are launching in Japan**, in order:
 
@@ -185,8 +216,8 @@ worth re-reading this page when it happens.
    [IndexNow](https://www.indexnow.org/) submission covers it.
 4. **Do not chase the carrier engines.** goo, BIGLOBE and OCN search
    no longer have their own index.
-5. **Get Japanese-language links.** For the local-language queries
-   that matter, a link from a Japanese site is worth more than the
+5. **Japanese-language links.** For the local-language queries that
+   matter, a link from a Japanese site counts for far more than the
    same link from abroad.
 6. **Watch the default-search rules.** If the choice screen starts
    moving volume away from Google, that changes the arithmetic for

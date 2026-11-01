@@ -32,7 +32,7 @@ prefix, so the URL slug is the name after it (`2-korea/` →
 | `4-regional-markets` | `vietnam` | Vietnam — Cốc Cốc. | Refresh in place. |
 | `4-regional-markets` | `southeast-asia` | Indonesia / Thailand / Philippines. | Refresh in place. |
 | `4-regional-markets` | `czech` | Czech Republic — Seznam. | Refresh in place. |
-| `4-regional-markets` | `german-speaking-europe` | Germany / France / Netherlands. | Refresh in place. |
+| `4-regional-markets` | `western-europe` | Germany / France / Netherlands. | Refresh in place. |
 | `4-regional-markets` | `russia` | Russia — Yandex's home turf. | Refresh in place. |
 | `4-regional-markets` | `india` | India — Google's near-monopoly. | Refresh in place. |
 | `4-regional-markets` | `brazil` | Brazil — Bing / Yahoo over-index. | Refresh in place. |

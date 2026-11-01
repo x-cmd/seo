@@ -25,7 +25,7 @@ Alongside Naver and Cốc Cốc, it is one of the very last national-scale
 independent indexes in the world, and the only one inside the EU.
 
 > **TL;DR.** 2025 referrals: Google 81.6%, Seznam 11.6%, Bing 4.1%.
-> Seznam is strongest on desktop (~14.6%) and tablets, weakest on
+> Seznam is strongest on desktop (~14.1%) and tablets, weakest on
 > mobile. It has its own crawler (SeznamBot), its own authority score
 > (**S-Rank**), its own webmaster tool, and it accepts
 > [IndexNow](https://www.indexnow.org/). Minimum viable Czech strategy:
@@ -122,7 +122,7 @@ in this chapter:
   are what actually rank. Content language and local backlinks are the
   signal, not the TLD.
 
-## What to actually do
+## What this means in practice
 
 1. **Google, in Czech.** Search Console, sitemap, structured data,
    mobile-first. This is the engine with four-fifths of the market.

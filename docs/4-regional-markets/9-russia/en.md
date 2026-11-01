@@ -90,7 +90,7 @@ useful than it should be.
 **Payments and ads.** International payment cards do not work normally
 in Russia, which makes buying Yandex Direct ads or paying for Yandex
 services from abroad difficult or impossible depending on your
-situation. Budget for this before committing to a campaign.
+situation. This needs to be resolved before a campaign is committed to.
 
 **Infrastructure and reachability.** Some hosting and CDN providers
 will not serve Russian traffic; some Russian networks have at times
@@ -106,7 +106,7 @@ a question for your legal team, not your SEO team.
 None of this changes the technical workflow below. All of it can change
 whether the market is worth entering at all.
 
-## What to actually do
+## What this means in practice
 
 1. **Yandex first, in Russian.** Verify the site in
    [Yandex.Webmaster](https://webmaster.yandex.com/), submit the

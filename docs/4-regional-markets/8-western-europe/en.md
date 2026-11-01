@@ -1,21 +1,21 @@
 ---
-x-title: Search Engines in German-Speaking Europe — Google, Bing and the Privacy Cluster
+x-title: Search Engines in Western Europe — Google, Bing and the Privacy Cluster
 x-desc: >-
   How search works in Germany, France and the Netherlands in 2026 — Google's
   hold, Bing's desktop strength, and the privacy-engine cluster (Ecosia,
   Startpage, Qwant, MetaGer) that is real but too small to optimize for.
-x-sidebar: Search engines in German-speaking Europe
+x-sidebar: Search engines in Western Europe
 x-keywords: germany search engine, ecosia, startpage, qwant, metager, bing germany, france search, netherlands search, privacy search
 x-json-ld:
   '@context': https://schema.org
   '@graph':
     - '@type': TechArticle
-      headline: 'Search engines in German-speaking Europe — Google, Bing and the privacy cluster'
+      headline: 'Search engines in Western Europe — Google, Bing and the privacy cluster'
       inLanguage: 'en'
       about: 'Search engine market share in Germany, France and the Netherlands'
 ---
 
-# Search Engines in German-Speaking Europe — Google, Bing and the Privacy Cluster
+# Search Engines in Western Europe — Google, Bing and the Privacy Cluster
 
 Germany, France and the Netherlands look like Google markets with a
 strong second player — but read the numbers before assuming the second
@@ -26,13 +26,12 @@ say, what the privacy cluster means, and what (little) changes in your
 work because of it.
 
 > **TL;DR.** 2025 referrals — Germany: Google 86.6%, Bing 6.4%,
-> Yahoo! 1.6%, DuckDuckGo 1.5%, Ecosia 1.1%. France: Google 88.0%,
-> Bing 5.4%, Ecosia 1.2%, Qwant 0.9%. Netherlands: Google 88.5%,
-> Bing 4.9%. On **desktop** Bing is far bigger — 15.8% in Germany
-> (19.7% by late 2026). The local privacy engines run on indexes you
+> Yahoo! 1.6%, DuckDuckGo 1.1%–1.5%, Ecosia 1.1%. France: Google
+> 88.0%, Bing 5.4%, Ecosia 1.2%, Qwant 0.9%. Netherlands: Google
+> 88.5%, Bing 4.9%. On **desktop** Bing is far bigger — 15.8% in
+> Germany on the 2025 average, and between roughly 13% and 18% across
+> 2026. The local privacy engines run on indexes that other engines
 > already cover: Ecosia uses Bing's, Startpage proxies Google's.
-> Conclusion: do Google and Bing in the local language; treat the
-> privacy cluster as a signal, not a target.
 
 ## What is the market actually like?
 
@@ -49,16 +48,23 @@ differences live in the tail, and the tail is where the story is.
 
 [![Germany — mobile vs desktop](https://x-cmd.com/draw?type=bar&unit=%25&title=Germany%20-%20mobile%20vs%20desktop&labels=Google,Bing,Yahoo!,DuckDuckGo,Ecosia&series=Mobile:93.4,0.8,0.3,1.1,1.1&series=Desktop:74.8,15.8,3.7,2.2,1.1)](https://x-cmd.com/draw/explore?type=bar&unit=%25&title=Germany%20-%20mobile%20vs%20desktop&labels=Google,Bing,Yahoo!,DuckDuckGo,Ecosia&series=Mobile:93.4,0.8,0.3,1.1,1.1&series=Desktop:74.8,15.8,3.7,2.2,1.1)
 
-On German desktops Bing holds 15.8% (2025 average) — and that number
-was still climbing through 2026, touching 19.7%. On phones it is under
-1%. The pattern is the Windows/Edge default again, and it repeats in
-France and the Netherlands.
+On German desktops Bing holds 15.8% (2025 average). Through 2026 the
+number moved in a band — about 18% early in the year, easing to around
+13% by August — and then jumped to nearly 20% in September and October.
+That last jump deserves suspicion: StatCounter's panel shifted
+worldwide in exactly those two months (the same break shows up in
+every country's series), so the late-2026 readings are not comparable
+with what came before. On phones Bing is under 1% throughout. The
+pattern behind the whole curve is the Windows/Edge default, and it
+repeats in France and the Netherlands.
 
-Practical reading: if your audience uses work laptops — B2B software,
-SaaS, anything sold to offices — Bing matters far more than its 6%
-headline suggests. If your audience is on phones, it barely exists.
-Either way the work is one [Bing Webmaster Tools](https://www.bing.com/webmasters)
-account and [IndexNow](https://www.indexnow.org/).
+What the desktop number means in practice: for audiences that sit in
+front of work laptops — B2B software, SaaS, anything sold to offices —
+Bing is a much bigger slice than the 6% all-device headline suggests,
+while for phone audiences it barely exists. Covering it is one
+[Bing Webmaster Tools](https://www.bing.com/webmasters) account and
+[IndexNow](https://www.indexnow.org/), the same setup described in
+[Bing + IndexNow](https://x-cmd.com/seo/bing-indexnow).
 
 ## The privacy cluster — what it is and what it is worth
 
@@ -99,13 +105,14 @@ The lower numbers people quote are usually desktop-only slices of
 particular months, where Bing's Windows default is strongest — a real
 trend on one device class, not a collapse.
 
-The accurate statement is narrower: **desktop Bing in German-speaking
-Europe has been grinding upward for years**, and that is a genuine
-reason to keep your Bing coverage healthy. It is not a reason to build
-a German Bing strategy as if Bing were a different index — it is the
-same work, one more sitemap submission.
+The accurate statement is narrower: **desktop Bing in Germany runs
+ten points or more above its all-device headline** (15.8% against
+6.4% in 2025), and that gap is a real reason to keep Bing coverage
+healthy. It is not a reason to build a German Bing strategy as if
+Bing were a different index — it is the same work, one more sitemap
+submission.
 
-## What to actually do
+## What this means in practice
 
 1. **Google, in the local language.** Search Console, sitemap,
    structured data, Core Web Vitals — German for Germany/Austria/

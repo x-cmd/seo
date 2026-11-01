@@ -42,9 +42,10 @@ monthly averages:
 
 [![Southeast Asia search share 2025](https://x-cmd.com/draw?type=hbar&t=opendata&unit=%25&title=Search%20share%202025%20%20ID%20vs%20TH%20vs%20PH&labels=Indonesia%20Google,Thailand%20Google,Philippines%20Google,Philippines%20Bing,Indonesia%20Bing,Indonesia%20Yahoo!,Philippines%20Yahoo!,Thailand%20Bing&values=93.0,97.8,90.9,5.7,2.5,2.1,2.9,1.4)](https://x-cmd.com/draw/explore?type=hbar&t=opendata&unit=%25&title=Search%20share%202025%20%20ID%20vs%20TH%20vs%20PH&labels=Indonesia%20Google,Thailand%20Google,Philippines%20Google,Philippines%20Bing,Indonesia%20Bing,Indonesia%20Yahoo!,Philippines%20Yahoo!,Thailand%20Bing&values=93.0,97.8,90.9,5.7,2.5,2.1,2.9,1.4)
 
-Google between 91% and 98% across all three. The Philippines is the
-one place in this chapter where Bing clears 5% — its audience skews
-to office desktops, same as everywhere. And Yahoo! still holds 2–3%
+Google between 91% and 98% across all three. The Philippines has the
+highest Bing share of the three (5.7%, concentrated on office
+desktops, same as everywhere) — Germany and Brazil run higher still.
+And Yahoo! still holds 2–3%
 in Indonesia and the Philippines, its last real strongholds anywhere
 — a legacy of the portal era, older users, and Yahoo mail habits.
 
@@ -108,7 +109,7 @@ as engines. A mention or a link from a dominant local portal is one of
 the strongest local signals you can get, for Google in that market,
 even though nobody searches on the portal's own engine.
 
-## What to actually do
+## What this means in practice
 
 1. **Google, in the local language, mobile-first.** Bahasa Indonesia
    for Indonesia, Thai for Thailand (and note that Thai has no spaces
@@ -121,8 +122,8 @@ even though nobody searches on the portal's own engine.
 3. **One Bing account + IndexNow.** Covers the 2–6% and its
    satellites; low effort, low priority.
 4. **Decide deliberately about app-layer search.** If you sell
-   products, marketplace SEO (Shopee/Lazada/Tokopedia) is probably
-   worth more than another month of on-page work. If your product is
+   products, marketplace SEO (Shopee/Lazada/Tokopedia) usually
+   moves the numbers more than another month of on-page work. If your product is
    visual, TikTok search is a real channel.
 5. **Get links from the local portals.** Detik, Kompas, Sanook, and
    local news — the strongest local citations for Google in these

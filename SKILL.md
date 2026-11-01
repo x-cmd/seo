@@ -1,6 +1,6 @@
 ---
 name: seo
-description: SEO topic library — basics, DA / DR (Moz + Ahrefs), Google / Bing / DuckDuckGo / Yahoo / Yandex / Baidu / Shenma / Sogou, and regional search markets (Korea, Japan, Taiwan, Vietnam, Southeast Asia, Czech, German-speaking Europe, Russia, India, Brazil). Use when the user asks about "SEO", "search engine optimization", "Domain Authority", "DR", "Ahrefs", "Moz", "Google Search Console", "IndexNow", "Baidu SEO", "Shenma", "Sogou", "Naver", "search engine market share", or how to rank / get indexed.
+description: SEO topic library — basics, DA / DR (Moz + Ahrefs), Google / Bing / DuckDuckGo / Yahoo / Yandex / Baidu / Shenma / Sogou, and regional search markets (Korea, Japan, Taiwan, Vietnam, Southeast Asia, Czech, Western Europe, Russia, India, Brazil). Use when the user asks about "SEO", "search engine optimization", "Domain Authority", "DR", "Ahrefs", "Moz", "Google Search Console", "IndexNow", "Baidu SEO", "Shenma", "Sogou", "Naver", "search engine market share", or how to rank / get indexed.
 metadata: type=topic-library, source=team-curated, schema=4-tuple-md, refresh=manual, license=apache-2.0, scope=seo
 ---
 
@@ -62,7 +62,7 @@ the site strips both, so the URL slug is the name after the prefix
 | `4-regional-markets` | `vietnam` | Vietnam — Cốc Cốc. | Market-specific (Vietnamese). |
 | `4-regional-markets` | `southeast-asia` | Indonesia / Thailand / Philippines. | Market-specific (regional). |
 | `4-regional-markets` | `czech` | Czech Republic — Seznam. | Market-specific (Czech). |
-| `4-regional-markets` | `german-speaking-europe` | Germany / France / Netherlands. | Market-specific (regional). |
+| `4-regional-markets` | `western-europe` | Germany / France / Netherlands. | Market-specific (regional). |
 | `4-regional-markets` | `russia` | Russia — Yandex's home turf. | Market-specific (Russian). |
 | `4-regional-markets` | `india` | India — Google's near-monopoly. | Market-specific (Indian). |
 | `4-regional-markets` | `brazil` | Brazil — Bing / Yahoo over-index. | Market-specific (Brazilian). |

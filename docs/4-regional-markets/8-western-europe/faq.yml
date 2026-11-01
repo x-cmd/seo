@@ -1,4 +1,4 @@
-id: x-seo-german-speaking-europe
+id: x-seo-western-europe
 
 data:
   - name:
@@ -32,8 +32,8 @@ data:
             德国 15.8%。
         confidence: 9
         reference:
-          - docs/4-regional-markets/8-german-speaking-europe/en.md
-          - docs/4-regional-markets/8-german-speaking-europe/cn.md
+          - docs/4-regional-markets/8-western-europe/en.md
+          - docs/4-regional-markets/8-western-europe/cn.md
 
       - id: privacy-engines-own-strategy
         question:
@@ -60,8 +60,8 @@ data:
             当法国流量是重点时才顺手提交 Qwant，成本只是一张表单。
         confidence: 9
         reference:
-          - docs/4-regional-markets/8-german-speaking-europe/en.md
-          - docs/4-regional-markets/8-german-speaking-europe/cn.md
+          - docs/4-regional-markets/8-western-europe/en.md
+          - docs/4-regional-markets/8-western-europe/cn.md
 
       - id: google-germany-collapse-claim
         question:
@@ -84,13 +84,13 @@ data:
             德国平均 86.6%，桌面约 74.8%，移动约 93.4%。
 
             流传的低数字通常是个别月份的纯桌面切片，也就是 Bing 的
-            Windows 默认位最强的地方。准确的说法更窄：德语区桌面端的
+            Windows 默认位最强的地方。准确的说法更窄：西欧桌面端的
             Bing 多年来在缓慢爬升——这是一个设备类别上的真实趋势，
             不是崩盘。
         confidence: 8
         reference:
-          - docs/4-regional-markets/8-german-speaking-europe/en.md
-          - docs/4-regional-markets/8-german-speaking-europe/cn.md
+          - docs/4-regional-markets/8-western-europe/en.md
+          - docs/4-regional-markets/8-western-europe/cn.md
 
       - id: bing-b2b-desktop
         question:
@@ -117,5 +117,5 @@ data:
             值得多少关注。
         confidence: 9
         reference:
-          - docs/4-regional-markets/8-german-speaking-europe/en.md
-          - docs/4-regional-markets/8-german-speaking-europe/cn.md
+          - docs/4-regional-markets/8-western-europe/en.md
+          - docs/4-regional-markets/8-western-europe/cn.md

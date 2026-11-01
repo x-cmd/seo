@@ -45,7 +45,7 @@ x-cmd/seo/
         ├── 5-vietnam/        # Cốc Cốc
         ├── 6-southeast-asia/ # Android defaults + in-app search
         ├── 7-czech/          # Seznam
-        ├── 8-german-speaking-europe/  # Ecosia, MetaGer, Qwant, Startpage
+        ├── 8-western-europe/  # Ecosia, MetaGer, Qwant, Startpage
         ├── 9-russia/         # Yandex's home turf
         ├── 10-india/         # Google's near-monopoly
         └── 11-brazil/        # where Bing and Yahoo still over-index
@@ -102,7 +102,7 @@ has to change.
 | [`vietnam`](./docs/4-regional-markets/5-vietnam/en.md) | Vietnam — Cốc Cốc, an independent index built and run in Vietnam. |
 | [`southeast-asia`](./docs/4-regional-markets/6-southeast-asia/en.md) | Southeast Asia — Android default placements and in-app search taking queries away from Google. |
 | [`czech`](./docs/4-regional-markets/7-czech/en.md) | Czech Republic — Seznam, a real independent index rather than a wrapper, with its own webmaster tools. |
-| [`german-speaking-europe`](./docs/4-regional-markets/8-german-speaking-europe/en.md) | Germany, France, the Netherlands — Ecosia, MetaGer, Qwant, Startpage, and Google's slide. |
+| [`western-europe`](./docs/4-regional-markets/8-western-europe/en.md) | Germany, France, the Netherlands — Ecosia, MetaGer, Qwant, Startpage, and Google's slide. |
 | [`russia`](./docs/4-regional-markets/9-russia/en.md) | Russia — Yandex's home turf after 2022, and the state-aligned alternatives. |
 | [`india`](./docs/4-regional-markets/10-india/en.md) | India — Google's near-monopoly, and the wobble AI search is putting in it. |
 | [`brazil`](./docs/4-regional-markets/11-brazil/en.md) | Brazil — where Bing and Yahoo still over-index against their global average. |

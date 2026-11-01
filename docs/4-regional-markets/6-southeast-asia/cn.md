@@ -37,8 +37,8 @@ Instagram、Shopee、Lazada、Grab。一个只覆盖搜索框的策略，覆盖�
 
 [![2025 年东南亚搜索份额](https://x-cmd.com/draw?type=hbar&t=opendata&unit=%25&title=2025%20%E5%B9%B4%20%20ID%20vs%20TH%20vs%20PH%20%E6%90%9C%E7%B4%A2%E4%BB%BD%E9%A2%9D&labels=Indonesia%20Google,Thailand%20Google,Philippines%20Google,Philippines%20Bing,Indonesia%20Bing,Indonesia%20Yahoo!,Philippines%20Yahoo!,Thailand%20Bing&values=93.0,97.8,90.9,5.7,2.5,2.1,2.9,1.4)](https://x-cmd.com/draw/explore?type=hbar&t=opendata&unit=%25&title=2025%20%E5%B9%B4%20%20ID%20vs%20TH%20vs%20PH%20%E6%90%9C%E7%B4%A2%E4%BB%BD%E9%A2%9D&labels=Indonesia%20Google,Thailand%20Google,Philippines%20Google,Philippines%20Bing,Indonesia%20Bing,Indonesia%20Yahoo!,Philippines%20Yahoo!,Thailand%20Bing&values=93.0,97.8,90.9,5.7,2.5,2.1,2.9,1.4)
 
-三个市场 Google 都在 91%–98% 之间。菲律宾是本章唯一一个 Bing 超过 5%
-的地方——它的受众偏向办公室桌面，和别处一样。Yahoo! 在印尼和菲律宾
+三个市场 Google 都在 91%–98% 之间。菲律宾是三地里 Bing 份额最高的（5.7%，同样来自办公桌面）——不过德国和
+巴西的 Bing 份额比它更高。Yahoo! 在印尼和菲律宾
 还留着 2%–3%，是它在全世界最后的真实据点——门户时代的遗产、较年长的
 用户、Yahoo 邮箱的习惯。
 
@@ -89,7 +89,7 @@ SEO 往往比网页 SEO 产出更多。
 能拿到的最强信号之一，是给那个市场的 Google 的，哪怕没人在门户自己
 的引擎上搜索。
 
-## 到底该做什么
+## 这些事实意味着什么
 
 1. **用本地语言、移动优先做 Google。** 印尼用印尼语，泰国用泰语
    （注意泰语词间没有空格——它改变关键词研究和标题的写法），菲律宾用

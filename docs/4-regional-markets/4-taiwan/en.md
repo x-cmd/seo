@@ -54,10 +54,10 @@ there because it ships with Windows.
 
 On a phone, Google takes nearly 88% and the contest is over. On a
 desktop, Google drops to about two-thirds, and Yahoo! Taiwan and Bing
-each take a slice worth having. If your Taiwanese traffic is desktop,
-Bing is worth a Bing Webmaster Tools account and an
-[IndexNow](https://www.indexnow.org/) submission. If it is mobile, it
-is not.
+each take a real slice. Where Taiwanese traffic is desktop, covering
+Bing means one Bing Webmaster Tools account and one
+[IndexNow](https://www.indexnow.org/) submission; where it is mobile,
+there is nothing to cover.
 
 ## The engine question is easy; the script question is not
 
@@ -115,11 +115,10 @@ NAP consistency matters everywhere.
 Messaging is the other half of Taiwanese digital life. **LINE** is the
 dominant messenger in Taiwan, far more so than in most markets, and
 its in-app search, news feed and official account features are a
-discovery surface of their own. A LINE Official Account is often a
-higher-leverage move for a Taiwanese business than another round of
-on-page work.
+discovery surface of their own. In practice, many Taiwanese businesses get more out of a LINE
+Official Account than out of another round of on-page work.
 
-## What to actually do
+## What this means in practice
 
 1. **Google, in `zh-TW`.** Search Console, sitemap, structured data
    with `inLanguage: zh-TW`, mobile-first performance.
@@ -134,8 +133,8 @@ on-page work.
 6. **A LINE Official Account**, if you have a business or a brand in
    Taiwan.
 7. **Local links.** For the local-language queries that matter, a
-   link from a Taiwanese site is worth more than the same link from
-   abroad.
+   link from a Taiwanese site counts for far more than the same link
+   from abroad.
 
 ## Where to go from here
 

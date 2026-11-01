@@ -18,12 +18,13 @@ x-json-ld:
 
 # Regional Search Engines — When Google Is Not the Default
 
-**The short answer:** Google handles about 90% of worldwide searches, so
-the default advice — "just do Google" — is right more often than not. But
-in roughly one market in ten, a local engine takes a real share, and
-ignoring it there means leaving a third of your audience unreachable.
-This page explains which markets those are, how a local engine actually
-works, and how to decide what is worth your time.
+**The short answer:** Google handles about 90% of worldwide
+searches, so "just do Google" is right more often than not. But in
+roughly one market in ten, a local engine takes a real share — in
+Korea and Russia it takes more than Google does — and the reasons why
+are worth understanding on their own terms. This page explains which
+markets those are, how a local engine actually works, and how to read
+the share numbers that describe them.
 
 > **TL;DR.** Google ≈ 90% worldwide. The exceptions are Russia (Yandex
 > ≈ 73%), Korea (Naver ≈ 46–63% depending on how you count), Taiwan
@@ -204,7 +205,7 @@ too.
 
 ## What actually changes when you enter a local market
 
-Passing the "worth it" test is only the start. A market with a local
+Passing the importance test is only the start. A market with a local
 champion usually differs from the US in four concrete ways.
 
 **Language is not translation.** A Korean or Czech searcher types the
@@ -232,27 +233,29 @@ site carries far more weight than the same link from an international
 site would in Google. Czech-language links from Czech sites are the
 currency.
 
-## A decision checklist: which engines are worth your time
+## How to tell whether a local engine matters
 
-Work down this list for each market you care about.
+Six questions, asked in order, separate the markets where a second
+engine changes something from the markets where it changes nothing:
 
-1. **Is the market's share of your traffic above 5%?** If a country is
-   under 5% of your sessions, a second strategy will not pay for
-   itself. Start with Google and revisit.
-2. **Does the local engine have its own index?** If it just re-serves
-   Google or Bing results, you are already covered — do nothing extra.
-3. **Does it have its own webmaster tool?** If yes, it is a first-class
-   target and you should verify the site, submit sitemaps, and read
-   its coverage report. If no, treat it as a satellite of Google or
-   Bing.
+1. **How big is the market in your traffic?** Below roughly 5% of
+   sessions, a country's local engine cannot move its numbers much,
+   whatever its home share.
+2. **Does the local engine have its own index?** If it re-serves
+   Google or Bing results, the Google and Bing work already reaches
+   it — there is nothing separate to do.
+3. **Does it have its own webmaster tool?** Naver, Seznam, Yandex,
+   Baidu and Bing each run one; the engines without a tool are, without
+   exception, riding somebody else's index.
 4. **Does it have its own vertical ecosystem?** Naver, Daum, Kakao,
-   Cốc Cốc and Seznam all have products where your brand needs a
-   presence, not just a ranking. Budget for that.
-5. **Is the query language different?** If yes, budget for real
-   native-language content rather than translated pages.
-6. **Can one submission cover several engines?** Bing's index serves
-   Yahoo, DuckDuckGo and Ecosia. IndexNow reaches Bing, Yandex and
-   Seznam. Do the shared work first.
+   Cốc Cốc and Seznam all have products where visibility means being
+   present inside them, not just ranking in web results.
+5. **Is the query language different?** Korean, Japanese, Czech and
+   Vietnamese queries are sentences in the local language; a
+   machine-translated page answers them badly.
+6. **Do several engines share one submission?** Bing's index serves
+   Yahoo, DuckDuckGo and Ecosia; IndexNow reaches Bing, Yandex and
+   Seznam together.
 
 ## Where to go from here
 

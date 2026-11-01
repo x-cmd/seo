@@ -1,20 +1,20 @@
 ---
-x-title: 德语区搜索引擎 —— Google、Bing 与隐私引擎那一簇
+x-title: 西欧搜索引擎 —— Google、Bing 与隐私引擎那一簇
 x-desc: >-
   2026 年德国、法国、荷兰的搜索怎么运转 —— Google 的主导、Bing 在桌面端的强势，
   以及真实存在却小到不值得单独优化的隐私引擎（Ecosia、Startpage、Qwant、MetaGer）。
-x-sidebar: 德语区搜索引擎
+x-sidebar: 西欧搜索引擎
 x-keywords: 德国搜索引擎, ecosia, startpage, qwant, metager, bing 德国, 法国搜索, 荷兰搜索, 隐私搜索
 x-json-ld:
   '@context': https://schema.org
   '@graph':
     - '@type': TechArticle
-      headline: '德语区搜索引擎 —— Google、Bing 与隐私引擎那一簇'
+      headline: '西欧搜索引擎 —— Google、Bing 与隐私引擎那一簇'
       inLanguage: 'cn'
       about: '德国、法国、荷兰的搜索引擎市场份额'
 ---
 
-# 德语区搜索引擎 —— Google、Bing 与隐私引擎那一簇
+# 西欧搜索引擎 —— Google、Bing 与隐私引擎那一簇
 
 德国、法国、荷兰看起来是「Google 市场 + 一个有力的第二名」——但先读数字，
 再假设那个第二名是本地的。在德国，第二名是 Bing，超过 6%；而大家喜爱的
@@ -25,9 +25,8 @@ x-json-ld:
 > **TL;DR。** 2025 年引荐口径——德国：Google 86.6%、Bing 6.4%、Yahoo! 1.6%、
 > DuckDuckGo 1.5%、Ecosia 1.1%。法国：Google 88.0%、Bing 5.4%、Ecosia 1.2%、
 > Qwant 0.9%。荷兰：Google 88.5%、Bing 4.9%。**桌面端** Bing 大得多——德国
-> 15.8%（2026 年晚些时候到过 19.7%）。本地隐私引擎跑在你已经覆盖的索引上：
-> Ecosia 用 Bing 的，Startpage 代理 Google 的。结论：用本地语言做 Google
-> 和 Bing；把隐私引擎当信号，不当目标。
+> 2025 年平均 15.8%，2026 年在约 13%–18% 区间波动。本地隐私引擎跑的索引
+> 别的引擎已经覆盖：Ecosia 用 Bing 的，Startpage 代理 Google 的。
 
 ## 市场到底是什么样？
 
@@ -43,11 +42,14 @@ x-json-ld:
 
 [![德国 —— 移动端 vs 桌面端](https://x-cmd.com/draw?type=bar&unit=%25&title=%E5%BE%B7%E5%9B%BD%20%20%E7%A7%BB%E5%8A%A8%E7%AB%AF%20vs%20%E6%A1%8C%E9%9D%A2%E7%AB%AF&labels=Google,Bing,Yahoo!,DuckDuckGo,Ecosia&series=Mobile:93.4,0.8,0.3,1.1,1.1&series=Desktop:74.8,15.8,3.7,2.2,1.1)](https://x-cmd.com/draw/explore?type=bar&unit=%25&title=%E5%BE%B7%E5%9B%BD%20%20%E7%A7%BB%E5%8A%A8%E7%AB%AF%20vs%20%E6%A1%8C%E9%9D%A2%E7%AB%AF&labels=Google,Bing,Yahoo!,DuckDuckGo,Ecosia&series=Mobile:93.4,0.8,0.3,1.1,1.1&series=Desktop:74.8,15.8,3.7,2.2,1.1)
 
-在德国桌面端，Bing 占 15.8%（2025 年平均）——而且 2026 年还在爬，摸到过
-19.7%。在手机上不到 1%。又是 Windows/Edge 默认设置那个模式，法国和荷兰
-一样重复。
+在德国桌面端，Bing 占 15.8%（2025 年平均）。2026 年这个数在一个区间里
+波动——年初约 18%，到 8 月回落到 13% 附近——然后在 9、10 月跳到近 20%。
+最后这一跳值得怀疑：StatCounter 的统计面板恰好在 2026 年 9、10 月发生
+了全球性偏移（每个国家的序列都出现同样的断裂），所以这两个月的读数
+与之前不可比。手机端 Bing 始终不到 1%。整条曲线背后的模式都是
+Windows/Edge 默认设置，法国和荷兰一样重复。
 
-实际解读：如果你的受众用办公笔记本——B2B 软件、SaaS、任何卖给办公室的
+桌面数字的实际含义：对坐在办公笔记本前的受众——B2B 软件、SaaS、任何
 东西——Bing 比它 6% 的头条数字重要得多。如果受众在手机上，它几乎不存在。
 无论哪种，要做的事就是一个 [Bing 站长工具](https://www.bing.com/webmasters)
 账号加 [IndexNow](https://www.indexnow.org/)。
@@ -84,11 +86,12 @@ x-json-ld:
 纯桌面切片——那是 Bing 的 Windows 默认位最强的地方——这是一个设备
 类别上的真实趋势，不是崩盘。
 
-准确的说法更窄：**德语区桌面端的 Bing 多年来在缓慢爬升**，这是保持
-Bing 覆盖健康的真实理由。但它不是把 Bing 当成另一个索引去建一套德国
-Bing 策略的理由——工作是同一套，多提交一份 sitemap 而已。
+准确的说法更窄：**德国桌面端的 Bing 比它的全设备头条高出十个百分点
+上下**（2025 年 15.8% 对 6.4%），这个差距是保持 Bing 覆盖健康的真实
+理由。但它不是把 Bing 当成另一个索引去建一套德国 Bing 策略的理由——
+工作是同一套，多提交一份 sitemap 而已。
 
-## 到底该做什么
+## 这些事实意味着什么
 
 1. **用本地语言做 Google。** Search Console、sitemap、结构化数据、
    Core Web Vitals——德国/奥地利/瑞士用德语，法国用法语，荷兰用荷兰语。

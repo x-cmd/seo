@@ -19,8 +19,8 @@ x-json-ld:
 
 Brazil is a big, simple search market. Google above 90%, a Bing tail
 that runs noticeably hotter than its global average, and no local
-engine of any consequence. What makes Brazil worth a page in this
-chapter is not competitive structure — it is that a large,
+engine of any consequence. What makes Brazil interesting as a page in
+this chapter is not competitive structure — it is that a large,
 Portuguese-speaking, mobile-first market has a few rules of its own,
 and that the Bing tail is real enough to matter for desktop audiences.
 
@@ -47,20 +47,21 @@ Brazilian engine at all.
 
 [![Brazil — mobile vs desktop](https://x-cmd.com/draw?type=bar&unit=%25&title=Brazil%20-%20mobile%20vs%20desktop&labels=Google,Bing,Yahoo!&series=Desktop:82.3,13.5,3.7&series=Mobile:95.5,0.7,0.3)](https://x-cmd.com/draw/explore?type=bar&unit=%25&title=Brazil%20-%20mobile%20vs%20desktop&labels=Google,Bing,Yahoo!&series=Desktop:82.3,13.5,3.7&series=Mobile:95.5,0.7,0.3)
 
-On desktop, Bing averaged 13.5% in 2025 and was still climbing through
-2026 — its strongest showing in any market covered in this chapter.
-On mobile it is under 1%, as everywhere.
+On desktop, Bing averaged 13.5% in 2025 and ran between roughly 16%
+and 19% across 2026 — well above the ~11% worldwide desktop average,
+though below Japan's and Germany's desktop figures. On mobile it is
+under 1%, as everywhere.
 
 The cause is the familiar one — Windows and Edge defaults, and Brazil
 has a large installed base of Windows PCs in offices — and so is the
 practical reading: **if your Brazilian audience sits in front of
-company laptops, Bing is worth more than its headline number**, and
+company laptops, Bing is a much larger slice than its headline number**, and
 covering it costs one [Bing Webmaster Tools](https://www.bing.com/webmasters)
 account and one IndexNow setup.
 
 ## Portuguese, not Spanish
 
-The mistake that ruins more Latin America plans than any other:
+The most common mistake about the region:
 assuming the region is one language. Brazil is Portuguese — and
 Brazilian Portuguese at that, which differs from European Portuguese
 in vocabulary, spelling (since the 1990s orthographic agreement, in
@@ -76,8 +77,8 @@ Practical consequences:
   ranks in Brazil only awkwardly, and vice versa.
 - Brazil's own internet vocabulary is large and distinctive — slang,
   abbreviations and meme vocabulary that keyword tools built for
-  English will not surface. Local keyword research pays for itself
-  here more than in most markets.
+  English will not surface. Local keyword research matters here
+  more than in most markets.
 
 ## Mobile-first, and then some
 
@@ -98,7 +99,7 @@ Two Brazil-specific notes:
   [Southeast Asia](https://x-cmd.com/seo/southeast-asia), though less
   extreme.
 
-## What to actually do
+## What this means in practice
 
 1. **Google, in Brazilian Portuguese.** Search Console, sitemap,
    structured data, mobile-first performance. Set `lang="pt-BR"`.

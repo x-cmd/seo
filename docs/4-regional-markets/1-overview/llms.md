@@ -1,6 +1,6 @@
 ---
 name: overview
-description: 'Regional search engines — how local engines work and which are worth optimizing for. Google takes ~90% worldwide; Russia (Yandex ~73%), Korea (Naver ~46-63%), Taiwan (Yahoo! ~13%), Czechia (Seznam ~12%), Japan (Yahoo! ~9%) and Vietnam (Cốc Cốc ~4%) are the exceptions. Covers the three shapes of local engine, why market-share numbers disagree, and a decision checklist.'
+description: 'Regional search engines — how local engines work and when they matter. Google takes ~90% worldwide; Russia (Yandex ~73%), Korea (Naver ~46-63%), Taiwan (Yahoo! ~13%), Czechia (Seznam ~12%), Japan (Yahoo! ~9%) and Vietnam (Cốc Cốc ~4%) are the exceptions. Covers the three shapes of local engine, why market-share numbers disagree, and how to tell whether a local engine matters.'
 type: summary
 ---
 
@@ -30,7 +30,7 @@ highlights:
 # Use Cases
 
 use_cases:
-  - Deciding whether a second search engine is worth the effort for a specific country
+  - Understanding when a second search engine matters in a specific country
   - Interpreting a market-share number before acting on it
   - Choosing between per-engine webmaster tools for a multi-market launch
   - Planning local-language content and local link building for a new market

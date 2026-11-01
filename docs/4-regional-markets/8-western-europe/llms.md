@@ -1,6 +1,6 @@
 ---
-name: german-speaking-europe
-description: 'Search engines in Germany, France and the Netherlands 2026 — Google 86.6% / 88.0% / 88.5%, Bing 6.4% / 5.4% / 4.9% (2025 referral averages). Bing''s real size is on desktop (15.8% in Germany, touching 19.7% in 2026). The privacy cluster — Ecosia (Bing index), Startpage (Google proxy), Qwant (own index), MetaGer (meta-search) — holds 1–2% combined and needs no separate strategy. Covers the Google-slide claims and what they actually measure.'
+name: western-europe
+description: 'Search engines in Western Europe (Germany, France, the Netherlands) 2026 — Google 86.6% / 88.0% / 88.5%, Bing 6.4% / 5.4% / 4.9% (2025 referral averages). Bing''s real size is on desktop (15.8% in Germany, touching 19.7% in 2026). The privacy cluster — Ecosia (Bing index), Startpage (Google proxy), Qwant (own index), MetaGer (meta-search) — holds 1–2% combined and needs no separate strategy. Covers the Google-slide claims and what they actually measure.'
 type: summary
 ---
 

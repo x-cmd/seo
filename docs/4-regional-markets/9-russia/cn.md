@@ -87,7 +87,7 @@ Yandex Direct 广告或支付 Yandex 服务变得困难，具体取决于你的�
 这些都不改变下面的技术流程。但任何一条都可能改变这个市场到底值不值得
 进。
 
-## 到底该做什么
+## 这些事实意味着什么
 
 1. **用俄语先做 Yandex。** 在
    [Yandex.Webmaster](https://webmaster.yandex.com/) 验证站点、提交

@@ -64,8 +64,10 @@ their own national web at scale runs: Google, Bing, Yandex, Baidu,
 Naver, Seznam, and Cốc Cốc. Everyone else either licenses an index or
 merges other people's results.
 
-Cốc Cốc's share has also been moving the right way: roughly 3.5–4% for
-years, then rising through 2025 to about 5.6% by the autumn. Its
+Cốc Cốc's share has also been moving: from 3.9% in August 2025 to
+5.3–6.0% across October–December 2025, then oscillating between
+roughly 3.6% and 6% through 2026 — a rising trend with real
+month-to-month volatility. Its
 strength is in the queries where being Vietnamese actually helps —
 local services, Vietnamese-language e-commerce, and queries typed
 without diacritics, where its handling of Vietnamese orthography is
@@ -108,7 +110,7 @@ with no Vietnamese on it has nothing for the query to match. If the
 market matters, the content has to be written Vietnamese, not
 translated token by token.
 
-## What to actually do
+## What this means in practice
 
 1. **Google, in Vietnamese.** The usual discipline — Search Console,
    sitemap, structured data, mobile-first performance — done with

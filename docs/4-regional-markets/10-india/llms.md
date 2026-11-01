@@ -15,7 +15,7 @@ core_features:
   - Mobile-only market: the phone is often the only device, on modest data plans and low-end Android — Core Web Vitals must be tested there
   - Voice search matters more than in most markets; spoken queries are longer and conversational
   - AI Overviews roll out in India across English and Hindi; India is consistently one of ChatGPT's largest markets; vernacular voice-first AI assistants reach users for whom typing was the barrier
-  - Being the cited source in an AI answer is worth more than ranking #2; question-shaped content wins the voice and AI layer
+  - In AI answers, being a cited source counts for more than ranking #2; question-shaped content wins the voice and AI layer
 
 # Key Information
 

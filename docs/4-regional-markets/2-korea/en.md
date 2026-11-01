@@ -149,8 +149,8 @@ testing an AI-generated answer mode in chat that replaces the
 Daum-backed `#` search entirely, so a user never leaves the app.
 
 That makes KakaoTalk a distribution channel, not a search engine to
-optimize. If your audience is Korean, a KakaoTalk channel is often a
-higher-leverage move than another round of on-page SEO.
+optimize. For a business whose audience is Korean, a KakaoTalk channel often
+does more than another round of on-page SEO.
 
 ## Where Google still wins in Korea
 
@@ -189,9 +189,10 @@ The direction of travel is that part of the search market is moving
 from "search result pages" to "AI answers" — and the engine that
 wins there may not be the one that wins the traditional results.
 
-## What to actually do
+## What this means in practice
 
-**If you are launching in Korea**, this is the order that works.
+For a site entering the Korean market, the work usually stacks up
+in this order:
 
 1. **Google first, always.** It is still roughly half of all outbound
    search traffic, and half of desktop. Do the ordinary work: Search
@@ -214,7 +215,7 @@ wins there may not be the one that wins the traditional results.
    margin.
 7. **Watch the AI surfaces.** Naver's AI Briefing and Google's AI
    Overviews both pull from pages with clear, first-hand, citable
-   content. Being the source that gets summarized is worth more than
+   content. Being the source that gets summarized now counts for more than
    one more blue link.
 
 **If you are not launching in Korea**, this page is still worth

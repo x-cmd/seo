@@ -123,8 +123,8 @@ What this does to an optimizer:
   chat answer, and a classic featured snippet can all sit above the
   organic results for the same query.
 - **Being the cited source matters more than ranking #2.** AI answers
-  cite a handful of pages; being one of them is worth more than a blue
-  link at position two.
+  cite a handful of pages; being one of them now counts for more than
+  a blue link at position two.
 - **Question-shaped content wins the voice and AI layer.** Pages that
   answer a real question in the first paragraph, with clear structure
   and genuine expertise, are the ones both algorithms and language
@@ -133,7 +133,7 @@ What this does to an optimizer:
 None of this changes the engine choice — it is still Google. It
 changes what a page has to look like to win.
 
-## What to actually do
+## What this means in practice
 
 1. **Google, in every language your audience actually speaks.** Be
    deliberate about the language set; `hreflang` between versions.
@@ -143,7 +143,7 @@ changes what a page has to look like to win.
    pages — for voice search and for AI citation.
 4. **Bing costs one account** — [Bing Webmaster Tools](https://www.bing.com/webmasters)
    plus [IndexNow](https://www.indexnow.org/) — and covers 1.3% plus
-   its satellites. Worth it, low priority.
+   its satellites.
 5. **Watch the AI surfaces** in your own analytics: AI Overview
    citations and chat-app referrals show up as distinct traffic
    patterns.

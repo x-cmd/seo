@@ -52,7 +52,7 @@ searches, and what an optimizer has to do differently there.
 | [Vietnam](4-regional-markets/5-vietnam/en.md) | 越南 | Cốc Cốc, an independent index built in Vietnam |
 | [Southeast Asia](4-regional-markets/6-southeast-asia/en.md) | 东南亚 | Android defaults and in-app search eating Google queries |
 | [Czech Republic](4-regional-markets/7-czech/en.md) | 捷克 | Seznam — a real independent index, not a wrapper |
-| [German-speaking Europe](4-regional-markets/8-german-speaking-europe/en.md) | 德语区 | Ecosia, MetaGer, Qwant, Startpage, and Google's slide |
+| [Western Europe](4-regional-markets/8-western-europe/en.md) | 西欧 | Ecosia, MetaGer, Qwant, Startpage, and Google's slide |
 | [Russia](4-regional-markets/9-russia/en.md) | 俄罗斯 | Yandex's home turf after 2022 |
 | [India](4-regional-markets/10-india/en.md) | 印度 | Google's near-monopoly and the AI-search wobble |
 | [Brazil](4-regional-markets/11-brazil/en.md) | 巴西 | where Bing and Yahoo still out-weigh their global average |
