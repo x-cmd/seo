@@ -8,8 +8,9 @@ vocabulary, chapter 2 the engines that compete worldwide, chapter 3 the
 Chinese-language engines, and chapter 4 the markets where the local
 engine beats the global one.
 
-Every article below exists in five languages — English, 中文,
-Deutsch, Português, 日本語 (`en.md`, `cn.md`, `de.md`, `pt.md`, `ja.md`,
+Every article below exists in six languages — English, 中文,
+Deutsch, Português (BR e PT), 日本語 (`en.md`, `cn.md`, `de.md`,
+`pt-br.md`, `pt-pt.md`, `ja.md`,
 the set used by x-cmd/dbnomics) — and carries a language-neutral
 `llms.md` summary and a bilingual `faq.yml`. Articles not yet at five
 languages are being extended from en+cn.

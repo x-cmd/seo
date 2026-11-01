@@ -27,7 +27,7 @@ resultados dele. Cada nome leva ao artigo completo.
 Duas notas sobre como ler as colunas, porque é ali que acontecem a maioria
 das leituras erradas:
 
-**A coluna «Índice» é a mais preditiva da página.** Um motor que rastreia
+**A coluna "Índice" é a mais preditiva da página.** Um motor que rastreia
 e ranqueia a web por conta própria — índice próprio — é um destino
 genuinamente separado, que exige registro próprio e trabalho de
 posicionamento próprio. Um motor anotado como *Bing* ou *Google* serve os
@@ -37,7 +37,7 @@ outros e misturam o que volta. Restam apenas cerca de sete motores com
 índice próprio em escala nacional ou maior, e a forma da tabela inteira
 decorre de quem eles são.
 
-**«Participação» e «Usuários» medem coisas diferentes.** A participação é
+**"Participação" e "Usuários" medem coisas diferentes.** A participação é
 a fatia de buscas do mercado de origem na média mensal de 2025 do
 [StatCounter](https://gs.statcounter.com/search-engine-market-share) —
 medida por referências de saída, o que subestima os motores que respondem
@@ -46,7 +46,7 @@ consultas está em [Coreia](https://x-cmd.com/seo/korea)). Os números de
 usuários vêm de fontes publicadas com definições distintas — MAU de
 aplicativo, visitas ao site, estimativas de buscas por dia — e devem ser
 lidos como ordem de grandeza, não como estatística comparável. Onde não há
-número publicado confiável, a célula diz «—».
+número publicado confiável, a célula diz "—".
 
 ## Os motores globais
 
@@ -82,12 +82,12 @@ Estes são os que, em casa, vencem ou disputam seriamente com os globais.
 ## Não são motores — mas levam as consultas do mesmo jeito
 
 Uma tabela de participação conta buscas que passaram por um motor de busca.
-Em vários mercados cresce a fatia de «procurar coisas» que nunca passa —
+Em vários mercados cresce a fatia de "procurar coisas" que nunca passa —
 sem estas linhas o mapa ficaria incompleto:
 
 | Superfície | Onde | O que responde | Alcance (aprox.) | Detalhado em |
 | --- | --- | --- | --- | --- |
-| Busca do TikTok | Usuários jovens, no mundo todo; mais forte no [Sudeste Asiático](https://x-cmd.com/seo/southeast-asia) | comida, viagem, produtos, «vale a pena?» — respondido em vídeo | — | [Sudeste Asiático](https://x-cmd.com/seo/southeast-asia) |
+| Busca do TikTok | Usuários jovens, no mundo todo; mais forte no [Sudeste Asiático](https://x-cmd.com/seo/southeast-asia) | comida, viagem, produtos, "vale a pena?" — respondido em vídeo | — | [Sudeste Asiático](https://x-cmd.com/seo/southeast-asia) |
 | Shopee / Lazada / Tokopedia | Sudeste Asiático | consultas de produto com intenção de compra | — | [Sudeste Asiático](https://x-cmd.com/seo/southeast-asia) |
 | Mercado Livre / Shopee BR | Brasil | o mesmo, em português | — | [Brasil](https://x-cmd.com/seo/brazil) |
 | Busca `#` do KakaoTalk | Coreia do Sul | consultas digitadas no chat, respondidas pelo Daum | KakaoTalk alcança ~90 %+ dos coreanos | [Coreia](https://x-cmd.com/seo/korea) |
@@ -99,12 +99,12 @@ sem estas linhas o mapa ficaria incompleto:
 **Restam apenas cerca de sete motores com índice próprio em escala**:
 Google, Bing, Yandex, Baidu, Naver, Seznam e Cốc Cốc (o do Qwant é pequeno,
 mas real). Todas as outras linhas são produtos construídos sobre um desses
-sete — é por isso que a coluna «Como entrar» se repete: existem apenas
+sete — é por isso que a coluna "Como entrar" se repete: existem apenas
 sete portas de entrada.
 
 **As famílias de invólucro são maiores do que parecem.** O índice do Bing
 alimenta em silêncio DuckDuckGo, Yahoo! Search e Ecosia; o do Google
-alimenta Yahoo! JAPAN, Yahoo! Taiwan e Startpage. Um motor «pequeno» com
+alimenta Yahoo! JAPAN, Yahoo! Taiwan e Startpage. Um motor "pequeno" com
 1 % de participação pode ser simplesmente a ponta visível de um índice
 grande.
 

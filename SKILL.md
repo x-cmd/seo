@@ -27,7 +27,7 @@ done
 
 ## Article schema (per slot)
 
-Each slot is five language files plus two language-neutral files,
+Each slot is six language files plus two language-neutral files,
 kept in sync (language set as x-cmd/dbnomics):
 
 | File | Shape | Purpose |
@@ -35,7 +35,8 @@ kept in sync (language set as x-cmd/dbnomics):
 | `<slug>/en.md` | Markdown with YAML frontmatter. | Canonical English article. |
 | `<slug>/cn.md` | Same, in Chinese. | Chinese translation. |
 | `<slug>/de.md` | Same, in German. | German translation. |
-| `<slug>/pt.md` | Same, in Portuguese. | Portuguese translation. |
+| `<slug>/pt-br.md` | Same, in Brazilian Portuguese. | Portuguese (BR) translation. |
+| `<slug>/pt-pt.md` | Same, in European Portuguese. | Portuguese (PT) translation. |
 | `<slug>/ja.md` | Same, in Japanese. | Japanese translation. |
 | `<slug>/llms.md` | YAML frontmatter + flat structured sections. | LLM-friendly summary. |
 | `<slug>/faq.yml` | Bilingual `question` + `answer`. | FAQ + JSON-LD. |

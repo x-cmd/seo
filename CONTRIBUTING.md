@@ -52,7 +52,8 @@ Every article slot is a **folder kept in sync across five languages**
 | `docs/<chapter>/<slug>/en.md` | Canonical English article. | ✅ |
 | `docs/<chapter>/<slug>/cn.md` | Chinese translation. | ✅ |
 | `docs/<chapter>/<slug>/de.md` | German translation. | ✅ |
-| `docs/<chapter>/<slug>/pt.md` | Portuguese translation. | ✅ |
+| `docs/<chapter>/<slug>/pt-br.md` | Brazilian Portuguese translation. | ✅ |
+| `docs/<chapter>/<slug>/pt-pt.md` | European Portuguese translation. | ✅ |
 | `docs/<chapter>/<slug>/ja.md` | Japanese translation. | ✅ |
 | `docs/<chapter>/<slug>/llms.md` | LLM-friendly summary — YAML frontmatter + flat prose. | ✅ |
 | `docs/<chapter>/<slug>/faq.yml` | Structured Q&A used for FAQ + JSON-LD. | ✅ |
@@ -156,7 +157,7 @@ Each FAQ entry has:
 
 The site's build pipeline validates:
 
-1. Every `en.md` has a matching `cn.md`, `de.md`, `pt.md` and `ja.md`.
+1. Every `en.md` has a matching `cn.md`, `de.md`, `pt-br.md`, `pt-pt.md` and `ja.md`.
 2. Every slot has an `llms.md` and a `faq.yml`.
 3. The `faq.yml` is valid YAML and `id`s are unique.
 

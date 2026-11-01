@@ -57,8 +57,9 @@ Articles are grouped into **chapters**. Leaf folder names carry a
 number when publishing, so the URL slug is the name after the
 prefix — `2-korea/` is published as `x-cmd.com/seo/korea/`.
 
-Every article exists in five languages — `en.md`, `cn.md`, `de.md`,
-`pt.md`, `ja.md` (the same set as [x-cmd/dbnomics](https://github.com/x-cmd/dbnomics)) —
+Every article exists in six languages — `en.md`, `cn.md`, `de.md`,
+`pt-br.md`, `pt-pt.md`, `ja.md` (Portuguese in both variants; the set
+matches [x-cmd/dbnomics](https://github.com/x-cmd/dbnomics)) —
 plus a language-neutral `llms.md` summary and a bilingual `faq.yml`,
 all kept in sync. Languages currently at en+cn are being extended to
 the full five.
