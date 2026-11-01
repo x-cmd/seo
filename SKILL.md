@@ -21,7 +21,7 @@ directly from `https://raw.githubusercontent.com/x-cmd/seo/main/...`
 ```sh
 # All four files for one slot
 for ext in en.md cn.md llms.md faq.yml; do
-  curl -fsSL "https://raw.githubusercontent.com/x-cmd/seo/main/docs/1-fundamentals/seo-basics/$ext"
+  curl -fsSL "https://raw.githubusercontent.com/x-cmd/seo/main/docs/1-fundamentals/1-seo-basics/$ext"
 done
 ```
 
@@ -36,9 +36,10 @@ Each slot is four files, kept in sync:
 | `<slug>/llms.md` | YAML frontmatter + flat structured sections. | LLM-friendly summary. |
 | `<slug>/faq.yml` | Bilingual `question` + `answer`. | FAQ + JSON-LD. |
 
-Articles live in **chapters**: `docs/<n>-<chapter>/<slug>/`. The
-chapter directory is organization only — the leaf folder name is the
-URL slug (`x-cmd.com/seo/<slug>/`).
+Articles live in **chapters**: `docs/<n>-<chapter>/<m>-<slug>/`. The
+chapter directory and the leaf's `<m>-` prefix are organization only —
+the site strips both, so the URL slug is the name after the prefix
+(`docs/4-regional-markets/2-korea/` → `x-cmd.com/seo/korea/`).
 
 ## Chapters and slots
 

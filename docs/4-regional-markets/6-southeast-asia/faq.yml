@@ -1,0 +1,118 @@
+id: x-seo-southeast-asia
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: sea-market-share
+        question:
+          en: What is the search engine market share in Indonesia, Thailand and the Philippines?
+          cn: 印尼、泰国、菲律宾的搜索引擎份额是多少？
+        answer:
+          en: |
+            2025 full-year averages, all devices (StatCounter):
+
+            - Indonesia: Google 93.0%, Bing 2.5%, Yahoo! 2.1%
+            - Thailand: Google 97.8%, Bing 1.4%
+            - Philippines: Google 90.9%, Bing 5.7%, Yahoo! 2.9%
+
+            There is no local engine in any of the three — the regional
+            exception is Vietnam's Cốc Cốc. Yahoo!'s 2–3% in Indonesia and
+            the Philippines are its last real strongholds anywhere.
+          cn: |
+            2025 全年平均、全设备（StatCounter）：
+
+            - 印尼：Google 93.0%、Bing 2.5%、Yahoo! 2.1%
+            - 泰国：Google 97.8%、Bing 1.4%
+            - 菲律宾：Google 90.9%、Bing 5.7%、Yahoo! 2.9%
+
+            三地都没有本地引擎——本地区的例外是越南的 Cốc Cốc。
+            Yahoo! 在印尼和菲律宾的 2%–3% 是它在全世界最后的据点。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/6-southeast-asia/en.md
+          - docs/4-regional-markets/6-southeast-asia/cn.md
+
+      - id: sea-why-google-dominant
+        question:
+          en: Why is Google's share so high in Southeast Asia?
+          cn: 为什么 Google 在东南亚份额这么高？
+        answer:
+          en: |
+            Android defaults. These are overwhelmingly Android markets —
+            the iPhone is a minority device — and Google Search is what
+            the Android search bar and Chrome default to. When almost an
+            entire country's first internet device is an Android phone,
+            the default search inherits the country.
+
+            Google's position is therefore a setting more than a choice —
+            the same fact that changed the policy debate in Japan. If
+            defaults are ever contested the way Japan's smartphone law
+            now contests them, the floor moves.
+          cn: |
+            安卓默认位。这些是压倒性的安卓市场——iPhone 是少数派——而
+            安卓搜索条和 Chrome 的默认搜索就是 Google。当一个国家几乎
+            所有人的第一台上网设备都是安卓手机时，默认搜索就继承了
+            这个国家。
+
+            因此 Google 的地位与其说是选择，不如说是设置——正是这个
+            事实改变了日本的政策辩论。如果默认设置哪天像日本智能
+            手机法那样被挑战，地板就会动。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/6-southeast-asia/en.md
+          - docs/4-regional-markets/6-southeast-asia/cn.md
+
+      - id: sea-in-app-search
+        question:
+          en: Does in-app search (TikTok, Shopee) matter in Southeast Asia?
+          cn: 在东南亚，应用内搜索（TikTok、Shopee）重要吗？
+        answer:
+          en: |
+            Yes — a growing share of search behavior never touches a
+            search engine. TikTok's search bar is where younger users
+            start food, travel, product and how-to queries. Shopee,
+            Lazada and Tokopedia absorb product queries with buying
+            intent, with their own ranking factors (sales velocity,
+            reviews, listing completeness, sponsored placement).
+
+            For an e-commerce business, marketplace SEO often out-delivers
+            web SEO in this region; for a visual product, TikTok search
+            is a real channel. Decide deliberately whether that traffic
+            is yours to win.
+          cn: |
+            重要——「搜索行为」里有越来越大的一部分从不经过搜索引擎。
+            TikTok 的搜索条是年轻用户开始查吃、玩、买、「怎么做」的地方。
+            Shopee、Lazada、Tokopedia 接住带购买意图的商品查询，各有自己
+            的排序因子（销量、评价、listing 完整度、付费位）。
+
+            对电商生意，这个地区的市场内 SEO 往往产出高于网页 SEO；对
+            适合视频展示的产品，TikTok 搜索是真实渠道。要自觉地决定那
+            部分流量是不是你该赢的。
+        confidence: 8
+        reference:
+          - docs/4-regional-markets/6-southeast-asia/en.md
+          - docs/4-regional-markets/6-southeast-asia/cn.md
+
+      - id: sea-thai-keywords
+        question:
+          en: Is Thai keyword research different?
+          cn: 泰语关键词研究有什么不同？
+        answer:
+          en: |
+            Yes, in one specific way: written Thai has no spaces between
+            words, so the tokenization assumptions built into most
+            keyword tools do not transfer directly. Headings, titles and
+            on-page structure carry more of the matching work, and you
+            should validate keyword segmentation with a Thai speaker
+            rather than trusting tool output blindly.
+          cn: |
+            有，具体在一点：书面泰语词与词之间没有空格，所以多数关键词
+            工具内建的切词假设不能直接搬。标题、栏目标题和页面结构承担
+            了更多匹配工作，关键词切分要和泰语母语者核对，不要盲信工具
+            输出。
+        confidence: 8
+        reference:
+          - docs/4-regional-markets/6-southeast-asia/en.md
+          - docs/4-regional-markets/6-southeast-asia/cn.md

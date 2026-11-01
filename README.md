@@ -25,35 +25,36 @@ x-cmd/seo/
     ├── README.md             # chapter-by-chapter index
     ├── _sidebar.yml          # chapter → page navigation
     ├── 1-fundamentals/       # the shared vocabulary
-    │   ├── seo-basics/       # what is SEO + small-site indexing
-    │   └── da/               # DA / DR — Moz + Ahrefs link authority metrics
+    │   ├── 1-seo-basics/     # what is SEO + small-site indexing
+    │   └── 2-da/             # DA / DR — Moz + Ahrefs link authority metrics
     ├── 2-global-engines/     # the engines that compete everywhere
-    │   ├── google-seo/       # Google SEO + Search Console
-    │   ├── bing-indexnow/    # Bing Webmaster Tools + IndexNow
-    │   ├── duckduckgo/       # DuckDuckGo SEO
-    │   ├── yahoo/            # Yahoo Search (independent)
-    │   └── yandex/           # Yandex SEO (Russian-language)
+    │   ├── 1-google-seo/     # Google SEO + Search Console
+    │   ├── 2-bing-indexnow/  # Bing Webmaster Tools + IndexNow
+    │   ├── 3-duckduckgo/     # DuckDuckGo SEO
+    │   ├── 4-yahoo/          # Yahoo Search (independent)
+    │   └── 5-yandex/         # Yandex SEO (Russian-language)
     ├── 3-china-engines/      # the Chinese-language engines
-    │   ├── baidu/            # Baidu SEO
-    │   ├── shenma/           # Shenma SEO (UC / mobile)
-    │   └── sogou/            # Sogou SEO (Tencent / WeChat)
+    │   ├── 1-baidu/          # Baidu SEO
+    │   ├── 2-shenma/         # Shenma SEO (UC / mobile)
+    │   └── 3-sogou/          # Sogou SEO (Tencent / WeChat)
     └── 4-regional-markets/   # where the local engine beats the global one
-        ├── overview/         # how local engines differ, and what to optimize
-        ├── korea/            # Naver, Daum, Kakao
-        ├── japan/            # Yahoo! JAPAN, carrier engines
-        ├── taiwan/           # Google + Yahoo! Taiwan
-        ├── vietnam/          # Cốc Cốc
-        ├── southeast-asia/   # Android defaults + in-app search
-        ├── czech/            # Seznam
-        ├── german-speaking-europe/  # Ecosia, MetaGer, Qwant, Startpage
-        ├── russia/           # Yandex's home turf
-        ├── india/            # Google's near-monopoly
-        └── brazil/           # where Bing and Yahoo still over-index
+        ├── 1-overview/       # how local engines differ, and what to optimize
+        ├── 2-korea/          # Naver, Daum, Kakao
+        ├── 3-japan/          # Yahoo! JAPAN, carrier engines
+        ├── 4-taiwan/         # Google + Yahoo! Taiwan
+        ├── 5-vietnam/        # Cốc Cốc
+        ├── 6-southeast-asia/ # Android defaults + in-app search
+        ├── 7-czech/          # Seznam
+        ├── 8-german-speaking-europe/  # Ecosia, MetaGer, Qwant, Startpage
+        ├── 9-russia/         # Yandex's home turf
+        ├── 10-india/         # Google's near-monopoly
+        └── 11-brazil/        # where Bing and Yahoo still over-index
 ```
 
-Articles are grouped into **chapters**. The chapter directory is
-organization only — the leaf folder name is the URL slug, published
-as `x-cmd.com/seo/<slug>/`.
+Articles are grouped into **chapters**. Leaf folder names carry a
+`<n>-` prefix that fixes the reading order; the site strips the
+number when publishing, so the URL slug is the name after the
+prefix — `2-korea/` is published as `x-cmd.com/seo/korea/`.
 
 Every article is four files kept in sync: `.en.md`, `.cn.md`,
 `.llms.md`, `.faq.yml`.
@@ -64,26 +65,26 @@ Every article is four files kept in sync: `.en.md`, `.cn.md`,
 
 | Article | Purpose |
 | --- | --- |
-| [`seo-basics`](./docs/1-fundamentals/seo-basics/en.md) | What is SEO + how small sites improve indexing — definitions, core concepts, sitemap / robots.txt / structured data / backlinks. |
-| [`da`](./docs/1-fundamentals/da/en.md) | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating — the two leading third-party link-authority metrics, why they don't agree, and the fastest no-login lookup. |
+| [`seo-basics`](./docs/1-fundamentals/1-seo-basics/en.md) | What is SEO + how small sites improve indexing — definitions, core concepts, sitemap / robots.txt / structured data / backlinks. |
+| [`da`](./docs/1-fundamentals/2-da/en.md) | DA / DR — Moz Domain Authority vs Ahrefs Domain Rating — the two leading third-party link-authority metrics, why they don't agree, and the fastest no-login lookup. |
 
 ### 2 · Global engines
 
 | Article | Purpose |
 | --- | --- |
-| [`google-seo`](./docs/2-global-engines/google-seo/en.md) | Google SEO + Search Console — the biggest search engine; how to optimize for it; how to use Google Search Console. |
-| [`bing-indexnow`](./docs/2-global-engines/bing-indexnow/en.md) | Bing Webmaster Tools + IndexNow — the instant-submission protocol. |
-| [`duckduckgo`](./docs/2-global-engines/duckduckgo/en.md) | DuckDuckGo SEO — privacy-focused; Bing-derived; smaller market share but growing. |
-| [`yahoo`](./docs/2-global-engines/yahoo/en.md) | Yahoo Search — Yahoo as a separate search engine (powered by Bing, but with its own products). |
-| [`yandex`](./docs/2-global-engines/yandex/en.md) | Yandex SEO — the Russian-language search giant; Yandex.Webmaster + Yandex.Metrica ecosystem. |
+| [`google-seo`](./docs/2-global-engines/1-google-seo/en.md) | Google SEO + Search Console — the biggest search engine; how to optimize for it; how to use Google Search Console. |
+| [`bing-indexnow`](./docs/2-global-engines/2-bing-indexnow/en.md) | Bing Webmaster Tools + IndexNow — the instant-submission protocol. |
+| [`duckduckgo`](./docs/2-global-engines/3-duckduckgo/en.md) | DuckDuckGo SEO — privacy-focused; Bing-derived; smaller market share but growing. |
+| [`yahoo`](./docs/2-global-engines/4-yahoo/en.md) | Yahoo Search — Yahoo as a separate search engine (powered by Bing, but with its own products). |
+| [`yandex`](./docs/2-global-engines/5-yandex/en.md) | Yandex SEO — the Russian-language search giant; Yandex.Webmaster + Yandex.Metrica ecosystem. |
 
 ### 3 · Chinese engines
 
 | Article | Purpose |
 | --- | --- |
-| [`baidu`](./docs/3-china-engines/baidu/en.md) | Baidu SEO — the Chinese-language search giant; Baidu Search Resource Platform. |
-| [`shenma`](./docs/3-china-engines/shenma/en.md) | Shenma SEO — the mobile-focused Chinese search engine by UC Browser. |
-| [`sogou`](./docs/3-china-engines/sogou/en.md) | Sogou SEO — Tencent-backed Chinese search; deep WeChat / QQ ecosystem integration. |
+| [`baidu`](./docs/3-china-engines/1-baidu/en.md) | Baidu SEO — the Chinese-language search giant; Baidu Search Resource Platform. |
+| [`shenma`](./docs/3-china-engines/2-shenma/en.md) | Shenma SEO — the mobile-focused Chinese search engine by UC Browser. |
+| [`sogou`](./docs/3-china-engines/3-sogou/en.md) | Sogou SEO — Tencent-backed Chinese search; deep WeChat / QQ ecosystem integration. |
 
 ### 4 · Regional markets
 
@@ -94,17 +95,17 @@ has to change.
 
 | Article | Purpose |
 | --- | --- |
-| [`overview`](./docs/4-regional-markets/overview/en.md) | The three shapes of local engine — independent index, licensed wrapper, meta-search — and how to decide what is worth optimizing. |
-| [`korea`](./docs/4-regional-markets/korea/en.md) | Korea — Naver's vertical search, Daum inside KakaoTalk, and why a Korean query is a question rather than a keyword. |
-| [`japan`](./docs/4-regional-markets/japan/en.md) | Japan — Yahoo! JAPAN as a distinct product on Google's index, plus the carrier engines. |
-| [`taiwan`](./docs/4-regional-markets/taiwan/en.md) | Taiwan — Google's default and Yahoo! Taiwan's persistent second place. |
-| [`vietnam`](./docs/4-regional-markets/vietnam/en.md) | Vietnam — Cốc Cốc, an independent index built and run in Vietnam. |
-| [`southeast-asia`](./docs/4-regional-markets/southeast-asia/en.md) | Southeast Asia — Android default placements and in-app search taking queries away from Google. |
-| [`czech`](./docs/4-regional-markets/czech/en.md) | Czech Republic — Seznam, a real independent index rather than a wrapper, with its own webmaster tools. |
-| [`german-speaking-europe`](./docs/4-regional-markets/german-speaking-europe/en.md) | Germany, France, the Netherlands — Ecosia, MetaGer, Qwant, Startpage, and Google's slide. |
-| [`russia`](./docs/4-regional-markets/russia/en.md) | Russia — Yandex's home turf after 2022, and the state-aligned alternatives. |
-| [`india`](./docs/4-regional-markets/india/en.md) | India — Google's near-monopoly, and the wobble AI search is putting in it. |
-| [`brazil`](./docs/4-regional-markets/brazil/en.md) | Brazil — where Bing and Yahoo still over-index against their global average. |
+| [`overview`](./docs/4-regional-markets/1-overview/en.md) | The three shapes of local engine — independent index, licensed wrapper, meta-search — and how to decide what is worth optimizing. |
+| [`korea`](./docs/4-regional-markets/2-korea/en.md) | Korea — Naver's vertical search, Daum inside KakaoTalk, and why a Korean query is a question rather than a keyword. |
+| [`japan`](./docs/4-regional-markets/3-japan/en.md) | Japan — Yahoo! JAPAN as a distinct product on Google's index, plus the carrier engines. |
+| [`taiwan`](./docs/4-regional-markets/4-taiwan/en.md) | Taiwan — Google's default and Yahoo! Taiwan's persistent second place. |
+| [`vietnam`](./docs/4-regional-markets/5-vietnam/en.md) | Vietnam — Cốc Cốc, an independent index built and run in Vietnam. |
+| [`southeast-asia`](./docs/4-regional-markets/6-southeast-asia/en.md) | Southeast Asia — Android default placements and in-app search taking queries away from Google. |
+| [`czech`](./docs/4-regional-markets/7-czech/en.md) | Czech Republic — Seznam, a real independent index rather than a wrapper, with its own webmaster tools. |
+| [`german-speaking-europe`](./docs/4-regional-markets/8-german-speaking-europe/en.md) | Germany, France, the Netherlands — Ecosia, MetaGer, Qwant, Startpage, and Google's slide. |
+| [`russia`](./docs/4-regional-markets/9-russia/en.md) | Russia — Yandex's home turf after 2022, and the state-aligned alternatives. |
+| [`india`](./docs/4-regional-markets/10-india/en.md) | India — Google's near-monopoly, and the wobble AI search is putting in it. |
+| [`brazil`](./docs/4-regional-markets/11-brazil/en.md) | Brazil — where Bing and Yahoo still over-index against their global average. |
 
 ## Sister repos
 

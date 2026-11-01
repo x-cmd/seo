@@ -1,0 +1,187 @@
+id: x-seo-japan
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: japan-market-share
+        question:
+          en: What is Japan's search engine market share?
+          cn: 日本搜索引擎的市场份额是多少？
+        answer:
+          en: |
+            2025 full-year averages, all devices, from StatCounter: Google
+            79.5%, Yahoo! JAPAN 9.4%, Bing 9.2%, DuckDuckGo 0.6%, Yandex
+            0.6%, CocCoc 0.4%.
+
+            The device split matters more than the headline. Mobile:
+            Google 85.0%, Yahoo! JAPAN 12.2%, Bing 0.7%. Desktop: Google
+            73.2%, Bing 19.0%, Yahoo! JAPAN 6.1%. Bing's Japanese share
+            is a desktop phenomenon that arrives with Windows and Edge.
+          cn: |
+            2025 全年平均、全设备，来源 StatCounter：Google 79.5%、
+            Yahoo! JAPAN 9.4%、Bing 9.2%、DuckDuckGo 0.6%、Yandex 0.6%、
+            CocCoc 0.4%。
+
+            设备拆分比总量更重要。移动端：Google 85.0%、Yahoo! JAPAN 12.2%、
+            Bing 0.7%。桌面端：Google 73.2%、Bing 19.0%、Yahoo! JAPAN 6.1%。
+            Bing 在日本的份额是随 Windows 和 Edge 一起送来的桌面现象。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/3-japan/en.md
+          - docs/4-regional-markets/3-japan/cn.md
+
+      - id: yahoo-japan-uses-google-index
+        question:
+          en: Does Yahoo! JAPAN use Google's search results?
+          cn: Yahoo! JAPAN 用的是 Google 的搜索结果吗？
+        answer:
+          en: |
+            Yes, and this is the most useful fact about Japanese search.
+            Since 2010 Yahoo! JAPAN has used Google's index for its organic
+            results under a partnership approved by the Japanese regulator.
+            It is not a metasearch — it does not query other engines and
+            merge answers — it is Google's index with a different product
+            around it.
+
+            So your Google ranking is already your Yahoo! JAPAN ranking,
+            and there is no Yahoo! JAPAN webmaster tool because there is no
+            separate index to submit to. What differs is the interface,
+            the vertical services layered on top, and the click-through
+            rate that follows from a different layout.
+          cn: |
+            是的。这是关于日本搜索最有用的一条事实。自 2010 年起，Yahoo!
+            JAPAN 在一项经日本监管机构批准的合作下，用 Google 的索引提供
+            自然结果。它不是元搜索——不转发查询再合并答案——而是 Google
+            索引外面裹了一层自己的产品。
+
+            所以你的 Google 排名本来就是你的 Yahoo! JAPAN 排名，也正因为
+            没有独立索引需要提交，所以没有 Yahoo! JAPAN 站长工具。不同的是
+            界面、叠在上面的垂直服务，以及由不同版式带来的点击率。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/3-japan/en.md
+          - docs/4-regional-markets/3-japan/cn.md
+
+      - id: japan-smartphone-law
+        question:
+          en: What did Japan's Mobile Software Competition Act change?
+          cn: 日本的移动软件竞争法改变了什么？
+        answer:
+          en: |
+            It changed who gets to be the default search engine on a phone.
+            The Act took force in December 2025. Apple shipped a Safari
+            search-engine choice screen in Japan with iOS 26.2 in November
+            2025, ahead of the law; Android now shows a browser and
+            search-app choice screen too. The JFTC issued its first
+            compliance reports and ordered Google to stop practices that
+            put rivals at a disadvantage on preinstallation and defaults.
+
+            For years Japanese mobile search share was a setting rather
+            than a choice. It is now contestable in principle — which does
+            not mean Google is about to lose Japan, but does mean the floor
+            under Google is now a policy question.
+          cn: |
+            它改变了手机上谁能当默认搜索引擎。该法于 2025 年 12 月生效。
+            苹果在 2025 年 11 月随 iOS 26.2 在日本推出 Safari 搜索引擎
+            选择界面，早于法律生效；安卓也开始显示浏览器和搜索应用的选择
+            界面。公平交易委员会发出了首批合规报告，并要求 Google 停止
+            在预装和默认设置上对竞争对手不利的做法。
+
+            过去很多年，日本移动搜索份额是「设置」而不是「选择」。现在
+            原则上变得可以被争夺——这不等于 Google 要丢掉日本，但意味着
+            Google 下面的地板变成了一个政策问题。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/3-japan/en.md
+          - docs/4-regional-markets/3-japan/cn.md
+
+      - id: japan-carrier-engines
+        question:
+          en: What happened to goo, BIGLOBE and OCN search in Japan?
+          cn: 日本的 goo、BIGLOBE、OCN 搜索怎么样了？
+        answer:
+          en: |
+            They are effectively gone as search engines. The goo portal
+            service ended in November 2025, and the carrier search
+            products — goo (KDDI/au), BIGLOBE (SoftBank) and OCN (NTT
+            Docomo) — have largely converged into redirects toward Yahoo!
+            JAPAN or Google.
+
+            Because there is no separate index left to be found in,
+            "optimize for the carrier engine" is no longer a task in the
+            Japanese market.
+          cn: |
+            作为搜索引擎，它们基本已经消失。goo portal 的服务于 2025 年
+            11 月终止，各运营商的搜索产品——goo（KDDI/au）、BIGLOBE
+            （SoftBank）、OCN（NTT Docomo）——大多已经收敛成跳向 Yahoo!
+            JAPAN 或 Google 的跳转。
+
+            既然没有独立的索引可以进，「去优化运营商引擎」在日本已经
+            不是一个任务了。
+        confidence: 8
+        reference:
+          - docs/4-regional-markets/3-japan/en.md
+          - docs/4-regional-markets/3-japan/cn.md
+
+      - id: japan-yahoo-hedging
+        question:
+          en: Could Yahoo! JAPAN drop Google?
+          cn: Yahoo! JAPAN 会放弃 Google 吗？
+        answer:
+          en: |
+            It has been signalled but has not happened. LINE Yahoo — the
+            merged LINE and Yahoo Japan company, LY Corporation — has
+            publicly signalled that it wants to reduce dependence on the
+            Google agreement that has been running since 2010. There has
+            been reporting on testing an alternative organic backend,
+            including the possibility of using another operator's index
+            for some queries.
+
+            Nothing has changed the market yet. But if it did, Japan would
+            become the first market where a foreign engine with its own
+            index held a double-digit share.
+          cn: |
+            有信号，但还没发生。合并了 LINE 与 Yahoo Japan 的 LINE Yahoo
+            （LY Corporation）已公开表示要降低对这项自 2010 年起运行的
+            Google 合作的依赖，也有报道称它在测试替代的有机搜索后端，
+            包括可能用另一家运营商的索引来回答部分查询。
+
+            目前市场还没有变化。但如果真发生，日本会成为第一个「外资引擎
+            靠自己的索引拿到两位数份额」的市场。
+        confidence: 7
+        reference:
+          - docs/4-regional-markets/3-japan/en.md
+          - docs/4-regional-markets/3-japan/cn.md
+
+      - id: japan-do-i-need-yahoo-strategy
+        question:
+          en: Do I need a separate SEO strategy for Yahoo! JAPAN?
+          cn: 我需要为 Yahoo! JAPAN 单独做一套 SEO 策略吗？
+        answer:
+          en: |
+            No. Because Yahoo! JAPAN runs on Google's index, your Google
+            work already carries over — there is no separate index to
+            submit to and no separate webmaster tool.
+
+            What does need attention is presentation: Yahoo! JAPAN's
+            layout differs from Google's, so check how your title and
+            description render there and whether they earn the click. That
+            is title-tag and meta-description discipline, not link
+            building. If you want coverage beyond Google in Japan, the
+            adjacent move is Bing — Webmaster Tools plus IndexNow —
+            which reaches Bing's 9.2% and almost all of its desktop share.
+          cn: |
+            不需要。因为 Yahoo! JAPAN 跑在 Google 的索引上，你的 Google
+            工作本来就带过去了——没有独立索引要提交，也没有单独的站长工具。
+
+            需要花心思的是呈现：Yahoo! JAPAN 的版式和 Google 不同，检查
+            你的标题和描述在那里怎么渲染、能不能挣到点击。那是标题标签和
+            meta 描述的功夫，不是外链。如果想在 Google 之外多覆盖日本，
+            邻近的一步是 Bing——站长工具加 IndexNow——覆盖 Bing 的 9.2%
+            以及几乎全部的桌面份额。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/3-japan/en.md
+          - docs/4-regional-markets/3-japan/cn.md

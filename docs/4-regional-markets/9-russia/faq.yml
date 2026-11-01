@@ -1,0 +1,102 @@
+id: x-seo-russia
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: russia-market-share
+        question:
+          en: What is Russia's search engine market share?
+          cn: 俄罗斯搜索引擎的市场份额是多少？
+        answer:
+          en: |
+            2025 full-year averages, all devices, from StatCounter: Yandex
+            73.2%, Google 25.1%, Bing 0.9%, Mail.ru 0.5%, DuckDuckGo 0.2%.
+
+            Russia is the only very large market where Google is not #1.
+            The shape has been stable for years; Google's post-2022
+            weakening moved share to Yandex without making Google a
+            footnote.
+          cn: |
+            2025 全年平均、全设备，来源 StatCounter：Yandex 73.2%、
+            Google 25.1%、Bing 0.9%、Mail.ru 0.5%、DuckDuckGo 0.2%。
+
+            俄罗斯是唯一一个 Google 不是第一的超大市场。这个形状多年
+            稳定；2022 年后 Google 走弱，份额流向 Yandex，但 Google
+            并没有变成脚注。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/9-russia/en.md
+          - docs/4-regional-markets/9-russia/cn.md
+
+      - id: russia-yandex-first
+        question:
+          en: Should I optimize for Yandex or Google in Russia?
+          cn: 在俄罗斯该做 Yandex 还是 Google？
+        answer:
+          en: |
+            Yandex first, Google second — not the other way round. Yandex
+            has its own index, so Google rankings carry over imperfectly:
+            verify in Yandex.Webmaster, submit a sitemap, enable IndexNow,
+            and write Russian content for Russians.
+
+            But do not drop Google: a quarter of the market is enormous
+            in absolute terms, and Search Console works unchanged.
+          cn: |
+            先 Yandex，后 Google——不要反过来。Yandex 有自己的索引，
+            Google 排名的迁移并不完整：在 Yandex.Webmaster 验证、提交
+            sitemap、启用 IndexNow，写为俄罗斯人写的俄语内容。
+
+            但也别丢掉 Google：四分之一的市场在绝对值上仍然巨大，
+            Search Console 原样能用。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/9-russia/en.md
+          - docs/4-regional-markets/9-russia/cn.md
+
+      - id: russia-non-search-constraints
+        question:
+          en: What non-search constraints matter when entering the Russian market?
+          cn: 进入俄罗斯市场，搜索之外还有哪些约束要紧？
+        answer:
+          en: |
+            Three, and they decide whether the market is worth entering at
+            all. Payments: international cards do not work normally in
+            Russia, which makes buying Yandex Direct ads or paying for
+            Yandex services from abroad difficult. Infrastructure: some
+            hosts and CDNs will not serve Russian traffic, and slow
+            hosting hurts a ranking signal. Compliance: Russian
+            data-localization law requires citizens' personal data on
+            servers physically in Russia — Metrica is compliant by
+            design; homegrown analytics is a legal question.
+          cn: |
+            三条，而且它们决定这个市场到底值不值得进。支付：国际卡在
+            俄罗斯无法正常使用，从海外购买 Yandex Direct 广告或支付
+            Yandex 服务很困难。基础设施：一些主机和 CDN 不服务俄罗斯
+            流量，而慢的主机会伤害排序信号。合规：俄罗斯数据本地化
+            法律要求公民个人信息存在物理位于俄罗斯的服务器上——
+            Metrica 天然合规，自建分析则是法务问题。
+        confidence: 8
+        reference:
+          - docs/4-regional-markets/9-russia/en.md
+          - docs/4-regional-markets/9-russia/cn.md
+
+      - id: russia-indexnow
+        question:
+          en: Does Yandex support IndexNow?
+          cn: Yandex 支持 IndexNow 吗？
+        answer:
+          en: |
+            Yes — Yandex was a founding participant of IndexNow together
+            with Bing. One endpoint covers Yandex, Bing and Seznam, which
+            makes instant submission in the Russian market a solved
+            problem rather than a wait.
+          cn: |
+            支持——Yandex 是和 Bing 一起的 IndexNow 创始参与方。一个端点
+            覆盖 Yandex、Bing 和 Seznam，俄罗斯市场的即时提交因此是一个
+            已解决的问题，而不是苦等。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/9-russia/en.md
+          - docs/4-regional-markets/9-russia/cn.md

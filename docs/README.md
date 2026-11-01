@@ -16,26 +16,26 @@ that page answers, in both languages.
 
 | page | what it covers |
 |---|---|
-| [SEO Basics](1-fundamentals/seo-basics/en.md) | what SEO is, the crawl → index → rank pipeline, and how a small site gets indexed |
-| [DA / DR](1-fundamentals/da/en.md) | Moz Domain Authority vs Ahrefs Domain Rating — where the numbers come from, why they disagree |
+| [SEO Basics](1-fundamentals/1-seo-basics/en.md) | what SEO is, the crawl → index → rank pipeline, and how a small site gets indexed |
+| [DA / DR](1-fundamentals/2-da/en.md) | Moz Domain Authority vs Ahrefs Domain Rating — where the numbers come from, why they disagree |
 
 ## 2 · Global engines
 
 | page | engine | good for |
 |---|---|---|
-| [Google SEO](2-global-engines/google-seo/en.md) | Google | the engine that matters most, plus Search Console |
-| [Bing + IndexNow](2-global-engines/bing-indexnow/en.md) | Bing | Webmaster Tools and the instant-submission protocol |
-| [DuckDuckGo](2-global-engines/duckduckgo/en.md) | DuckDuckGo | privacy search, and the fact that it runs on other people's index |
-| [Yahoo Search](2-global-engines/yahoo/en.md) | Yahoo | a separate product on top of Bing's index |
-| [Yandex](2-global-engines/yandex/en.md) | Yandex | the Russian-language search giant |
+| [Google SEO](2-global-engines/1-google-seo/en.md) | Google | the engine that matters most, plus Search Console |
+| [Bing + IndexNow](2-global-engines/2-bing-indexnow/en.md) | Bing | Webmaster Tools and the instant-submission protocol |
+| [DuckDuckGo](2-global-engines/3-duckduckgo/en.md) | DuckDuckGo | privacy search, and the fact that it runs on other people's index |
+| [Yahoo Search](2-global-engines/4-yahoo/en.md) | Yahoo | a separate product on top of Bing's index |
+| [Yandex](2-global-engines/5-yandex/en.md) | Yandex | the Russian-language search giant |
 
 ## 3 · Chinese engines
 
 | page | engine | good for |
 |---|---|---|
-| [Baidu](3-china-engines/baidu/en.md) | 百度 | the Chinese-language search giant, ICP 备案, 搜索资源平台 |
-| [Shenma](3-china-engines/shenma/en.md) | 神马 | the mobile-first engine behind UC Browser |
-| [Sogou](3-china-engines/sogou/en.md) | 搜狗 | Tencent's engine, and the WeChat / QQ ecosystem |
+| [Baidu](3-china-engines/1-baidu/en.md) | 百度 | the Chinese-language search giant, ICP 备案, 搜索资源平台 |
+| [Shenma](3-china-engines/2-shenma/en.md) | 神马 | the mobile-first engine behind UC Browser |
+| [Sogou](3-china-engines/3-sogou/en.md) | 搜狗 | Tencent's engine, and the WeChat / QQ ecosystem |
 
 ## 4 · Regional markets
 
@@ -45,17 +45,17 @@ searches, and what an optimizer has to do differently there.
 
 | page | market | the local angle |
 |---|---|---|
-| [Regional search engines](4-regional-markets/overview/en.md) | overview | three shapes of local engine, and how to pick what to optimize for |
-| [Korea](4-regional-markets/korea/en.md) | 韩国 | Naver's vertical search, and Daum inside KakaoTalk |
-| [Japan](4-regional-markets/japan/en.md) | 日本 | Yahoo! JAPAN's own product on Google's index |
-| [Taiwan](4-regional-markets/taiwan/en.md) | 台湾 | Google's default and Yahoo! Taiwan's second place |
-| [Vietnam](4-regional-markets/vietnam/en.md) | 越南 | Cốc Cốc, an independent index built in Vietnam |
-| [Southeast Asia](4-regional-markets/southeast-asia/en.md) | 东南亚 | Android defaults and in-app search eating Google queries |
-| [Czech Republic](4-regional-markets/czech/en.md) | 捷克 | Seznam — a real independent index, not a wrapper |
-| [German-speaking Europe](4-regional-markets/german-speaking-europe/en.md) | 德语区 | Ecosia, MetaGer, Qwant, Startpage, and Google's slide |
-| [Russia](4-regional-markets/russia/en.md) | 俄罗斯 | Yandex's home turf after 2022 |
-| [India](4-regional-markets/india/en.md) | 印度 | Google's near-monopoly and the AI-search wobble |
-| [Brazil](4-regional-markets/brazil/en.md) | 巴西 | where Bing and Yahoo still out-weigh their global average |
+| [Regional search engines](4-regional-markets/1-overview/en.md) | overview | three shapes of local engine, and how to pick what to optimize for |
+| [Korea](4-regional-markets/2-korea/en.md) | 韩国 | Naver's vertical search, and Daum inside KakaoTalk |
+| [Japan](4-regional-markets/3-japan/en.md) | 日本 | Yahoo! JAPAN's own product on Google's index |
+| [Taiwan](4-regional-markets/4-taiwan/en.md) | 台湾 | Google's default and Yahoo! Taiwan's second place |
+| [Vietnam](4-regional-markets/5-vietnam/en.md) | 越南 | Cốc Cốc, an independent index built in Vietnam |
+| [Southeast Asia](4-regional-markets/6-southeast-asia/en.md) | 东南亚 | Android defaults and in-app search eating Google queries |
+| [Czech Republic](4-regional-markets/7-czech/en.md) | 捷克 | Seznam — a real independent index, not a wrapper |
+| [German-speaking Europe](4-regional-markets/8-german-speaking-europe/en.md) | 德语区 | Ecosia, MetaGer, Qwant, Startpage, and Google's slide |
+| [Russia](4-regional-markets/9-russia/en.md) | 俄罗斯 | Yandex's home turf after 2022 |
+| [India](4-regional-markets/10-india/en.md) | 印度 | Google's near-monopoly and the AI-search wobble |
+| [Brazil](4-regional-markets/11-brazil/en.md) | 巴西 | where Bing and Yahoo still out-weigh their global average |
 
 ## Layout
 
@@ -64,24 +64,24 @@ docs/
 ├── README.md              # this file
 ├── _sidebar.yml           # chapter → page navigation
 ├── 1-fundamentals/
-│   ├── seo-basics/        # cn.md, en.md, llms.md, faq.yml
-│   └── da/
+│   ├── 1-seo-basics/      # cn.md, en.md, llms.md, faq.yml
+│   └── 2-da/
 ├── 2-global-engines/
-│   ├── google-seo/
-│   ├── bing-indexnow/
-│   ├── duckduckgo/
-│   ├── yahoo/
-│   └── yandex/
+│   ├── 1-google-seo/
+│   ├── 2-bing-indexnow/
+│   ├── 3-duckduckgo/
+│   ├── 4-yahoo/
+│   └── 5-yandex/
 ├── 3-china-engines/
-│   ├── baidu/
-│   ├── shenma/
-│   └── sogou/
+│   ├── 1-baidu/
+│   ├── 2-shenma/
+│   └── 3-sogou/
 └── 4-regional-markets/
-    ├── overview/
-    ├── korea/
-    └── ...
+    ├── 1-overview/
+    ├── 2-korea/
+    └── … (3-japan … 11-brazil)
 ```
 
-One article = one folder = one URL slug. The chapter directory above
-it is organization only — the folder name is what the site publishes as
-`x-cmd.com/seo/<slug>/`.
+One article = one folder. The `<n>-` prefix on a leaf folder fixes the
+reading order; the site strips it when publishing, so the URL slug is
+the name after the prefix — `2-korea/` serves at `x-cmd.com/seo/korea/`.

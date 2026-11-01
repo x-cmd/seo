@@ -1,7 +1,7 @@
 # 官网 seo 侧边栏配置
 #
-# 章节（chapter）是内部组织层，URL 只取叶子目录名：
-#   docs/1-fundamentals/seo-basics/ → x-cmd.com/seo/seo-basics/
+# 章节（chapter）与叶子目录的 <n>- 序号都是内部组织层：
+#   URL 剥掉序号，只取名字 —— docs/1-fundamentals/1-seo-basics/ → x-cmd.com/seo/seo-basics/
 
 fundamentals:
   <icon>: i-lucide:book-open

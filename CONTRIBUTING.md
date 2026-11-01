@@ -8,9 +8,10 @@ topic library.
 
 ## Chapters and article slots
 
-Articles are grouped into **chapters**. The chapter directory is
-organization only; the leaf folder name is the URL slug published as
-`x-cmd.com/seo/<slug>/`.
+Articles are grouped into **chapters**. The chapter directory and the
+leaf's `<n>-` order prefix are organization only; the site strips the
+prefix, so the URL slug is the name after it (`2-korea/` →
+`x-cmd.com/seo/korea/`).
 
 | Chapter | Slot | Article | Add a new one? |
 | --- | --- | --- | --- |
@@ -120,8 +121,8 @@ data:
           cn: Google 提供的免费工具，展示 Google 如何看待你的网站——收录状态、搜索查询、sitemap、人工操作。
         confidence: 9
         reference:
-          - docs/2-global-engines/google-seo/en.md
-          - docs/2-global-engines/google-seo/cn.md
+          - docs/2-global-engines/1-google-seo/en.md
+          - docs/2-global-engines/1-google-seo/cn.md
 ```
 
 Each FAQ entry has:
