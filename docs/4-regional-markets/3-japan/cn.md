@@ -76,13 +76,26 @@ Yahoo! JAPAN 版式里长什么样、点不点得动。那是标题标签和 met
 
 [![日本 —— 移动端 vs 桌面端](https://x-cmd.com/draw?type=bar&unit=%25&title=%E6%97%A5%E6%9C%AC%20%20%E7%A7%BB%E5%8A%A8%E7%AB%AF%20vs%20%E6%A1%8C%E9%9D%A2%E7%AB%AF&labels=Google,Yahoo!,Bing&series=Mobile:85.0,12.2,0.7&series=Desktop:73.2,6.1,19.0)](https://x-cmd.com/draw/explore?type=bar&unit=%25&title=%E6%97%A5%E6%9C%AC%20%20%E7%A7%BB%E5%8A%A8%E7%AB%AF%20vs%20%E6%A1%8C%E9%9D%A2%E7%AB%AF&labels=Google,Yahoo!,Bing&series=Mobile:85.0,12.2,0.7&series=Desktop:73.2,6.1,19.0)
 
-在手机上，Bing 基本不存在——0.7%。在桌面上它占 19%，是 Yahoo! JAPAN
-在三倍。原因和它在德国占 5%、在巴西占 6% 一样：Windows 和 Edge 就是
-这么接的，而桌面才是它们跑的地方。
+Google 在两端都是第一——手机上 85.0%，桌面上 73.2%——所以这张图
+真正的故事是：换成桌面后，两个第二名发生了什么。在手机上，Bing
+基本不存在（0.7%），Yahoo! JAPAN 拿 12.2%；到了桌面，两者对调：
+Bing 爬到 19.0%，Yahoo! JAPAN 掉到 6.1%。Bing 的三倍说的是**非 Google
+引擎里**的对比——它仍然远不及 Google，Google 桌面还握着近四分之三。
+Bing 在桌面强，原因和它在德国占 5%、在巴西占 6% 一样：Windows 和
+Edge 就是这么接的，而桌面才是它们跑的地方。
 
-于是日本那两个非 Google 引擎，正好各占一端。如果你的流量在移动端，
-Yahoo! JAPAN 才是要紧的那个，而它对你几乎免费。如果流量在桌面端，
-Bing 值得花一点力气去开一个 Bing 站长工具账号。
+把两个第二名放在一起看，得到的是一条实用规则：
+
+- **移动端，Google 之外几乎全是 Yahoo! JAPAN**（12.2%，Bing 只有
+  0.7%）。好消息是它不要你花任何力气——它的自然结果来自 Google 的
+  索引，Google 的功夫做完，Yahoo! JAPAN 就自动覆盖了。
+- **桌面端，Google 之外主要是 Bing**（19.0%，Yahoo! JAPAN 只有
+  6.1%）。它有自己的索引，需要单独覆盖——但很便宜：一个 Bing 站长
+  工具账号、一份 sitemap、一次 [IndexNow](https://www.indexnow.org/)
+  设置。
+
+一句话：面向手机用户，做好 Google 就顺带拿下了 Yahoo! JAPAN；面向
+办公电脑用户，再多花一点点力气把 Bing 加上。
 
 ## 2025 年 12 月的规则变化
 

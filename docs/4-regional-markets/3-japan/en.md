@@ -90,16 +90,30 @@ beyond Google, the adjacent move is Bing — Bing Webmaster Tools and
 
 [![Japan — mobile vs desktop](https://x-cmd.com/draw?type=bar&unit=%25&title=Japan%20-%20mobile%20vs%20desktop&labels=Google,Yahoo!,Bing&series=Mobile:85.0,12.2,0.7&series=Desktop:73.2,6.1,19.0)](https://x-cmd.com/draw/explore?type=bar&unit=%25&title=Japan%20-%20mobile%20vs%20desktop&labels=Google,Yahoo!,Bing&series=Mobile:85.0,12.2,0.7&series=Desktop:73.2,6.1,19.0)
 
-On a phone, Bing is essentially absent — 0.7%. On a desktop it holds
-19%, three times Yahoo! JAPAN's share there. The reason is the same
-one that puts Bing at 5% in Germany and 6% in Brazil: it is what
-Windows and Edge are wired to do, and desktops are where those run.
+Google leads on both devices — 85.0% on phones, 73.2% on desktops —
+so the chart's real story is what happens to the two runners-up when
+you switch devices. On a phone, Bing is essentially absent (0.7%) and
+Yahoo! JAPAN takes 12.2%. On a desktop, they swap: Bing climbs to
+19.0% while Yahoo! JAPAN falls to 6.1% — Bing is three times bigger
+*among the non-Google engines*, not ahead of Google, which still
+takes nearly three-quarters. The reason for Bing's desktop strength
+is the same one that puts it at 5% in Germany and 6% in Brazil: it is
+what Windows and Edge are wired to do, and desktops are where those
+run.
 
-So the two non-Google engines in Japan cover opposite ends of the
-device spectrum. If your traffic is mobile, Yahoo! JAPAN is the one
-that matters, and it is mostly free for you. If your traffic is
-desktop, Bing is worth the small effort of a Bing Webmaster Tools
-account.
+Put the two runners-up side by side and you get a practical rule:
+
+- **On mobile, the runner-up is Yahoo! JAPAN** (12.2%). It costs you
+  nothing extra, because it serves Google's index — finish your Google
+  work and Yahoo! JAPAN is covered automatically.
+- **On desktop, the runner-up is Bing** (19.0%). It has its own index,
+  so it does need separate coverage — but the coverage is cheap: one
+  Bing Webmaster Tools account, one sitemap, one
+  [IndexNow](https://www.indexnow.org/) setup.
+
+So: for phone users, doing Google well gets you Yahoo! JAPAN thrown
+in for free; for office-PC users, spend the small extra effort to add
+Bing.
 
 ## The December 2025 rule change
 
