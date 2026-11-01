@@ -54,7 +54,7 @@ x-cmd/seo/
 站点发布时会剥掉序号，URL slug 取前缀之后的名字——`2-korea/` 发布为
 `x-cmd.com/seo/korea/`。
 
-每篇文章五个语言：`en.md`、`cn.md`、`de.md`、`es.md`、`ja.md`（与
+每篇文章五个语言：`en.md`、`cn.md`、`de.md`、`pt.md`、`ja.md`（与
 [x-cmd/dbnomics](https://github.com/x-cmd/dbnomics) 同一套语种），外加
 语言无关的 `llms.md` 摘要与双语 `faq.yml`，全部保持同步。现为 en+cn
 的文章将逐步补齐五语。

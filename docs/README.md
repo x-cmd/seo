@@ -9,7 +9,7 @@ Chinese-language engines, and chapter 4 the markets where the local
 engine beats the global one.
 
 Every article below exists in five languages — English, 中文,
-Deutsch, Español, 日本語 (`en.md`, `cn.md`, `de.md`, `es.md`, `ja.md`,
+Deutsch, Português, 日本語 (`en.md`, `cn.md`, `de.md`, `pt.md`, `ja.md`,
 the set used by x-cmd/dbnomics) — and carries a language-neutral
 `llms.md` summary and a bilingual `faq.yml`. Articles not yet at five
 languages are being extended from en+cn.

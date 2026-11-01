@@ -35,7 +35,7 @@ kept in sync (language set as x-cmd/dbnomics):
 | `<slug>/en.md` | Markdown with YAML frontmatter. | Canonical English article. |
 | `<slug>/cn.md` | Same, in Chinese. | Chinese translation. |
 | `<slug>/de.md` | Same, in German. | German translation. |
-| `<slug>/es.md` | Same, in Spanish. | Spanish translation. |
+| `<slug>/pt.md` | Same, in Portuguese. | Portuguese translation. |
 | `<slug>/ja.md` | Same, in Japanese. | Japanese translation. |
 | `<slug>/llms.md` | YAML frontmatter + flat structured sections. | LLM-friendly summary. |
 | `<slug>/faq.yml` | Bilingual `question` + `answer`. | FAQ + JSON-LD. |

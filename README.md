@@ -58,7 +58,7 @@ number when publishing, so the URL slug is the name after the
 prefix — `2-korea/` is published as `x-cmd.com/seo/korea/`.
 
 Every article exists in five languages — `en.md`, `cn.md`, `de.md`,
-`es.md`, `ja.md` (the same set as [x-cmd/dbnomics](https://github.com/x-cmd/dbnomics)) —
+`pt.md`, `ja.md` (the same set as [x-cmd/dbnomics](https://github.com/x-cmd/dbnomics)) —
 plus a language-neutral `llms.md` summary and a bilingual `faq.yml`,
 all kept in sync. Languages currently at en+cn are being extended to
 the full five.
