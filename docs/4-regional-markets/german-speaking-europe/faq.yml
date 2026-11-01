@@ -1,0 +1,121 @@
+id: x-seo-german-speaking-europe
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: dach-market-share
+        question:
+          en: What is the search engine market share in Germany, France and the Netherlands?
+          cn: 德国、法国、荷兰的搜索引擎份额是多少？
+        answer:
+          en: |
+            2025 full-year averages, all devices (StatCounter):
+
+            - Germany: Google 86.6%, Bing 6.4%, Yahoo! 1.6%, DuckDuckGo
+              1.5%, Ecosia 1.1%
+            - France: Google 88.0%, Bing 5.4%, Ecosia 1.2%, Qwant 0.9%
+            - Netherlands: Google 88.5%, Bing 4.9%
+
+            The runner-up in all three is Bing, not a local engine. On
+            desktop Bing is much larger — 15.8% in Germany.
+          cn: |
+            2025 全年平均、全设备（StatCounter）：
+
+            - 德国：Google 86.6%、Bing 6.4%、Yahoo! 1.6%、DuckDuckGo 1.5%、
+              Ecosia 1.1%
+            - 法国：Google 88.0%、Bing 5.4%、Ecosia 1.2%、Qwant 0.9%
+            - 荷兰：Google 88.5%、Bing 4.9%
+
+            三地的第二名都是 Bing，不是本地引擎。桌面端 Bing 大得多——
+            德国 15.8%。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/german-speaking-europe/en.md
+          - docs/4-regional-markets/german-speaking-europe/cn.md
+
+      - id: privacy-engines-own-strategy
+        question:
+          en: Do Ecosia, Startpage, Qwant and MetaGer need their own SEO work?
+          cn: Ecosia、Startpage、Qwant、MetaGer 需要单独优化吗？
+        answer:
+          en: |
+            No. Ecosia runs on Bing's index and Startpage proxies
+            Google's — if Bing and Google have your pages, those engines
+            already serve them. Qwant maintains its own index and
+            MetaGer is a meta-search, but each is under 1%, so the return
+            on a dedicated strategy rounds to zero.
+
+            Treat them as a signal about privacy sentiment in these
+            markets, not as optimization targets. Submit to Qwant only
+            if French traffic is a priority and the cost is one form.
+          cn: |
+            不需要。Ecosia 跑在 Bing 的索引上，Startpage 代理 Google 的——
+            只要 Bing 和 Google 收录了你的页面，这两个引擎就已经在展示
+            它们。Qwant 自建索引、MetaGer 是元搜索，但各自不到 1%，
+            专门做一套策略的回报四舍五入等于零。
+
+            把它们当作这几个市场隐私舆情的信号，而不是优化目标。只有
+            当法国流量是重点时才顺手提交 Qwant，成本只是一张表单。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/german-speaking-europe/en.md
+          - docs/4-regional-markets/german-speaking-europe/cn.md
+
+      - id: google-germany-collapse-claim
+        question:
+          en: Has Google's share in Germany really fallen to 60%?
+          cn: Google 在德国的份额真的跌到 60% 了吗？
+        answer:
+          en: |
+            Check the source and the device split before repeating that.
+            On the 2025 all-device referral series Google Germany
+            averaged 86.6%, with desktop around 74.8% and mobile around
+            93.4%.
+
+            The lower numbers in circulation are usually desktop-only
+            slices of particular months, where Bing's Windows default is
+            strongest. The accurate statement is narrower: desktop Bing
+            in German-speaking Europe has been grinding upward for
+            years — a real trend on one device class, not a collapse.
+          cn: |
+            复述之前先查来源和设备口径。2025 年全设备引荐序列里，Google
+            德国平均 86.6%，桌面约 74.8%，移动约 93.4%。
+
+            流传的低数字通常是个别月份的纯桌面切片，也就是 Bing 的
+            Windows 默认位最强的地方。准确的说法更窄：德语区桌面端的
+            Bing 多年来在缓慢爬升——这是一个设备类别上的真实趋势，
+            不是崩盘。
+        confidence: 8
+        reference:
+          - docs/4-regional-markets/german-speaking-europe/en.md
+          - docs/4-regional-markets/german-speaking-europe/cn.md
+
+      - id: bing-b2b-desktop
+        question:
+          en: Why does my German B2B site see much more Bing traffic than 6%?
+          cn: 为什么我的德国 B2B 站看到的 Bing 流量远超 6%？
+        answer:
+          en: |
+            Because Bing's share is concentrated on desktops — 15.8% in
+            Germany on the 2025 average, climbing toward ~19.7% through
+            2026 — and under 1% on mobile. The Windows/Edge default does
+            the work, and offices are where Windows laptops live.
+
+            A B2B site whose audience works on company laptops can see a
+            Bing slice far above the headline number; a consumer mobile
+            app sees almost none. Let your own analytics decide how much
+            Bing attention is worth.
+          cn: |
+            因为 Bing 的份额集中在桌面端——德国 2025 年平均 15.8%，2026 年
+            向 19.7% 爬——而移动端不到 1%。起作用的是 Windows/Edge 默认
+            设置，而办公室正是 Windows 笔记本待的地方。
+
+            受众在公司笔记本上工作的 B2B 站，看到的 Bing 份额会远超头条
+            数字；消费类移动应用几乎看不到。让你自己的分析决定 Bing
+            值得多少关注。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/german-speaking-europe/en.md
+          - docs/4-regional-markets/german-speaking-europe/cn.md
