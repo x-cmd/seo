@@ -1,0 +1,175 @@
+id: x-seo-czech
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: czech-market-share
+        question:
+          en: What is the Czech Republic's search engine market share?
+          cn: 捷克搜索引擎的市场份额是多少？
+        answer:
+          en: |
+            2025 full-year averages, all devices, from StatCounter: Google
+            81.6%, Seznam 11.6%, Bing 4.1%. The Yandex figure (~1.7%) is
+            mostly panel noise rather than real Czech usage.
+
+            Seznam is strongest on desktop (~14.6%) and tablets (~26%).
+            An agency rule of thumb: Google sits near 81% in Czechia
+            against a ~92% EU average — the gap is Seznam, and it is the
+            only EU country with a domestic engine holding a meaningful
+            share.
+          cn: |
+            2025 全年平均、全设备，来源 StatCounter：Google 81.6%、
+            Seznam 11.6%、Bing 4.1%。Yandex 那个约 1.7% 主要是面板噪声，
+            不是捷克人的真实使用。
+
+            Seznam 在桌面端（约 14.6%）和平板（约 26%）最强。代理商的
+            经验值：Google 在捷克约 81%，欧盟平均约 92%——中间那道缺口
+            就是 Seznam，捷克也是欧盟唯一一个本土引擎还有可观份额的
+            国家。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/czech/en.md
+          - docs/4-regional-markets/czech/cn.md
+
+      - id: seznam-own-index
+        question:
+          en: Does Seznam have its own search index, or does it use Google's?
+          cn: Seznam 有自己的索引，还是用 Google 的？
+        answer:
+          en: |
+            Its own. SeznamBot crawls the open web itself and the organic
+            results are ranked by Seznam's own signals, including S-Rank,
+            a 0–10 site-authority score analogous to early PageRank. It is
+            not a wrapper and not a metasearch — and it is the only
+            national-scale independent index inside the EU.
+
+            Consequence: a Google-only strategy misses roughly a tenth of
+            Czech search, and Seznam needs its own verification and
+            monitoring in Seznam Webmaster Tools.
+          cn: |
+            是它自己的。SeznamBot 自己爬开放的网页，自然结果由 Seznam
+            自己的信号排序，包括 S-Rank——一个 0–10 的站点权威分，类似
+            早期 PageRank。它不是套壳也不是元搜索，而且是欧盟境内唯一
+            一个国家级规模的独立索引。
+
+            结论：只做 Google 会漏掉约十分之一的捷克搜索，而且 Seznam
+            需要在 Seznam 站长工具里单独验证和监控。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/czech/en.md
+          - docs/4-regional-markets/czech/cn.md
+
+      - id: seznam-webmaster-tools
+        question:
+          en: What does Seznam Webmaster Tools offer?
+          cn: Seznam 站长工具有什么功能？
+        answer:
+          en: |
+            It is the closest thing to a Czech Search Console: site
+            verification by meta tag or file, crawled versus indexed URLs,
+            redirects, crawl errors, URL-level inspection, and reindex
+            requests. There is also a simple "add page" form and sitemap
+            submission on the search site itself.
+
+            Seznam additionally accepts IndexNow (since 2022), so instant
+            submission can cover Seznam, Bing and Yandex from one
+            endpoint.
+          cn: |
+            它是最接近「捷克版 Search Console」的东西：用 meta 标签或
+            文件验证站点、已抓取与已收录 URL、重定向、抓取错误、URL 级
+            检查、重新索引请求。搜索站本身还有简单的「添加页面」表单和
+            sitemap 提交入口。
+
+            Seznam 还接受 IndexNow（2022 年起），所以即时提交可以用一个
+            端点同时覆盖 Seznam、Bing 和 Yandex。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/czech/en.md
+          - docs/4-regional-markets/czech/cn.md
+
+      - id: czech-diacritics-urls
+        question:
+          en: How should Czech diacritics be handled in content and URLs?
+          cn: 捷克变音符号在内容和 URL 里怎么处理？
+        answer:
+          en: |
+            Content: keep full diacritics and write proper Czech (česká
+            republika, not ceska republika). Seznam favors Czech-language
+            content and may effectively ignore English-only pages.
+
+            URLs: strip to ASCII (cestovani rather than cestování) and
+            make the CMS transliterate consistently. Note that the
+            ".cz domain boost" people repeat is correlative — content
+            language and Czech backlinks are the actual ranking signals,
+            not the TLD.
+          cn: |
+            内容：保留完整变音符号，写正确的捷克语（česká republika，
+            不是 ceska republika）。Seznam 偏爱捷克语内容，纯英文页面
+            可能实际上被忽略。
+
+            URL：去符号转成 ASCII（cestovani 而非 cestování），让 CMS
+            一致地转写。另外，人们常说的「.cz 域名加成」只是相关而非
+            因果——真正起作用的信号是内容语言和捷克外链，不是顶级域。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/czech/en.md
+          - docs/4-regional-markets/czech/cn.md
+
+      - id: czech-spa-js-rendering
+        question:
+          en: Will my JavaScript SPA index on Seznam?
+          cn: 我的 JavaScript 单页应用能被 Seznam 收录吗？
+        answer:
+          en: |
+            Probably not, without server-side rendering. SeznamBot's
+            JavaScript rendering is weak, and a client-side-only
+            application (React, Angular, Vue without SSR) may simply not
+            be indexed.
+
+            Serve real HTML for navigation and core content. The advice
+            is the same direction Google gives, but with Seznam it is
+            enforced more literally.
+          cn: |
+            不做服务端渲染的话，多半不能。SeznamBot 渲染 JavaScript 的
+            能力弱，纯客户端应用（没有 SSR 的 React、Angular、Vue）可能
+            根本进不了索引。
+
+            导航和核心内容要输出真实 HTML。方向和 Google 的建议相同，
+            但 Seznam 执行得更字面。
+        confidence: 8
+        reference:
+          - docs/4-regional-markets/czech/en.md
+          - docs/4-regional-markets/czech/cn.md
+
+      - id: czech-ecosystem-products
+        question:
+          en: Beyond the search box, which Seznam products matter for visibility?
+          cn: 搜索框之外，哪些 Seznam 产品影响曝光？
+        answer:
+          en: |
+            Firmy.cz (business directory — the citation layer for local
+            search), Mapy.com (mapping), Zboží.cz (product search),
+            Sreality.cz (real estate), Seznam Zprávy (news) and Email.cz
+            (which locks in the homepage habit). For paid search, Sklik
+            is the number-two channel in the country after Google Ads,
+            and it is a separate account, not a checkbox in Google Ads.
+
+            For a Czech business, being listed in Firmy.cz and present in
+            the right vertical often matters as much as the organic
+            ranking itself.
+          cn: |
+            Firmy.cz（商业目录——本地搜索的 citation 层）、Mapy.com（地图）、
+            Zboží.cz（商品搜索）、Sreality.cz（房产）、Seznam Zprávy（新闻）
+            和 Email.cz（锁住主页习惯）。付费搜索方面，Sklik 是国内仅次于
+            Google Ads 的第二大渠道，而且是单独的账号，不是 Google Ads
+            里的勾选框。
+
+            对一家捷克公司，被列进 Firmy.cz、出现在正确的垂类里，往往和
+            自然排名本身一样重要。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/czech/en.md
+          - docs/4-regional-markets/czech/cn.md

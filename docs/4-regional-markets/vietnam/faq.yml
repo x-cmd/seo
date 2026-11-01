@@ -1,0 +1,139 @@
+id: x-seo-vietnam
+
+data:
+  - name:
+      en: overview
+      cn: 概览
+    qa:
+      - id: vietnam-market-share
+        question:
+          en: What is Vietnam's search engine market share?
+          cn: 越南搜索引擎的市场份额是多少？
+        answer:
+          en: |
+            2025 full-year averages, all devices, from StatCounter: Google
+            94.2%, CocCoc 4.4%, Bing 0.7%, Yahoo! 0.5%, DuckDuckGo 0.1%.
+            Cốc Cốc rose to about 5.6% by autumn 2025 on the same series.
+
+            Bing is unusually small here — 0.7% against a ~4% global
+            average — which shows that Windows defaults alone do not
+            carry a market.
+          cn: |
+            2025 全年平均、全设备，来源 StatCounter：Google 94.2%、
+            CocCoc 4.4%、Bing 0.7%、Yahoo! 0.5%、DuckDuckGo 0.1%。
+            同一系列里，Cốc Cốc 到 2025 年秋升到约 5.6%。
+
+            Bing 在这里反常地小——0.7%，而全球平均约 4%——说明光靠
+            Windows 默认设置撑不起一个市场。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/vietnam/en.md
+          - docs/4-regional-markets/vietnam/cn.md
+
+      - id: coccoc-own-index
+        question:
+          en: Does Cốc Cốc have its own search index?
+          cn: Cốc Cốc 有自己的搜索索引吗？
+        answer:
+          en: |
+            Yes. Cốc Cốc crawls the Vietnamese web with its own bot
+            (coccocbot / coccocbot-web) and ranks its own index with
+            signals tuned for Vietnamese. It is not a wrapper and not a
+            metasearch, and it ships inside its own Chromium-based
+            browser.
+
+            The list of engines still crawling and ranking their own
+            national web at scale is short: Google, Bing, Yandex, Baidu,
+            Naver, Seznam, and Cốc Cốc.
+          cn: |
+            有。Cốc Cốc 用自己的爬虫（coccocbot / coccocbot-web）爬越南
+            网络，用自己的索引和专为越南语调校的信号排序。它既不是套壳
+            也不是元搜索，而且装在它自己基于 Chromium 的浏览器里。
+
+            目前还在自爬自排、达到国家级规模的引擎名单很短：Google、
+            Bing、Yandex、百度、Naver、Seznam，再加 Cốc Cốc。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/vietnam/en.md
+          - docs/4-regional-markets/vietnam/cn.md
+
+      - id: vietnam-diacritics
+        question:
+          en: How should I handle Vietnamese diacritics in content and URLs?
+          cn: 越南语的声调符号在内容和 URL 里该怎么处理？
+        answer:
+          en: |
+            Content: keep full, correct Vietnamese with all tone and
+            vowel marks — in titles, descriptions, body and alt text.
+            Users often type queries without diacritics (nha hang for
+            nhà hàng), but that is the engine's matching problem to
+            solve, not a reason to strip marks from your content.
+
+            URLs: transliterate to ASCII (nha-hang-ha-noi) and make the
+            CMS do it consistently. The error to avoid is inconsistency —
+            the same word marked in one place and unmarked in another.
+          cn: |
+            内容：保留完整、正确的越南语，声调和元音符号一个不落——写在
+            标题、描述、正文和 alt 文本里。用户常敲不带符号的查询
+            （nha hang 而非 nhà hàng），但那是引擎要解决的匹配问题，
+            不是你把内容里的符号去掉的理由。
+
+            URL：转写成 ASCII（nha-hang-ha-noi），并让 CMS 一致地执行。
+            要避免的错误是不一致——同一个词一处带符号一处不带。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/vietnam/en.md
+          - docs/4-regional-markets/vietnam/cn.md
+
+      - id: vietnam-coccoc-worth-it
+        question:
+          en: Is Cốc Cốc worth optimizing for?
+          cn: Cốc Cốc 值得优化吗？
+        answer:
+          en: |
+            It costs almost nothing, so yes. There is no separate
+            submission portal comparable to Search Console — the way in
+            is to be crawlable: allow coccocbot in robots.txt. That one
+            line covers the 4–6% of Vietnamese search that Cốc Cốc holds.
+
+            Do not build a separate content strategy for it. Write good
+            Vietnamese for Google, and Cốc Cốc's crawler will find and
+            rank the same pages.
+          cn: |
+            成本几乎为零，所以值得。没有类似 Search Console 的独立提交
+            入口——进去的方式就是可被抓取：在 robots.txt 里放行
+            coccocbot。这一行就覆盖了 Cốc Cốc 手里那 4%–6% 的越南搜索。
+
+            但不要为它单独建内容策略。为 Google 写好越南语，Cốc Cốc 的
+            爬虫自然会找到并排序同样的页面。
+        confidence: 8
+        reference:
+          - docs/4-regional-markets/vietnam/en.md
+          - docs/4-regional-markets/vietnam/cn.md
+
+      - id: vietnam-english-page
+        question:
+          en: Will my English-language site reach Vietnamese users?
+          cn: 我的英文站能覆盖到越南用户吗？
+        answer:
+          en: |
+            Assume not, organically. Vietnamese users search in
+            Vietnamese, and a page with no Vietnamese on it has nothing
+            for the query to match. If the market matters, the content
+            has to be written Vietnamese — not translated token by token.
+
+            This is the same rule as in Korea, Japan and the Czech
+            Republic: the local language is the entry ticket, and machine
+            translation reads as machine translation to both the user
+            and the engine.
+          cn: |
+            默认不能。越南用户用越南语搜索，页面里没有越南语，查询就
+            没有可以匹配的东西。如果这个市场要紧，内容就得是写出来的
+            越南语，而不是逐词翻译。
+
+            这和韩国、日本、捷克的规则一样：本地语言是入场券，而机器
+            翻译对用户和对引擎读起来都是机器翻译。
+        confidence: 9
+        reference:
+          - docs/4-regional-markets/vietnam/en.md
+          - docs/4-regional-markets/vietnam/cn.md
