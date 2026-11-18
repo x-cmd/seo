@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:languages
+<text>:
+  en: Chinese engines
+  zh: 中文引擎
+  cs: Čínské vyhledávače
+  de: Chinesische Suchmaschinen
+  es: Motores chinos
+  fr: Moteurs chinois
+  id: Mesin pencari Tiongkok
+  it: Motori cinesi
+  ja: 中国の検索エンジン
+  ko: 중국 검색엔진
+  pl: Chińskie wyszukiwarki
+  ro: Motoare chinezești
+  ru: Китайские поисковики
+  th: เครื่องมือค้นหาจีน
+  tr: Çin motorları
+  uk: Китайські пошуковики
+  vi: Công cụ tìm kiếm Trung Quốc
+  pt-br: Motores chineses
+  pt-pt: Motores chineses

@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:book-open
+<text>:
+  en: Fundamentals
+  zh: 基础
+  cs: Základy
+  de: Grundlagen
+  es: Fundamentos
+  fr: Fondamentaux
+  id: Dasar
+  it: Fondamenti
+  ja: 基礎
+  ko: 기초
+  pl: Podstawy
+  ro: Fundamente
+  ru: Основы
+  th: พื้นฐาน
+  tr: Temeller
+  uk: Основи
+  vi: Cơ bản
+  pt-br: Fundamentos
+  pt-pt: Fundamentos
