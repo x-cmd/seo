@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:globe
+<text>:
+  en: Global engines
+  zh: 全球引擎
+  cs: Globální vyhledávače
+  de: Globale Suchmaschinen
+  es: Motores globales
+  fr: Moteurs mondiaux
+  id: Mesin pencari global
+  it: Motori globali
+  ja: グローバル検索エンジン
+  ko: 글로벌 검색엔진
+  pl: Globalne wyszukiwarki
+  ro: Motoare globale
+  ru: Глобальные поисковики
+  th: เครื่องมือค้นหาทั่วโลก
+  tr: Küresel motorlar
+  uk: Глобальні пошуковики
+  vi: Công cụ tìm kiếm toàn cầu
+  pt-br: Motores globais
+  pt-pt: Motores globais

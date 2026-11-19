@@ -1,0 +1,26 @@
+# Website sidebar group config for this directory. Nested groups use their own _sidebar.yml.
+# @property {string} <icon> - Required. UnoCSS icon class, e.g. i-lucide:store.
+#   - Lucide icon names: curl -fsSL https://cdn.jsdelivr.net/npm/lucide-static@latest/icon-nodes.json | jq -r 'keys[]'
+# @property {Record<string, string>} <text> - Required. Localized group names (plain text).
+
+<icon>: i-lucide:map
+<text>:
+  en: Regional markets
+  zh: 区域市场
+  cs: Regionální trhy
+  de: Regionale Märkte
+  es: Mercados regionales
+  fr: Marchés régionaux
+  id: Pasar regional
+  it: Mercati regionali
+  ja: 地域市場
+  ko: 지역 시장
+  pl: Rynki regionalne
+  ro: Piețe regionale
+  ru: Региональные рынки
+  th: ตลาดภูมิภาค
+  tr: Bölgesel pazarlar
+  uk: Регіональні ринки
+  vi: Thị trường khu vực
+  pt-br: Mercados regionais
+  pt-pt: Mercados regionais
